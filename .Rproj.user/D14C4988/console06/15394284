@@ -433,3 +433,344 @@ Branch master set up to track remote branch master from origin.
 ]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ cd docs[K[K[K[K[K[K[Kgit init
 Initialized empty Git repository in /Users/Martin/sciebo/WebEcon/.git/
 ]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ gitt[K add .
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "first commit"
+[master (root-commit) b7238df] first commit
+ 323 files changed, 180974 insertions(+)
+ create mode 100644 .RData
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/D14C4988/console06/15394284
+ create mode 100644 .Rproj.user/D14C4988/console06/15394284.env
+ create mode 100644 .Rproj.user/D14C4988/console06/INDEX001
+ create mode 100644 .Rproj.user/D14C4988/sources/prop/D32B18FA
+ create mode 100644 .Rproj.user/D14C4988/sources/prop/INDEX
+ create mode 100644 .Rproj.user/D14C4988/sources/s-209CC90B/B55230B9
+ create mode 100644 .Rproj.user/D14C4988/sources/s-209CC90B/B55230B9-contents
+ create mode 100644 .Rproj.user/D14C4988/sources/s-209CC90B/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 WebEcon.Rproj
+ create mode 100644 config.toml
+ create mode 100644 content/.keep
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 docs/.keep
+ create mode 100644 docs/categories/index.xml
+ create mode 100644 docs/categories/r/index.xml
+ create mode 100644 docs/css/animate.css
+ create mode 100644 docs/css/blue.css
+ create mode 100644 docs/css/blue.css.map
+ create mode 100644 docs/css/bootstrap.css
+ create mode 100644 docs/css/bootstrap.css.map
+ create mode 100644 docs/css/custom1.css
+ create mode 100644 docs/css/custom2.css
+ create mode 100644 docs/css/icomoon.css
+ create mode 100644 docs/css/leaflet.css
+ create mode 100644 docs/css/magnific-popup.css
+ create mode 100644 docs/css/simple-line-icons.css
+ create mode 100644 docs/css/style.css
+ create mode 100644 docs/css/style.css.map
+ create mode 100644 docs/css/style2.css
+ create mode 100644 docs/css/style2.css.map
+ create mode 100644 docs/css/style3.css
+ create mode 100644 docs/css/style3.css.map
+ create mode 100644 docs/css/style4.css
+ create mode 100644 docs/css/style4.css.map
+ create mode 100644 docs/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 docs/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 docs/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 docs/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 docs/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 docs/fonts/icomoon/icomoon.eot
+ create mode 100644 docs/fonts/icomoon/icomoon.svg
+ create mode 100644 docs/fonts/icomoon/icomoon.ttf
+ create mode 100644 docs/fonts/icomoon/icomoon.woff
+ create mode 100644 docs/fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 docs/fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 docs/fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 docs/fonts/icomoon/icomoon/demo.html
+ create mode 100644 docs/fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 docs/fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 docs/fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 docs/fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 docs/fonts/icomoon/icomoon/selection.json
+ create mode 100644 docs/fonts/icomoon/icomoon/style.css
+ create mode 100644 docs/fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 docs/fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 docs/fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 docs/fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 docs/fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 docs/images/full_image_1.jpg
+ create mode 100644 docs/images/full_image_2.jpg
+ create mode 100644 docs/images/img_10.jpg
+ create mode 100644 docs/images/img_7.jpg
+ create mode 100644 docs/images/img_8.jpg
+ create mode 100644 docs/images/map-loc.png
+ create mode 100644 docs/images/map-marker.png
+ create mode 100644 docs/images/person1.jpg
+ create mode 100644 docs/images/person2.jpg
+ create mode 100644 docs/images/person3.jpg
+ create mode 100644 docs/images/person4.jpg
+ create mode 100644 docs/images/work_1.jpg
+ create mode 100644 docs/images/work_2.jpg
+ create mode 100644 docs/images/work_3.jpg
+ create mode 100644 docs/images/work_4.jpg
+ create mode 100644 docs/images/work_5.jpg
+ create mode 100644 docs/images/work_6.jpg
+ create mode 100644 docs/images/work_7.jpg
+ create mode 100644 docs/images/work_8.jpg
+ create mode 100644 docs/index.html
+ create mode 100644 docs/index.xml
+ create mode 100644 docs/js/bootstrap.min.js
+ create mode 100644 docs/js/jquery.countTo.js
+ create mode 100644 docs/js/jquery.easing.1.3.js
+ create mode 100644 docs/js/jquery.magnific-popup.min.js
+ create mode 100644 docs/js/jquery.min.js
+ create mode 100644 docs/js/jquery.stellar.min.js
+ create mode 100644 docs/js/jquery.style.switcher.js
+ create mode 100644 docs/js/jquery.waypoints.min.js
+ create mode 100644 docs/js/leaflet-map.js
+ create mode 100644 docs/js/leaflet.js
+ create mode 100644 docs/js/magnific-popup-options.js
+ create mode 100644 docs/js/main.js
+ create mode 100644 docs/js/modernizr-2.6.2.min.js
+ create mode 100644 docs/js/respond.min.js
+ create mode 100644 docs/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 docs/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 docs/post/index.xml
+ create mode 100644 docs/sitemap.xml
+ create mode 100644 docs/tags/index.xml
+ create mode 100644 docs/tags/plot/index.xml
+ create mode 100644 docs/tags/r-markdown/index.xml
+ create mode 100644 docs/tags/regression/index.xml
+ create mode 100644 index.Rmd
+ create mode 100644 public/.keep
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/categories/r/index.xml
+ create mode 100644 public/css/animate.css
+ create mode 100644 public/css/blue.css
+ create mode 100644 public/css/blue.css.map
+ create mode 100644 public/css/bootstrap.css
+ create mode 100644 public/css/bootstrap.css.map
+ create mode 100644 public/css/custom1.css
+ create mode 100644 public/css/custom2.css
+ create mode 100644 public/css/icomoon.css
+ create mode 100644 public/css/leaflet.css
+ create mode 100644 public/css/magnific-popup.css
+ create mode 100644 public/css/simple-line-icons.css
+ create mode 100644 public/css/style.css
+ create mode 100644 public/css/style.css.map
+ create mode 100644 public/css/style2.css
+ create mode 100644 public/css/style2.css.map
+ create mode 100644 public/css/style3.css
+ create mode 100644 public/css/style3.css.map
+ create mode 100644 public/css/style4.css
+ create mode 100644 public/css/style4.css.map
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 public/fonts/icomoon/icomoon.eot
+ create mode 100644 public/fonts/icomoon/icomoon.svg
+ create mode 100644 public/fonts/icomoon/icomoon.ttf
+ create mode 100644 public/fonts/icomoon/icomoon.woff
+ create mode 100644 public/fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 public/fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 public/fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 public/fonts/icomoon/icomoon/demo.html
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 public/fonts/icomoon/icomoon/selection.json
+ create mode 100644 public/fonts/icomoon/icomoon/style.css
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 public/images/Jentsch.png
+ create mode 100644 public/images/RGS.JPG
+ create mode 100644 public/images/Rplot.png
+ create mode 100644 public/images/TUDortmund.png
+ create mode 100644 public/images/UARuhrimage.jpg
+ create mode 100644 public/images/caffelatte.jpg
+ create mode 100644 public/images/full_image_1.jpg
+ create mode 100644 public/images/full_image_2.jpg
+ create mode 100644 public/images/hanck.png
+ create mode 100644 public/images/img_10.jpg
+ create mode 100644 public/images/img_7.jpg
+ create mode 100644 public/images/img_8.jpg
+ create mode 100644 public/images/map-loc.png
+ create mode 100644 public/images/map-marker.png
+ create mode 100644 public/images/mercur.png
+ create mode 100644 public/images/person1.jpg
+ create mode 100644 public/images/person2.jpg
+ create mode 100644 public/images/person3.jpg
+ create mode 100644 public/images/person4.jpg
+ create mode 100644 public/images/statistik.png
+ create mode 100644 public/images/statistik_dortmund.png
+ create mode 100644 public/images/uaruhr.png
+ create mode 100644 public/images/unibochum.png
+ create mode 100644 public/images/unidue.png
+ create mode 100644 public/images/wiwi_bochum.png
+ create mode 100644 public/images/wiwi_dortmund.png
+ create mode 100644 public/images/wiwi_essen.png
+ create mode 100644 public/images/work_1.jpg
+ create mode 100644 public/images/work_2.jpg
+ create mode 100644 public/images/work_3.jpg
+ create mode 100644 public/images/work_4.jpg
+ create mode 100644 public/images/work_5.jpg
+ create mode 100644 public/images/work_6.jpg
+ create mode 100644 public/images/work_7.jpg
+ create mode 100644 public/images/work_8.jpg
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/js/bootstrap.min.js
+ create mode 100644 public/js/jquery.countTo.js
+ create mode 100644 public/js/jquery.easing.1.3.js
+ create mode 100644 public/js/jquery.magnific-popup.min.js
+ create mode 100644 public/js/jquery.min.js
+ create mode 100644 public/js/jquery.stellar.min.js
+ create mode 100644 public/js/jquery.style.switcher.js
+ create mode 100644 public/js/jquery.waypoints.min.js
+ create mode 100644 public/js/leaflet-map.js
+ create mode 100644 public/js/leaflet.js
+ create mode 100644 public/js/magnific-popup-options.js
+ create mode 100644 public/js/main.js
+ create mode 100644 public/js/modernizr-2.6.2.min.js
+ create mode 100644 public/js/respond.min.js
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/post/index.xml
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 static/.keep
+ create mode 100644 static/css/custom1.css
+ create mode 100644 static/css/custom2.css
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 themes/hugo-elate-theme/.gitignore
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.aux
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.log
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.out
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.synctex.gz
+ create mode 100644 themes/hugo-elate-theme/LICENSE.md
+ create mode 100644 themes/hugo-elate-theme/README.md
+ create mode 100644 themes/hugo-elate-theme/README.pdf
+ create mode 100644 themes/hugo-elate-theme/README.tex
+ create mode 100644 themes/hugo-elate-theme/archetypes/default.md
+ create mode 100644 themes/hugo-elate-theme/exampleSite/config.toml
+ create mode 100644 themes/hugo-elate-theme/exampleSite/content/.keep
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/.keep
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/css/custom1.css
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/css/custom2.css
+ create mode 100644 themes/hugo-elate-theme/images/screenshot.png
+ create mode 100644 themes/hugo-elate-theme/images/tn.png
+ create mode 100644 themes/hugo-elate-theme/layouts/404.html
+ create mode 100644 themes/hugo-elate-theme/layouts/_default/list.html
+ create mode 100644 themes/hugo-elate-theme/layouts/_default/single.html
+ create mode 100644 themes/hugo-elate-theme/layouts/index.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/about.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/contact.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/counters.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/footer.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/head.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/hero.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/intro.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/js.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/nav.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/services.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/testimonials.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/work.html
+ create mode 100644 themes/hugo-elate-theme/static/css/animate.css
+ create mode 100644 themes/hugo-elate-theme/static/css/blue.css
+ create mode 100644 themes/hugo-elate-theme/static/css/blue.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/bootstrap.css
+ create mode 100644 themes/hugo-elate-theme/static/css/bootstrap.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/icomoon.css
+ create mode 100644 themes/hugo-elate-theme/static/css/leaflet.css
+ create mode 100644 themes/hugo-elate-theme/static/css/magnific-popup.css
+ create mode 100644 themes/hugo-elate-theme/static/css/simple-line-icons.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style2.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style2.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style3.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style3.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style4.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style4.css.map
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo.html
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/selection.json
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/style.css
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 themes/hugo-elate-theme/static/images/full_image_1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/full_image_2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_10.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_7.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_8.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/map-loc.png
+ create mode 100644 themes/hugo-elate-theme/static/images/map-marker.png
+ create mode 100644 themes/hugo-elate-theme/static/images/person1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person3.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person4.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_3.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_4.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_5.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_6.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_7.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_8.jpg
+ create mode 100644 themes/hugo-elate-theme/static/js/bootstrap.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.countTo.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.easing.1.3.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.magnific-popup.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.stellar.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.style.switcher.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.waypoints.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/leaflet-map.js
+ create mode 100644 themes/hugo-elate-theme/static/js/leaflet.js
+ create mode 100644 themes/hugo-elate-theme/static/js/magnific-popup-options.js
+ create mode 100644 themes/hugo-elate-theme/static/js/main.js
+ create mode 100644 themes/hugo-elate-theme/static/js/modernizr-2.6.2.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/respond.min.js
+ create mode 100644 themes/hugo-elate-theme/theme.toml
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git remote add origin https://github.com/mca91/mca91.github.io.g it
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin master
+Counting objects: 188, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/172)   Compressing objects:   1% (2/172)   Compressing objects:   2% (4/172)   Compressing objects:   3% (6/172)   Compressing objects:   4% (7/172)   Compressing objects:   5% (9/172)   Compressing objects:   6% (11/172)   Compressing objects:   7% (13/172)   Compressing objects:   8% (14/172)   Compressing objects:   9% (16/172)   Compressing objects:  10% (18/172)   Compressing objects:  11% (19/172)   Compressing objects:  12% (21/172)   Compressing objects:  13% (23/172)   Compressing objects:  14% (25/172)   Compressing objects:  15% (26/172)   Compressing objects:  16% (28/172)   Compressing objects:  17% (30/172)   Compressing objects:  18% (31/172)   Compressing objects:  19% (33/172)   Compressing objects:  20% (35/172)   Compressing objects:  21% (37/172)   Compressing objects:  22% (38/172)   Compressing objects:  23% (40/172)   Compressing objects:  24% (42/172)   Compressing objects:  25% (43/172)   Compressing objects:  26% (45/172)   Compressing objects:  27% (47/172)   Compressing objects:  28% (49/172)   Compressing objects:  29% (50/172)   Compressing objects:  30% (52/172)   Compressing objects:  31% (54/172)   Compressing objects:  32% (56/172)   Compressing objects:  33% (57/172)   Compressing objects:  34% (59/172)   Compressing objects:  35% (61/172)   Compressing objects:  36% (62/172)   Compressing objects:  37% (64/172)   Compressing objects:  38% (66/172)   Compressing objects:  39% (68/172)   Compressing objects:  40% (69/172)   Compressing objects:  41% (71/172)   Compressing objects:  42% (73/172)   Compressing objects:  43% (74/172)   Compressing objects:  44% (76/172)   Compressing objects:  45% (78/172)   Compressing objects:  46% (80/172)   Compressing objects:  47% (81/172)   Compressing objects:  48% (83/172)   Compressing objects:  49% (85/172)   Compressing objects:  50% (86/172)   Compressing objects:  51% (88/172)   Compressing objects:  52% (90/172)   Compressing objects:  53% (92/172)   Compressing objects:  54% (93/172)   Compressing objects:  55% (95/172)   Compressing objects:  56% (97/172)   Compressing objects:  57% (99/172)   Compressing objects:  58% (100/172)   Compressing objects:  59% (102/172)   Compressing objects:  60% (104/172)   Compressing objects:  61% (105/172)   Compressing objects:  62% (107/172)   Compressing objects:  63% (109/172)   Compressing objects:  64% (111/172)   Compressing objects:  65% (112/172)   Compressing objects:  66% (114/172)   Compressing objects:  67% (116/172)   Compressing objects:  68% (117/172)   Compressing objects:  69% (119/172)   Compressing objects:  70% (121/172)   Compressing objects:  71% (123/172)   Compressing objects:  72% (124/172)   Compressing objects:  73% (126/172)   Compressing objects:  74% (128/172)   Compressing objects:  75% (129/172)   Compressing objects:  76% (131/172)   Compressing objects:  77% (133/172)   Compressing objects:  78% (135/172)   Compressing objects:  79% (136/172)   Compressing objects:  80% (138/172)   Compressing objects:  81% (140/172)   Compressing objects:  82% (142/172)   Compressing objects:  83% (143/172)   Compressing objects:  84% (145/172)   Compressing objects:  85% (147/172)   Compressing objects:  86% (148/172)   Compressing objects:  87% (150/172)   Compressing objects:  88% (152/172)   Compressing objects:  89% (154/172)   Compressing objects:  90% (155/172)   Compressing objects:  91% (157/172)   Compressing objects:  92% (159/172)   Compressing objects:  93% (160/172)   Compressing objects:  94% (162/172)   Compressing objects:  95% (164/172)   Compressing objects:  96% (166/172)   Compressing objects:  97% (167/172)   Compressing objects:  98% (169/172)   Compressing objects:  99% (171/172)   Compressing objects: 100% (172/172)   Compressing objects: 100% (172/172), done.
+Writing objects:   0% (1/188)   Writing objects:   1% (2/188)   Writing objects:   2% (4/188)   Writing objects:   3% (6/188)   Writing objects:   4% (8/188)   Writing objects:   5% (10/188)   Writing objects:   6% (12/188)   Writing objects:   7% (14/188)   Writing objects:   8% (16/188)   Writing objects:   9% (17/188)   Writing objects:  10% (19/188)   Writing objects:  11% (21/188)   Writing objects:  12% (23/188)   Writing objects:  13% (25/188)   Writing objects:  14% (27/188)   Writing objects:  15% (29/188)   Writing objects:  17% (32/188)   Writing objects:  18% (34/188)   Writing objects:  19% (36/188)   Writing objects:  20% (38/188)   Writing objects:  21% (40/188)   Writing objects:  22% (42/188)   Writing objects:  23% (44/188)   Writing objects:  25% (47/188)   Writing objects:  26% (49/188)   Writing objects:  27% (51/188)   Writing objects:  28% (53/188)   Writing objects:  29% (55/188)   Writing objects:  30% (57/188)   Writing objects:  31% (59/188)   Writing objects:  32% (61/188)   Writing objects:  33% (63/188)   Writing objects:  34% (64/188)   Writing objects:  35% (66/188)   Writing objects:  36% (68/188)   Writing objects:  37% (70/188)   Writing objects:  38% (72/188)   Writing objects:  39% (74/188)   Writing objects:  40% (76/188)   Writing objects:  41% (78/188)   Writing objects:  42% (79/188)   Writing objects:  43% (81/188)   Writing objects:  44% (83/188)   Writing objects:  45% (85/188)   Writing objects:  46% (87/188)   Writing objects:  47% (89/188)   Writing objects:  48% (91/188)   Writing objects:  49% (93/188)   Writing objects:  51% (96/188)   Writing objects:  52% (98/188)   Writing objects:  53% (100/188)   Writing objects:  54% (102/188)   Writing objects:  55% (104/188)   Writing objects:  56% (106/188)   Writing objects:  57% (108/188)   Writing objects:  58% (110/188)   Writing objects:  58% (110/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  59% (111/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  60% (113/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  61% (115/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  62% (117/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  63% (119/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  64% (121/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  65% (123/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  66% (125/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  67% (126/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  68% (128/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  69% (130/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  70% (132/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  71% (134/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  72% (136/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  73% (138/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  74% (140/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  75% (141/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  76% (143/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  77% (145/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  78% (147/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  79% (149/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  80% (151/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  81% (153/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  82% (155/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  83% (157/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  84% (158/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  85% (160/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  86% (162/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  87% (164/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  88% (166/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  89% (168/188), 1.07 MiB | 794.00 KiB/s   Writing objects:  90% (170/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  91% (172/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  92% (173/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  93% (175/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  94% (177/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  95% (179/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  96% (181/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  97% (183/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  98% (185/188), 3.58 MiB | 1.90 MiB/s   Writing objects:  99% (187/188), 3.58 MiB | 1.90 MiB/s   Writing objects: 100% (188/188), 3.58 MiB | 1.90 MiB/s   Writing objects: 100% (188/188), 3.68 MiB | 1.90 MiB/s, done.
+Total 188 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/23)   [Kremote: Resolving deltas:   4% (1/23)   [Kremote: Resolving deltas:  34% (8/23)   [Kremote: Resolving deltas:  39% (9/23)   [Kremote: Resolving deltas:  56% (13/23)   [Kremote: Resolving deltas:  73% (17/23)   [Kremote: Resolving deltas:  78% (18/23)   [Kremote: Resolving deltas:  82% (19/23)   [Kremote: Resolving deltas:  91% (21/23)   [Kremote: Resolving deltas: 100% (23/23)   [Kremote: Resolving deltas: 100% (23/23), done.[K
+To https://github.com/mca91/mca91.github.io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git pull
+Already up-to-date.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git pullsh -u origin masterremote add origin https://github.com/mca91/mca91.github.io.giit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Pcommit -m "first commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
