@@ -2,10 +2,42 @@ a {
   color: #17408F;
 }
 
+.logosec {
+  margin-bottom: 50px;
+}
+
+#fh5co-work {
+margin-top: -320px;
+}
+
 @media screen and (max-width: 992px) {
   .fh5co-person {
     margin-bottom: 3.5em;
     margin-left: 0px;
+  }
+  
+  .logos {
+  width: 100%;
+  padding-bottom: 50px;
+  }
+  
+  .logosec {
+  margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 14em;
+  }
+  
+  .logos {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .logosec {
+    margin-bottom: 0px;
   }
 }
 
