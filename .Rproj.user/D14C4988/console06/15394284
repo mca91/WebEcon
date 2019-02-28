@@ -1,0 +1,435 @@
+]0;~/sciebo/WebEcon[?1034hdhcp-wlce193017:WebEcon Martin$ [Kdhcp-wlce193017:WebEcon Martin$ git remote add origin https://github.com/mca91/WebEcon.git
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mca91/WebEcon.git'
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git init
+Reinitialized existing Git repository in /Users/Martin/sciebo/WebEcon/.git/
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.gitignore[m
+	[31mWebEcon.Rproj[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ gitt[K add .
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git add .commit -m "first commit"
+[master (root-commit) 6a96a85] first commit
+ 224 files changed, 120226 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 WebEcon.Rproj
+ create mode 100644 config.toml
+ create mode 100644 content/.keep
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 index.Rmd
+ create mode 100644 public/.keep
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/categories/r/index.xml
+ create mode 100644 public/css/animate.css
+ create mode 100644 public/css/blue.css
+ create mode 100644 public/css/blue.css.map
+ create mode 100644 public/css/bootstrap.css
+ create mode 100644 public/css/bootstrap.css.map
+ create mode 100644 public/css/custom1.css
+ create mode 100644 public/css/custom2.css
+ create mode 100644 public/css/icomoon.css
+ create mode 100644 public/css/leaflet.css
+ create mode 100644 public/css/magnific-popup.css
+ create mode 100644 public/css/simple-line-icons.css
+ create mode 100644 public/css/style.css
+ create mode 100644 public/css/style.css.map
+ create mode 100644 public/css/style2.css
+ create mode 100644 public/css/style2.css.map
+ create mode 100644 public/css/style3.css
+ create mode 100644 public/css/style3.css.map
+ create mode 100644 public/css/style4.css
+ create mode 100644 public/css/style4.css.map
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 public/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 public/fonts/icomoon/icomoon.eot
+ create mode 100644 public/fonts/icomoon/icomoon.svg
+ create mode 100644 public/fonts/icomoon/icomoon.ttf
+ create mode 100644 public/fonts/icomoon/icomoon.woff
+ create mode 100644 public/fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 public/fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 public/fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 public/fonts/icomoon/icomoon/demo.html
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 public/fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 public/fonts/icomoon/icomoon/selection.json
+ create mode 100644 public/fonts/icomoon/icomoon/style.css
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 public/fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 public/images/Jentsch.png
+ create mode 100644 public/images/RGS.JPG
+ create mode 100644 public/images/Rplot.png
+ create mode 100644 public/images/TUDortmund.png
+ create mode 100644 public/images/UARuhrimage.jpg
+ create mode 100644 public/images/caffelatte.jpg
+ create mode 100644 public/images/full_image_1.jpg
+ create mode 100644 public/images/full_image_2.jpg
+ create mode 100644 public/images/hanck.png
+ create mode 100644 public/images/img_10.jpg
+ create mode 100644 public/images/img_7.jpg
+ create mode 100644 public/images/img_8.jpg
+ create mode 100644 public/images/map-loc.png
+ create mode 100644 public/images/map-marker.png
+ create mode 100644 public/images/mercur.png
+ create mode 100644 public/images/person1.jpg
+ create mode 100644 public/images/person2.jpg
+ create mode 100644 public/images/person3.jpg
+ create mode 100644 public/images/person4.jpg
+ create mode 100644 public/images/statistik.png
+ create mode 100644 public/images/statistik_dortmund.png
+ create mode 100644 public/images/uaruhr.png
+ create mode 100644 public/images/unibochum.png
+ create mode 100644 public/images/unidue.png
+ create mode 100644 public/images/wiwi_bochum.png
+ create mode 100644 public/images/wiwi_dortmund.png
+ create mode 100644 public/images/wiwi_essen.png
+ create mode 100644 public/images/work_1.jpg
+ create mode 100644 public/images/work_2.jpg
+ create mode 100644 public/images/work_3.jpg
+ create mode 100644 public/images/work_4.jpg
+ create mode 100644 public/images/work_5.jpg
+ create mode 100644 public/images/work_6.jpg
+ create mode 100644 public/images/work_7.jpg
+ create mode 100644 public/images/work_8.jpg
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/js/bootstrap.min.js
+ create mode 100644 public/js/jquery.countTo.js
+ create mode 100644 public/js/jquery.easing.1.3.js
+ create mode 100644 public/js/jquery.magnific-popup.min.js
+ create mode 100644 public/js/jquery.min.js
+ create mode 100644 public/js/jquery.stellar.min.js
+ create mode 100644 public/js/jquery.style.switcher.js
+ create mode 100644 public/js/jquery.waypoints.min.js
+ create mode 100644 public/js/leaflet-map.js
+ create mode 100644 public/js/leaflet.js
+ create mode 100644 public/js/magnific-popup-options.js
+ create mode 100644 public/js/main.js
+ create mode 100644 public/js/modernizr-2.6.2.min.js
+ create mode 100644 public/js/respond.min.js
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/post/index.xml
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 static/.keep
+ create mode 100644 static/css/custom1.css
+ create mode 100644 static/css/custom2.css
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 themes/hugo-elate-theme/.gitignore
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.aux
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.log
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.out
+ create mode 100644 themes/hugo-elate-theme/.texpadtmp/README.synctex.gz
+ create mode 100644 themes/hugo-elate-theme/LICENSE.md
+ create mode 100644 themes/hugo-elate-theme/README.md
+ create mode 100644 themes/hugo-elate-theme/README.pdf
+ create mode 100644 themes/hugo-elate-theme/README.tex
+ create mode 100644 themes/hugo-elate-theme/archetypes/default.md
+ create mode 100644 themes/hugo-elate-theme/exampleSite/config.toml
+ create mode 100644 themes/hugo-elate-theme/exampleSite/content/.keep
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/.keep
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/css/custom1.css
+ create mode 100644 themes/hugo-elate-theme/exampleSite/static/css/custom2.css
+ create mode 100644 themes/hugo-elate-theme/images/screenshot.png
+ create mode 100644 themes/hugo-elate-theme/images/tn.png
+ create mode 100644 themes/hugo-elate-theme/layouts/404.html
+ create mode 100644 themes/hugo-elate-theme/layouts/_default/list.html
+ create mode 100644 themes/hugo-elate-theme/layouts/_default/single.html
+ create mode 100644 themes/hugo-elate-theme/layouts/index.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/about.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/contact.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/counters.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/footer.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/head.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/hero.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/intro.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/js.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/nav.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/services.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/testimonials.html
+ create mode 100644 themes/hugo-elate-theme/layouts/partials/work.html
+ create mode 100644 themes/hugo-elate-theme/static/css/animate.css
+ create mode 100644 themes/hugo-elate-theme/static/css/blue.css
+ create mode 100644 themes/hugo-elate-theme/static/css/blue.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/bootstrap.css
+ create mode 100644 themes/hugo-elate-theme/static/css/bootstrap.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/icomoon.css
+ create mode 100644 themes/hugo-elate-theme/static/css/leaflet.css
+ create mode 100644 themes/hugo-elate-theme/static/css/magnific-popup.css
+ create mode 100644 themes/hugo-elate-theme/static/css/simple-line-icons.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style2.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style2.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style3.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style3.css.map
+ create mode 100644 themes/hugo-elate-theme/static/css/style4.css
+ create mode 100644 themes/hugo-elate-theme/static/css/style4.css.map
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/demo.html
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/selection.json
+ create mode 100644 themes/hugo-elate-theme/static/fonts/icomoon/icomoon/style.css
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 themes/hugo-elate-theme/static/fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 themes/hugo-elate-theme/static/images/full_image_1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/full_image_2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_10.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_7.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/img_8.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/map-loc.png
+ create mode 100644 themes/hugo-elate-theme/static/images/map-marker.png
+ create mode 100644 themes/hugo-elate-theme/static/images/person1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person3.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/person4.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_1.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_2.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_3.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_4.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_5.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_6.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_7.jpg
+ create mode 100644 themes/hugo-elate-theme/static/images/work_8.jpg
+ create mode 100644 themes/hugo-elate-theme/static/js/bootstrap.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.countTo.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.easing.1.3.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.magnific-popup.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.stellar.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.style.switcher.js
+ create mode 100644 themes/hugo-elate-theme/static/js/jquery.waypoints.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/leaflet-map.js
+ create mode 100644 themes/hugo-elate-theme/static/js/leaflet.js
+ create mode 100644 themes/hugo-elate-theme/static/js/magnific-popup-options.js
+ create mode 100644 themes/hugo-elate-theme/static/js/main.js
+ create mode 100644 themes/hugo-elate-theme/static/js/modernizr-2.6.2.min.js
+ create mode 100644 themes/hugo-elate-theme/static/js/respond.min.js
+ create mode 100644 themes/hugo-elate-theme/theme.toml
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "first commit"add .[Kcommit -m "first commit"[11Padd README.mdinit[Kpush -u origin master
+Counting objects: 173, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/159)   Compressing objects:   1% (2/159)   Compressing objects:   2% (4/159)   Compressing objects:   3% (5/159)   Compressing objects:   4% (7/159)   Compressing objects:   5% (8/159)   Compressing objects:   6% (10/159)   Compressing objects:   7% (12/159)   Compressing objects:   8% (13/159)   Compressing objects:   9% (15/159)   Compressing objects:  10% (16/159)   Compressing objects:  11% (18/159)   Compressing objects:  12% (20/159)   Compressing objects:  13% (21/159)   Compressing objects:  14% (23/159)   Compressing objects:  15% (24/159)   Compressing objects:  16% (26/159)   Compressing objects:  17% (28/159)   Compressing objects:  18% (29/159)   Compressing objects:  19% (31/159)   Compressing objects:  20% (32/159)   Compressing objects:  21% (34/159)   Compressing objects:  22% (35/159)   Compressing objects:  23% (37/159)   Compressing objects:  24% (39/159)   Compressing objects:  25% (40/159)   Compressing objects:  26% (42/159)   Compressing objects:  27% (43/159)   Compressing objects:  28% (45/159)   Compressing objects:  29% (47/159)   Compressing objects:  30% (48/159)   Compressing objects:  31% (50/159)   Compressing objects:  32% (51/159)   Compressing objects:  33% (53/159)   Compressing objects:  34% (55/159)   Compressing objects:  35% (56/159)   Compressing objects:  36% (58/159)   Compressing objects:  37% (59/159)   Compressing objects:  38% (61/159)   Compressing objects:  39% (63/159)   Compressing objects:  40% (64/159)   Compressing objects:  41% (66/159)   Compressing objects:  42% (67/159)   Compressing objects:  43% (69/159)   Compressing objects:  44% (70/159)   Compressing objects:  45% (72/159)   Compressing objects:  46% (74/159)   Compressing objects:  47% (75/159)   Compressing objects:  48% (77/159)   Compressing objects:  49% (78/159)   Compressing objects:  50% (80/159)   Compressing objects:  51% (82/159)   Compressing objects:  52% (83/159)   Compressing objects:  53% (85/159)   Compressing objects:  54% (86/159)   Compressing objects:  55% (88/159)   Compressing objects:  56% (90/159)   Compressing objects:  57% (91/159)   Compressing objects:  58% (93/159)   Compressing objects:  59% (94/159)   Compressing objects:  60% (96/159)   Compressing objects:  61% (97/159)   Compressing objects:  62% (99/159)   Compressing objects:  63% (101/159)   Compressing objects:  64% (102/159)   Compressing objects:  65% (104/159)   Compressing objects:  66% (105/159)   Compressing objects:  67% (107/159)   Compressing objects:  68% (109/159)   Compressing objects:  69% (110/159)   Compressing objects:  70% (112/159)   Compressing objects:  71% (113/159)   Compressing objects:  72% (115/159)   Compressing objects:  73% (117/159)   Compressing objects:  74% (118/159)   Compressing objects:  75% (120/159)   Compressing objects:  76% (121/159)   Compressing objects:  77% (123/159)   Compressing objects:  78% (125/159)   Compressing objects:  79% (126/159)   Compressing objects:  80% (128/159)   Compressing objects:  81% (129/159)   Compressing objects:  82% (131/159)   Compressing objects:  83% (132/159)   Compressing objects:  84% (134/159)   Compressing objects:  85% (136/159)   Compressing objects:  86% (137/159)   Compressing objects:  87% (139/159)   Compressing objects:  88% (140/159)   Compressing objects:  89% (142/159)   Compressing objects:  90% (144/159)   Compressing objects:  91% (145/159)   Compressing objects:  92% (147/159)   Compressing objects:  93% (148/159)   Compressing objects:  94% (150/159)   Compressing objects:  95% (152/159)   Compressing objects:  96% (153/159)   Compressing objects:  97% (155/159)   Compressing objects:  98% (156/159)   Compressing objects:  99% (158/159)   Compressing objects: 100% (159/159)   Compressing objects: 100% (159/159), done.
+Writing objects:   0% (1/173)   Writing objects:   1% (2/173)   Writing objects:   2% (4/173)   Writing objects:   3% (6/173)   Writing objects:   4% (7/173)   Writing objects:   5% (9/173)   Writing objects:   6% (11/173)   Writing objects:   7% (13/173)   Writing objects:   8% (14/173)   Writing objects:   9% (16/173)   Writing objects:  10% (19/173)   Writing objects:  12% (21/173)   Writing objects:  13% (23/173)   Writing objects:  14% (25/173)   Writing objects:  15% (26/173)   Writing objects:  16% (28/173)   Writing objects:  17% (30/173)   Writing objects:  18% (32/173)   Writing objects:  19% (33/173)   Writing objects:  20% (35/173)   Writing objects:  21% (37/173)   Writing objects:  22% (39/173)   Writing objects:  23% (40/173)   Writing objects:  24% (42/173)   Writing objects:  25% (44/173)   Writing objects:  26% (45/173)   Writing objects:  27% (47/173)   Writing objects:  28% (49/173)   Writing objects:  29% (51/173)   Writing objects:  30% (52/173)   Writing objects:  31% (54/173)   Writing objects:  32% (56/173)   Writing objects:  33% (58/173)   Writing objects:  34% (59/173)   Writing objects:  35% (61/173)   Writing objects:  36% (63/173)   Writing objects:  37% (65/173)   Writing objects:  38% (66/173)   Writing objects:  39% (68/173)   Writing objects:  39% (68/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  40% (70/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  41% (71/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  42% (73/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  43% (75/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  44% (77/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  45% (78/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  46% (80/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  47% (82/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  48% (84/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  49% (86/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  50% (87/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  51% (89/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  52% (90/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  53% (92/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  54% (94/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  55% (96/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  56% (97/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  57% (99/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  58% (101/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  59% (103/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  60% (104/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  61% (106/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  62% (108/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  63% (109/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  64% (111/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  65% (113/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  66% (115/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  67% (116/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  68% (118/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  69% (120/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  70% (122/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  71% (123/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  72% (125/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  73% (127/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  74% (129/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  75% (130/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  76% (132/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  77% (134/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  78% (135/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  79% (137/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  80% (139/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  81% (141/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  82% (142/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  83% (144/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  84% (146/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  85% (148/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  86% (149/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  87% (151/173), 1.08 MiB | 800.00 KiB/s   Writing objects:  88% (153/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  89% (154/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  90% (156/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  91% (158/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  92% (160/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  93% (161/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  94% (163/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  95% (165/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  96% (167/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  97% (168/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  98% (170/173), 3.26 MiB | 1.72 MiB/s   Writing objects:  99% (172/173), 3.26 MiB | 1.72 MiB/s   Writing objects: 100% (173/173), 3.26 MiB | 1.72 MiB/s   Writing objects: 100% (173/173), 3.68 MiB | 1.72 MiB/s, done.
+Total 173 (delta 30), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/30)   [Kremote: Resolving deltas:   3% (1/30)   [Kremote: Resolving deltas:  26% (8/30)   [Kremote: Resolving deltas:  30% (9/30)   [Kremote: Resolving deltas:  43% (13/30)   [Kremote: Resolving deltas:  56% (17/30)   [Kremote: Resolving deltas:  60% (18/30)   [Kremote: Resolving deltas:  63% (19/30)   [Kremote: Resolving deltas:  66% (20/30)   [Kremote: Resolving deltas:  73% (22/30)   [Kremote: Resolving deltas:  76% (23/30)   [Kremote: Resolving deltas: 100% (30/30)   [Kremote: Resolving deltas: 100% (30/30), done.[K
+To https://github.com/mca91/WebEcon.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ cd public
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git init
+Initialized empty Git repository in /Users/Martin/sciebo/WebEcon/public/.git/
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git add .
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git commit -m "first commit"
+[master (root-commit) c6e4bb2] first commit
+ 105 files changed, 59522 insertions(+)
+ create mode 100644 .keep
+ create mode 100644 categories/index.xml
+ create mode 100644 categories/r/index.xml
+ create mode 100644 css/animate.css
+ create mode 100644 css/blue.css
+ create mode 100644 css/blue.css.map
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/custom1.css
+ create mode 100644 css/custom2.css
+ create mode 100644 css/icomoon.css
+ create mode 100644 css/leaflet.css
+ create mode 100644 css/magnific-popup.css
+ create mode 100644 css/simple-line-icons.css
+ create mode 100644 css/style.css
+ create mode 100644 css/style.css.map
+ create mode 100644 css/style2.css
+ create mode 100644 css/style2.css.map
+ create mode 100644 css/style3.css
+ create mode 100644 css/style3.css.map
+ create mode 100644 css/style4.css
+ create mode 100644 css/style4.css.map
+ create mode 100644 fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100644 fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100644 fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100644 fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100644 fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100644 fonts/icomoon/icomoon.eot
+ create mode 100644 fonts/icomoon/icomoon.svg
+ create mode 100644 fonts/icomoon/icomoon.ttf
+ create mode 100644 fonts/icomoon/icomoon.woff
+ create mode 100644 fonts/icomoon/icomoon/Read Me.txt
+ create mode 100644 fonts/icomoon/icomoon/demo-files/demo.css
+ create mode 100644 fonts/icomoon/icomoon/demo-files/demo.js
+ create mode 100644 fonts/icomoon/icomoon/demo.html
+ create mode 100644 fonts/icomoon/icomoon/fonts/icomoon.eot
+ create mode 100644 fonts/icomoon/icomoon/fonts/icomoon.svg
+ create mode 100644 fonts/icomoon/icomoon/fonts/icomoon.ttf
+ create mode 100644 fonts/icomoon/icomoon/fonts/icomoon.woff
+ create mode 100644 fonts/icomoon/icomoon/selection.json
+ create mode 100644 fonts/icomoon/icomoon/style.css
+ create mode 100644 fonts/simple-line-icons/Simple-Line-Icons.eot
+ create mode 100644 fonts/simple-line-icons/Simple-Line-Icons.svg
+ create mode 100644 fonts/simple-line-icons/Simple-Line-Icons.ttf
+ create mode 100644 fonts/simple-line-icons/Simple-Line-Icons.woff
+ create mode 100644 fonts/simple-line-icons/Simple-Line-Icons.woff2
+ create mode 100644 images/Jentsch.png
+ create mode 100644 images/RGS.JPG
+ create mode 100644 images/Rplot.png
+ create mode 100644 images/TUDortmund.png
+ create mode 100644 images/UARuhrimage.jpg
+ create mode 100644 images/caffelatte.jpg
+ create mode 100644 images/full_image_1.jpg
+ create mode 100644 images/full_image_2.jpg
+ create mode 100644 images/hanck.png
+ create mode 100644 images/img_10.jpg
+ create mode 100644 images/img_7.jpg
+ create mode 100644 images/img_8.jpg
+ create mode 100644 images/map-loc.png
+ create mode 100644 images/map-marker.png
+ create mode 100644 images/mercur.png
+ create mode 100644 images/person1.jpg
+ create mode 100644 images/person2.jpg
+ create mode 100644 images/person3.jpg
+ create mode 100644 images/person4.jpg
+ create mode 100644 images/statistik.png
+ create mode 100644 images/statistik_dortmund.png
+ create mode 100644 images/uaruhr.png
+ create mode 100644 images/unibochum.png
+ create mode 100644 images/unidue.png
+ create mode 100644 images/wiwi_bochum.png
+ create mode 100644 images/wiwi_dortmund.png
+ create mode 100644 images/wiwi_essen.png
+ create mode 100644 images/work_1.jpg
+ create mode 100644 images/work_2.jpg
+ create mode 100644 images/work_3.jpg
+ create mode 100644 images/work_4.jpg
+ create mode 100644 images/work_5.jpg
+ create mode 100644 images/work_6.jpg
+ create mode 100644 images/work_7.jpg
+ create mode 100644 images/work_8.jpg
+ create mode 100644 index.html
+ create mode 100644 index.xml
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/jquery.countTo.js
+ create mode 100644 js/jquery.easing.1.3.js
+ create mode 100644 js/jquery.magnific-popup.min.js
+ create mode 100644 js/jquery.min.js
+ create mode 100644 js/jquery.stellar.min.js
+ create mode 100644 js/jquery.style.switcher.js
+ create mode 100644 js/jquery.waypoints.min.js
+ create mode 100644 js/leaflet-map.js
+ create mode 100644 js/leaflet.js
+ create mode 100644 js/magnific-popup-options.js
+ create mode 100644 js/main.js
+ create mode 100644 js/modernizr-2.6.2.min.js
+ create mode 100644 js/respond.min.js
+ create mode 100644 post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 post/index.xml
+ create mode 100644 sitemap.xml
+ create mode 100644 tags/index.xml
+ create mode 100644 tags/plot/index.xml
+ create mode 100644 tags/r-markdown/index.xml
+ create mode 100644 tags/regression/index.xml
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git remote add origin https://github.com/mca91/mca91.github.io.gi t
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git push -u origin master
+Counting objects: 120, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/113)   Compressing objects:   1% (2/113)   Compressing objects:   2% (3/113)   Compressing objects:   3% (4/113)   Compressing objects:   4% (5/113)   Compressing objects:   5% (6/113)   Compressing objects:   6% (7/113)   Compressing objects:   7% (8/113)   Compressing objects:   8% (10/113)   Compressing objects:   9% (11/113)   Compressing objects:  10% (12/113)   Compressing objects:  11% (13/113)   Compressing objects:  12% (14/113)   Compressing objects:  13% (15/113)   Compressing objects:  14% (16/113)   Compressing objects:  15% (17/113)   Compressing objects:  16% (19/113)   Compressing objects:  17% (20/113)   Compressing objects:  18% (21/113)   Compressing objects:  19% (22/113)   Compressing objects:  20% (23/113)   Compressing objects:  21% (24/113)   Compressing objects:  22% (25/113)   Compressing objects:  23% (26/113)   Compressing objects:  24% (28/113)   Compressing objects:  25% (29/113)   Compressing objects:  26% (30/113)   Compressing objects:  27% (31/113)   Compressing objects:  28% (32/113)   Compressing objects:  29% (33/113)   Compressing objects:  30% (34/113)   Compressing objects:  31% (36/113)   Compressing objects:  32% (37/113)   Compressing objects:  33% (38/113)   Compressing objects:  34% (39/113)   Compressing objects:  35% (40/113)   Compressing objects:  36% (41/113)   Compressing objects:  37% (42/113)   Compressing objects:  38% (43/113)   Compressing objects:  39% (45/113)   Compressing objects:  40% (46/113)   Compressing objects:  41% (47/113)   Compressing objects:  42% (48/113)   Compressing objects:  43% (49/113)   Compressing objects:  44% (50/113)   Compressing objects:  45% (51/113)   Compressing objects:  46% (52/113)   Compressing objects:  47% (54/113)   Compressing objects:  48% (55/113)   Compressing objects:  49% (56/113)   Compressing objects:  50% (57/113)   Compressing objects:  51% (58/113)   Compressing objects:  52% (59/113)   Compressing objects:  53% (60/113)   Compressing objects:  54% (62/113)   Compressing objects:  55% (63/113)   Compressing objects:  56% (64/113)   Compressing objects:  57% (65/113)   Compressing objects:  58% (66/113)   Compressing objects:  59% (67/113)   Compressing objects:  60% (68/113)   Compressing objects:  61% (69/113)   Compressing objects:  62% (71/113)   Compressing objects:  63% (72/113)   Compressing objects:  64% (73/113)   Compressing objects:  65% (74/113)   Compressing objects:  66% (75/113)   Compressing objects:  67% (76/113)   Compressing objects:  68% (77/113)   Compressing objects:  69% (78/113)   Compressing objects:  70% (80/113)   Compressing objects:  71% (81/113)   Compressing objects:  72% (82/113)   Compressing objects:  73% (83/113)   Compressing objects:  74% (84/113)   Compressing objects:  75% (85/113)   Compressing objects:  76% (86/113)   Compressing objects:  77% (88/113)   Compressing objects:  78% (89/113)   Compressing objects:  79% (90/113)   Compressing objects:  80% (91/113)   Compressing objects:  81% (92/113)   Compressing objects:  82% (93/113)   Compressing objects:  83% (94/113)   Compressing objects:  84% (95/113)   Compressing objects:  85% (97/113)   Compressing objects:  86% (98/113)   Compressing objects:  87% (99/113)   Compressing objects:  88% (100/113)   Compressing objects:  89% (101/113)   Compressing objects:  90% (102/113)   Compressing objects:  91% (103/113)   Compressing objects:  92% (104/113)   Compressing objects:  93% (106/113)   Compressing objects:  94% (107/113)   Compressing objects:  95% (108/113)   Compressing objects:  96% (109/113)   Compressing objects:  97% (110/113)   Compressing objects:  98% (111/113)   Compressing objects:  99% (112/113)   Compressing objects: 100% (113/113)   Compressing objects: 100% (113/113), done.
+Writing objects:   0% (1/120)   Writing objects:   1% (2/120)   Writing objects:   2% (3/120)   Writing objects:   3% (4/120)   Writing objects:   5% (6/120)   Writing objects:   7% (9/120)   Writing objects:   8% (10/120)   Writing objects:   9% (11/120)   Writing objects:  10% (12/120)   Writing objects:  11% (14/120)   Writing objects:  12% (15/120)   Writing objects:  13% (16/120)   Writing objects:  14% (17/120)   Writing objects:  15% (18/120)   Writing objects:  16% (20/120)   Writing objects:  17% (21/120)   Writing objects:  18% (22/120)   Writing objects:  20% (24/120)   Writing objects:  21% (26/120)   Writing objects:  22% (27/120)   Writing objects:  23% (28/120)   Writing objects:  24% (29/120)   Writing objects:  25% (30/120)   Writing objects:  26% (32/120)   Writing objects:  27% (33/120)   Writing objects:  28% (34/120)   Writing objects:  29% (35/120)   Writing objects:  30% (37/120)   Writing objects:  31% (38/120)   Writing objects:  32% (39/120)   Writing objects:  33% (40/120)   Writing objects:  34% (41/120)   Writing objects:  35% (42/120)   Writing objects:  36% (44/120)   Writing objects:  37% (45/120)   Writing objects:  38% (46/120)   Writing objects:  39% (47/120)   Writing objects:  40% (48/120)   Writing objects:  41% (50/120)   Writing objects:  42% (51/120)   Writing objects:  43% (52/120)   Writing objects:  44% (53/120)   Writing objects:  45% (54/120)   Writing objects:  46% (56/120)   Writing objects:  47% (57/120)   Writing objects:  47% (57/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  48% (58/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  49% (59/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  50% (60/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  51% (62/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  52% (63/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  53% (64/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  54% (65/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  55% (66/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  56% (68/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  57% (69/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  58% (70/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  59% (71/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  60% (72/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  61% (74/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  62% (75/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  63% (76/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  64% (77/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  65% (78/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  66% (80/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  67% (81/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  68% (82/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  69% (83/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  70% (84/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  73% (88/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  74% (89/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  75% (90/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  76% (92/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  77% (93/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  78% (94/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  79% (95/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  80% (96/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  81% (98/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  82% (99/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  83% (100/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  84% (101/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  85% (102/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  86% (104/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  87% (105/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  88% (106/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  89% (107/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  90% (108/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  91% (110/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  92% (111/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  93% (112/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  94% (113/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  95% (114/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  96% (116/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  97% (117/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  98% (118/120), 1.07 MiB | 750.00 KiB/s   Writing objects:  99% (119/120), 1.07 MiB | 750.00 KiB/s   Writing objects: 100% (120/120), 1.07 MiB | 750.00 KiB/s   Writing objects: 100% (120/120), 3.21 MiB | 750.00 KiB/s, done.
+Total 120 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/22)   [Kremote: Resolving deltas:  31% (7/22)   [Kremote: Resolving deltas:  50% (11/22)   [Kremote: Resolving deltas:  68% (15/22)   [Kremote: Resolving deltas:  72% (16/22)   [Kremote: Resolving deltas:  77% (17/22)   [Kremote: Resolving deltas:  81% (18/22)   [Kremote: Resolving deltas:  90% (20/22)   [Kremote: Resolving deltas: 100% (22/22)   [Kremote: Resolving deltas: 100% (22/22), done.[K
+To https://github.com/mca91/mca91.github.io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ [Kdhcp-wlce193017:public Martin$ git push -u origin masterremote add origin https://github.com/mca91/mca91.github.io.gitt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Pcommit -m "first commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git add .push -u origin masterremote add origin https://github.com/mca91/mca91.github.io.gitt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/mca91/mca91.github.io.gitt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Pcommit -m "first commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"d"o"c"s"adocs"[Cdocs"[Cdocs" docs"
+[master b4f1248] add docs
+ 11 files changed, 50 insertions(+), 50 deletions(-)
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git commit -m "add docs"add .[Kpush -u origin master
+To https://github.com/mca91/mca91.github.io.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mca91/mca91.github.io.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git pull
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)   [Kremote: Counting objects:  50% (2/4)   [Kremote: Counting objects:  75% (3/4)   [Kremote: Counting objects: 100% (4/4)   [Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/mca91/mca91.github.io
+   c6e4bb2..b34fe73  master     -> origin/master
+[?2004hMerge made by the 'recursive' strategy.
+ .nojekyll | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .nojekyll
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git pull
+Already up-to-date.
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git pullsh -u origin master[1Pcommit -m "add docs"add .[K
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git add .[1Ppullsh -u origin master[1Pcommit -m "add docs"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ git commit -m "add docs"add .[K[1Ppullsh -u origin master
+Counting objects: 23, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/19)   Compressing objects:  10% (2/19)   Compressing objects:  15% (3/19)   Compressing objects:  21% (4/19)   Compressing objects:  26% (5/19)   Compressing objects:  31% (6/19)   Compressing objects:  36% (7/19)   Compressing objects:  42% (8/19)   Compressing objects:  47% (9/19)   Compressing objects:  52% (10/19)   Compressing objects:  57% (11/19)   Compressing objects:  63% (12/19)   Compressing objects:  68% (13/19)   Compressing objects:  73% (14/19)   Compressing objects:  78% (15/19)   Compressing objects:  84% (16/19)   Compressing objects:  89% (17/19)   Compressing objects:  94% (18/19)   Compressing objects: 100% (19/19)   Compressing objects: 100% (19/19), done.
+Writing objects:   4% (1/23)   Writing objects:   8% (2/23)   Writing objects:  13% (3/23)   Writing objects:  17% (4/23)   Writing objects:  21% (5/23)   Writing objects:  26% (6/23)   Writing objects:  30% (7/23)   Writing objects:  34% (8/23)   Writing objects:  39% (9/23)   Writing objects:  43% (10/23)   Writing objects:  47% (11/23)   Writing objects:  52% (12/23)   Writing objects:  56% (13/23)   Writing objects:  60% (14/23)   Writing objects:  65% (15/23)   Writing objects:  69% (16/23)   Writing objects:  73% (17/23)   Writing objects:  78% (18/23)   Writing objects:  82% (19/23)   Writing objects:  86% (20/23)   Writing objects:  91% (21/23)   Writing objects:  95% (22/23)   Writing objects: 100% (23/23)   Writing objects: 100% (23/23), 11.17 KiB | 0 bytes/s, done.
+Total 23 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/14)   [Kremote: Resolving deltas:   7% (1/14)   [Kremote: Resolving deltas:  14% (2/14)   [Kremote: Resolving deltas:  21% (3/14)   [Kremote: Resolving deltas:  28% (4/14)   [Kremote: Resolving deltas:  35% (5/14)   [Kremote: Resolving deltas:  42% (6/14)   [Kremote: Resolving deltas:  50% (7/14)   [Kremote: Resolving deltas:  57% (8/14)   [Kremote: Resolving deltas:  64% (9/14)   [Kremote: Resolving deltas:  71% (10/14)   [Kremote: Resolving deltas:  78% (11/14)   [Kremote: Resolving deltas:  85% (12/14)   [Kremote: Resolving deltas:  92% (13/14)   [Kremote: Resolving deltas: 100% (14/14)   [Kremote: Resolving deltas: 100% (14/14), completed with 13 local objects.[K
+To https://github.com/mca91/mca91.github.io.git
+   b34fe73..fed2299  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcon/publicdhcp-wlce193017:public Martin$ gt[Kit [K[K[K[Kcd d[K..
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ cd docs[K[K[K[K[K[K[Kgit init
+Initialized empty Git repository in /Users/Martin/sciebo/WebEcon/.git/
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ gitt[K add .

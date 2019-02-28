@@ -1,0 +1,11 @@
+a {
+  color: #17408F;
+}
+
+#fh5co-home .gradient {
+    background-color: #17408F;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #17408F), color-stop(1, #17408F));
+    background-image: -webkit-repeating-linear-gradient(top left, #17408F 0%, #17408F 100%);
+    background-image: repeating-linear-gradient(to bottom right, #17408F 0%, #17408F 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #17408F 0%, #17408F 100%);
+}
