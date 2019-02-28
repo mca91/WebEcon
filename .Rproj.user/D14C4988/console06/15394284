@@ -823,3 +823,22 @@ To https://github.com/mca91/mca91.github.io.git
    f2bb707..b1d7ce7  master -> master
 Branch master set up to track remote branch master from origin.
 ]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin mastercommit -m "add title image"add .[K
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git add .push -u origin mastercommit -m "add title image"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"s"m"a"l"l" "s"c"[1P"[1P"c"h"a"n"g"e"s"
+[master b32bf2a] add small changes
+ 8 files changed, 486 insertions(+), 5 deletions(-)
+ create mode 100644 .Rproj.user/D14C4988/sources/prop/EA599044
+ create mode 100644 .Rproj.user/D14C4988/sources/s-209CC90B/DA232AE9-contents
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "add small changes"add .[Kpush -u origin master
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  70% (12/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 5.02 KiB | 0 bytes/s, done.
+Total 17 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/mca91/WebEcon.git[K
+To https://github.com/mca91/mca91.github.io.git
+   b1d7ce7..b32bf2a  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin mastercommit -m "add small changes"add .[K
