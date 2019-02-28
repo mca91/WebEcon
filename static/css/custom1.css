@@ -2,6 +2,13 @@ a {
   color: #17408F;
 }
 
+@media screen and (max-width: 992px) {
+  .fh5co-person {
+    margin-bottom: 3.5em;
+    margin-left: 0px;
+  }
+}
+
 #fh5co-home .gradient {
     background-color: #17408F;
     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #17408F), color-stop(1, #17408F));

@@ -981,7 +981,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 992px) {
   .fh5co-person {
     margin-bottom: 3.5em;
-    /*margin-left: 100px;*/
+    margin-left: 100px;
   }
 }
 .fh5co-person figure {

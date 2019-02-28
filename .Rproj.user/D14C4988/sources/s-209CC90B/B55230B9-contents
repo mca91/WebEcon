@@ -170,7 +170,7 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "20"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.jpg" height="60">'
+    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.jpg" height="60"></div>'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],

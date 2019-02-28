@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551358335896.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3D01E14F",
+    "lastKnownWriteTime" : 1551359246,
+    "last_content_update" : 1551359246426,
+    "path" : "~/sciebo/WebEcon/themes/hugo-elate-theme/layouts/partials/about.html",
+    "project_path" : "themes/hugo-elate-theme/layouts/partials/about.html",
+    "properties" : {
+        "cursorPosition" : "14,24",
+        "scrollLine" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

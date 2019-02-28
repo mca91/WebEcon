@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551359922089.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "57C5D9AB",
+    "lastKnownWriteTime" : 1551310667,
+    "last_content_update" : 1551310667,
+    "path" : "~/sciebo/WebEcon/docs/css/style.css",
+    "project_path" : "docs/css/style.css",
+    "properties" : {
+        "cursorPosition" : "980,0",
+        "scrollLine" : "977"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}
