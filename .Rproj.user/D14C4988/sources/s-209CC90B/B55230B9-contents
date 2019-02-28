@@ -125,7 +125,7 @@ publishDir = "docs"
       name = "Carsten Jentsch"
       position = "TU Dortmund University"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "jentsch.png"
+      img = "Jentsch.png"
       alt = "Person1"
       social = [
         ["icon-twitter", "#"],
@@ -170,7 +170,7 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.jpg" height="60"></div>'
+    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"></div>'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
