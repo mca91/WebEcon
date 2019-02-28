@@ -774,3 +774,36 @@ Branch master set up to track remote branch master from origin.
 Already up-to-date.
 ]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git pullsh -u origin masterremote add origin https://github.com/mca91/mca91.github.io.giit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Pcommit -m "first commit"
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git add .[1Ppullsh -u origin masterremote add origin https://github.com/mca91/mca91.github.io.giit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Pcommit -m "first commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"d"d" "i"m"a"g"e"s"
+[master f2bb707] add images
+ 17 files changed, 341 insertions(+)
+ create mode 100644 docs/images/Jentsch.png
+ create mode 100644 docs/images/RGS.JPG
+ create mode 100644 docs/images/Rplot.png
+ create mode 100644 docs/images/TUDortmund.png
+ create mode 100644 docs/images/UARuhrimage.jpg
+ create mode 100644 docs/images/caffelatte.jpg
+ create mode 100644 docs/images/hanck.png
+ create mode 100644 docs/images/mercur.png
+ create mode 100644 docs/images/statistik.png
+ create mode 100644 docs/images/statistik_dortmund.png
+ create mode 100644 docs/images/uaruhr.png
+ create mode 100644 docs/images/unibochum.png
+ create mode 100644 docs/images/unidue.png
+ create mode 100644 docs/images/wiwi_bochum.png
+ create mode 100644 docs/images/wiwi_dortmund.png
+ create mode 100644 docs/images/wiwi_essen.png
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "add images"add .[K[1Ppullsh -u origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 2.58 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/mca91/WebEcon.git[K
+To https://github.com/mca91/mca91.github.io.git
+   b7238df..f2bb707  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin mastercommit -m "add images"add .[K
