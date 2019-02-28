@@ -842,3 +842,19 @@ To https://github.com/mca91/mca91.github.io.git
    b1d7ce7..b32bf2a  master -> master
 Branch master set up to track remote branch master from origin.
 ]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin mastercommit -m "add small changes"add .[K
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git add .push -u origin mastercommit -m "add small changes"
+[master f34c604] add small changes
+ 2 files changed, 20 insertions(+), 1 deletion(-)
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git commit -m "add small changes"add .[Kpush -u origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 16.76 KiB | 0 bytes/s, done.
+Total 9 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/mca91/WebEcon.git[K
+To https://github.com/mca91/mca91.github.io.git
+   b32bf2a..f34c604  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ git push -u origin mastercommit -m "add small changes"[8Ppush -u origin mastercommit -m "add small changes"add .[Kpush -u origin mastercommit -m "add small changes"add .[Kcommit -m "add small changes"[8Ppush -u origin masteradd .[Kcommit -m "add small changes"[8Ppush -u origin master[Kgit push -u origin mastercommit -m "add small changes"[8Ppush -u origin master[Kgit push -u origin mastercommit -m "add small changes"[8Ppush -u origin master[Kgit push -u origin mastercommit -m "add small changes"add .[K
