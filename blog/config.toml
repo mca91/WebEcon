@@ -1,0 +1,40 @@
+baseurl = "https://mca91.github.io/WebEcon/blog"
+title = "Dates & News"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "en-us"
+copyright = "Code released under the Apache 2.0 license."
+publishDir = "../docs/blog"
+
+
+[author]
+  name = "Martin Arnold"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Your site description"
+  Author = "Benoît Benedetti"
+  email = "benoit.benedetti@gmail.com"
+  Ganalytics = "XX-00000000-0"
+  # This will load all the CSS defined in the list
+  # customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
+
+#[[params.social]]
+#    title = "twitter"
+#    url = ""
+#[[params.social]]
+#    title = "github"
+#    url = ""
+#[[params.social]]
+#    title = "facebook"
+#    url = ""
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180

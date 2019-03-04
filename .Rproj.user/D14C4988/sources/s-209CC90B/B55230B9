@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1725349323",
+    "hash" : "2027246689",
     "id" : "B55230B9",
-    "lastKnownWriteTime" : 1551364904,
-    "last_content_update" : 1551364904546,
+    "lastKnownWriteTime" : 1551638029,
+    "last_content_update" : 1551638029721,
     "path" : "~/sciebo/WebEcon/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "170,17",
-        "scrollLine" : "162"
+        "cursorPosition" : "56,21",
+        "scrollLine" : "44"
     },
     "read_only" : false,
     "read_only_alternatives" : [

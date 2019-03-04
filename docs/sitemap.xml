@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>localhost:1313/cs/</loc>
+  </url>
+  
+  <url>
     <loc>localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>

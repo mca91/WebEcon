@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "MScEconometrics"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
@@ -54,7 +54,7 @@ publishDir = "docs"
   [[params.intro.item]]
     title = "Courses"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
+    url = "cs/cs.html"
     button = "Click Me"
     icon = "icon-compass"
     img = "img_7.jpg"

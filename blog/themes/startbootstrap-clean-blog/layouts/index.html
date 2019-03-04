@@ -1,0 +1,26 @@
+{{ partial "headerblog.html" .}}
+
+  <section id="fh5co-home" data-section="home" style="background-image: url(img/full_image_2.jpg);" data-stellar-background-ratio="0.1">
+    <div class="gradient-home"></div>
+    <div class="slant"></div>
+  </section>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
+          {{ range first $posts (where .Data.Pages "Type" "post") }}
+              {{ .Render "summary"}}
+          {{ end }}
+          <!-- Pager -->
+          <ul class="pager">
+            <li class="next">
+              <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+{{ partial "footerblog.html" .}}
