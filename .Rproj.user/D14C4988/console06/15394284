@@ -1010,4 +1010,4 @@ Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
-^C]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ 
+^C]0;~/sciebo/WebEcondhcp-wlce193017:WebEcon Martin$ hugo servergit push -u origin master[14Phugo server[Khugo server[Khugo server
