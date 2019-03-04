@@ -19,10 +19,10 @@
     {{ end }}
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/css/clean-blog.min.css" rel="stylesheet">
     {{- range $val := $.Site.Params.customCSS -}}
 	{{- if gt (len $val) 0 -}}
 		<link rel="stylesheet" type="text/css" href="{{ $val }}">
