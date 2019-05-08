@@ -70,7 +70,7 @@ publishDir = "docs"
   [[params.intro.item]]
     title = "Documents"
     description = "Information material such as conditions of study and examination regulations."
-    url = "/blog/documents/"
+    url = "/WebEcon/blog/documents/"
     button = "Links"
     icon = "icon-notebook"
     img = "img_10.jpg"
