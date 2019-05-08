@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mca91.github.io/categories/</loc>
+    <loc>localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mca91.github.io/</loc>
+    <loc>localhost:1313/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mca91.github.io/tags/</loc>
+    <loc>localhost:1313/tags/</loc>
     <priority>0</priority>
   </url>
   
