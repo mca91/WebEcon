@@ -62,7 +62,7 @@ publishDir = "docs"
   [[params.intro.item]]
     title = "News & Dates"
     description = "Latest news about the program, important dates and events."
-    url = "/blog/"
+    url = "WebEcon/blog/"
     button = "News"
     icon = "icon-calendar"
     img = "img_8.jpg"
