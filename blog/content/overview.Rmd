@@ -1,0 +1,155 @@
+---
+type: "overview_page"
+layout: "overview-static"
+---
+
+# Courses
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
+library(dplyr)
+```
+
+<div class="banner">
+  
+  <div class = "term"><p>4</p></div>
+  <div class = "m orange show" target="1"><p>M9:<br> Master Thesis</p></div>
+
+  <div class = "term"><p>3</p></div>
+  <div class = "w yellow l show" target="2"><p>M4:<br> Time Series Analysis</p></div>
+  <div class = "w red show" target="3"><p>M6:<br> Applied Econometrics</p></div>
+  <div class = "blue show" target="4"><p>M8:<br> Electives</p></div>
+  <div class = "purple show" target="5"><p>M5:<br> Economics</p></div>
+  
+  <div class = "term"><p>2</p></div>
+  <div class = "w yellow l"><p>M2:<br> Econometrics</p></div>
+  <div class = "red show" target="3"><p>M6:<br> Applied Econometrics</p></div>
+  <div class = "green show" target="6"><p>M7:<br> Econometric Methods</p></div>
+  <div class = "w yellow"><p>M3:<br> Case Studies</p></div>
+  
+  <div class = "term"><p>1</p></div>
+  <div class="wider yellow l"><p>M1:<br> Statistical Theory</p></div>
+  <div class = "w green show" target="6"><p>M7:<br> Econometric Methods</p></div>
+  <div class = "purple show" target="5"><p>M5:<br> Economics</p></div>
+</div>
+
+<div class="cont">
+  <div class="sec" id="section1">
+  <h2>M9: Master Thesis</h2>
+  <p>Curabitur sed nunc ac justo iaculis condimentum. Nunc convallis tempor faucibus. Nulla ultrices libero quis ipsum mattis molestie. Nam varius, nulla tristique facilisis eleifend, elit odio dapibus nisi, eget convallis nisi augue non dui. Pellentesque semper elementum enim, et hendrerit nunc convallis id. Curabitur a magna pharetra, viverra neque nec, lobortis ligula. Vestibulum eget tempor enim. Aliquam et cursus neque.</p>
+  </div>
+  <div class="sec" id="section2">
+  <h2>M4: Time Series Analysis</h2>
+  <p>Duis varius mollis fringilla. Proin a vehicula metus. Nam ornare ipsum justo, non placerat ligula consectetur sit amet. Curabitur suscipit ligula porttitor nisi mollis imperdiet. Sed blandit sapien in est tristique, eu bibendum arcu cursus. Aenean iaculis lorem vulputate libero egestas ornare. Aenean auctor vehicula lorem, in mollis ex scelerisque vitae. In hac habitasse platea dictumst. Nulla accumsan tristique eros, non dapibus turpis sollicitudin nec. Etiam a turpis sit amet purus feugiat vestibulum id at nisl. Cras vitae lacus massa. Integer eu ex efficitur, cursus magna quis, dignissim erat.</p>
+  </div>
+  <div class="sec" id="section3">
+  <h2>M6: Applied Econometrics</h2>
+  <p>Proin placerat sem est, volutpat ornare diam vestibulum at. Aenean non sapien volutpat, consequat turpis ut, condimentum metus. Aliquam luctus dui et urna suscipit pharetra. Proin viverra lacus sed semper accumsan. Nam urna ante, vehicula nec dui eget, consequat elementum orci. Nam in feugiat diam, ut vestibulum metus. Morbi dapibus commodo congue. Integer ut finibus tortor.</p>
+  </div>
+  <div class="sec" id="section4">
+  <h2>M8: Electives</h2>
+  <p>Duis varius mollis fringilla. Proin a vehicula metus. Nam ornare ipsum justo, non placerat ligula consectetur sit amet. Curabitur suscipit ligula porttitor nisi mollis imperdiet. Sed blandit sapien in est tristique, eu bibendum arcu cursus. Aenean iaculis lorem vulputate libero egestas ornare. Aenean auctor vehicula lorem, in mollis ex scelerisque vitae. In hac habitasse platea dictumst. Nulla accumsan tristique eros, non dapibus turpis sollicitudin nec. Etiam a turpis sit amet purus feugiat vestibulum id at nisl. Cras vitae lacus massa. Integer eu ex efficitur, cursus magna quis, dignissim erat.</p>
+  </div>
+  <div class="sec" id="section5">
+  <h2>M5: Economics</h2>
+  <p>Duis finibus semper diam quis venenatis. Aliquam a auctor dolor. In eu mi massa. Nullam id nibh fringilla lacus ultrices auctor ac ut leo. Sed blandit quam a orci efficitur mollis. Ut in dui convallis, tempus dolor vel, pretium est. Vestibulum sollicitudin quis libero eu sodales. Morbi pulvinar quam nec lacinia feugiat. Duis non rutrum est, quis aliquet urna. Cras ante ante, semper ac hendrerit in, feugiat id nibh. Aenean mollis tempor mi nec facilisis. Morbi ornare quis tellus ut congue..</p>
+  </div>
+  <div class="sec" id="section6">
+  <h2>M7: Econometric Methods</h2>
+  <p>Nullam eleifend in est vitae aliquam. Mauris egestas vitae nunc quis sollicitudin. Morbi eros neque, ullamcorper vitae pharetra ut, efficitur a diam. Sed lacinia quis metus vel pellentesque. Aliquam accumsan faucibus vehicula. Sed convallis congue semper. Nunc ligula quam, consectetur vitae mauris sit amet, consequat dapibus erat. Duis efficitur commodo purus, vitae ultrices augue dictum sed. Quisque vitae semper tortor. Phasellus rhoncus viverra ligula ut vestibulum. Nunc interdum mi tincidunt, feugiat neque a, venenatis mi. Mauris nulla massa, tempor vitae libero id, ullamcorper feugiat velit. Nulla consequat felis et cursus ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ornare porta metus quis elementum.</p>
+  </div>
+<div class="sec" id="standarddiv">
+<h2>Empty</h2>
+<p>Hey, I'm empty!</p>
+</div>
+</div>
+
+````{r, echo = F}
+unidueprefix  <- "https://www.wiwi.uni-due.de/studium-lehre/informationen-zu-den-modulen/"
+tuprefix      <- "http://www.wiwi.tu-dortmund.de/wiwi/de/studium/studiengaenge/wiwi-master-2015/ma-wiwi-2015-modulhandbuch-neu.pdf#page="
+tuprefix2     <- "https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/"
+rubprefix     <- "https://www.wiwi.ruhr-uni-bochum.de/mam/content/dekanat/modulhandbuch__master_-wise_2018_19_21.08.2018.pdf#page="
+
+link <- c(paste0(unidueprefix,
+                 c("advanced-forecasting-in-energy-markets-m796/", "fortgeschrittene-oekonometrie-m75/",
+                   "causality-and-programme-evaluation-m473/", "entscheidungstheorie-m174/")),
+          "http://rgs-econ.org/courses/current/",
+          paste0(unidueprefix,
+                 c("econometrics-of-electricity-markets-m788/", "empirische-bilanzanalyse-m785/",
+                   "empirische-methoden-produktions-und-effizienzanalyse-m508/",
+                   "fortgeschrittene-oekonometrie-m75/", "financial-mathematics-m674/",
+                   "financial-risk-management-m676/", "inequality-in-health-m480/",
+                   "international-capital-movements-theory-and-econometric-evidence-m662/",
+                   "mikrooekonometrie-m178/", "fortgeschrittene-oekonometrie-m75/",
+                   "portfolio-management-m880/", "quantitative-modelle-internationaler-wirtschaftsbeziehungen-m513/",
+                   "quantitative-climate-finance-m673/", "neuere-entwicklungen-der-mikrooekonomik-m161/",
+                   "neuere-entwicklungen-der-oekonometrie-m163/", "stichprobentheorie-m509/",
+                   "fachseminar-oekonometrische-methoden-m642/",
+                   "fachseminar-soziale-sicherung-und-besteuerung-empirische-studien-und-eigene-projekte-m597/",
+                   "fortgeschrittene-oekonometrie-m75/", "statistisches-seminar-m600/",
+                   "stock-market-anomalies-and-quantitative-trading-strategies-m877/")),
+          paste0(tuprefix, 76),
+          paste0(tuprefix2, "Vorlesungsverzeichnis/WS2017_18/Kommentierte_VVZ/Wagner_Komm._Verz._WS_2017_-_Advanced_Econometrics-1.pdf"),
+          paste0(tuprefix, 75:74), "https://www.finance.wiwi.tu-dortmund.de/cms/files/Syllabus_AQF.pdf",
+          paste0(tuprefix, 82),
+          paste0(tuprefix2, "Vorlesungsverzeichnis/SS2017/Kommentierte_VVZ/KommentiertesVVZ__Blockkurs_Fermin.pdf"),
+          paste0(tuprefix2, "Studiengaenge-Infos/Modulhandbuch-Master-Statistik_02.pdf#page=4"), paste0(tuprefix, 80),
+          "", paste0(tuprefix, 82),
+          paste0(tuprefix2, "Studiengaenge-Infos/Modulhandbuch-Master-Statistik_02.pdf#page=6"),
+          paste0(tuprefix, c(10, 8, 84)), "", paste0(tuprefix, 93), "", paste0(tuprefix, 12),
+          paste0(tuprefix2, "Vorlesungsverzeichnis/SS2017/Kommentierte_VVZ/KommVVZ_2017_Robuste_Statistik.pdf"),
+          paste0(tuprefix, c(74, 82)), rep("", 2),
+          paste0(tuprefix2, c("Studiengaenge-Infos/Modulhandbuch-Master-Statistik_02.pdf#page=8",
+                              "Vorlesungsverzeichnis/WS2017_18/Kommentierte_VVZ/Komm_Vorlesungsverzeichnis__WS_2017_18_Zeitreihen.pdf")),
+          "https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201920&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung", rep("", 2),
+          paste0(rubprefix, c(368, 103)), "", paste0(rubprefix, c(79, 125, 372, 89, 101, 73, 376, 91, 105, 374)))
+
+course <- c("Advanced Forecasting in Energy Markets", "Bayesian Econometrics", "Causality and Programme Evaluation",
+            "Decision Theory", "Econometrics II (Microeconometrics)", "Econometrics of Electricity Markets",
+            "Empirical Balance Sheet Analysis", "Empirical Methods", "Extreme Value Theory", "Financial Mathematics",
+            "Financial Risk Management", "Inequality in Health", "International Capital Movements",
+            "Microeconometrics", "Nonparametric Econometrics", "Portfolio Management",
+            "Quantitative Analyses in International Economics", "Quantitative Climate Finance",
+            "Recent Developments in Microeconomics", "Recent Developments in Econometrics", "Sampling Theory",
+            "Seminar Econometric Methods", "Seminar Social Security and Taxation: Empirical Studies and own Research",
+            "Statistical Learning", "Statistical Seminar",
+            "Stock Market Anomalies and Quantitative Trading Strategies", "Advanced Business Cycle Analysis",
+            "Advanced Econometrics", "Applied Macroeconometrics", "Applied Monetary Economics",
+            "Applied Quantitative Finance", "Auctions: Theory, Applications and Experiments", "Bayes-Statisik",
+            "Decision Theory", "Dynamic Macroeconomics", "Econometrics", "Economics of Information", "Fallstudien II",
+            "Financial Econometrics", "Financial Economics", "Game Theory", "Machine Learning",
+            "Microeconometrics and Empirical Applications", "Probability Theory",
+            "Reserach Topics in Finance, Risk- and Resourcemanagement", "Robuste Statistische Verfahren",
+            "Seminar zu Applied Monetary Economics", "Seminar in Economic Theory I", "Sequentielle Verfahren",
+            "Statistics for Econometricians", "Stochastische Prozesse", "Time Series Analysis",
+            "Unit Root and Cointegration Analysis", "Wissensentdeckung in Big Data", "Zeitreihenökonometrie",
+            "Applied Time Series Analysis", "Current Topics in Health Economics", "Data Analysis Using Stata",
+            "Econometric Evaluation of Economic Policies", "Empirical Modelling of Globalized Markets",
+            "Financial Econometrics", "Microeconometrics", "Public Economics", "Seminar in Applied Economic Policy",
+            "Seminar in Econometrics", "Seminar in Microeconometrics",
+            "Seminar on Health Economics and Health Policy: Population Ageing and its Challenges for Health Systems",
+            "Multivariate Statistical Methods")
+
+text_tbl <- data.frame(
+  Course = paste0("<a href='", link, "'>", course, "</a>"),
+  Location = c(rep("Essen", 26), rep("Dortmund", 29), rep("Bochum", 13)),
+  Section = c("Applied Econometrics", rep("Econometric Methods", 2), "Economics", rep("Applied Econometrics", 4),
+              "Econometric Methods", rep("Applied Econometrics", 3), "Economics", "Applied Econometrics",
+              "Econometric Methods", rep("Applied Econometrics", 3), "Economics", rep("Econometric Methods", 3),
+              "Applied Econometrics", "Econometric Methods", "Applied Econometrics", rep("Economics", 2),
+              "Econometric Methods", "Applied Econometrics", "Economics", "Applied Econometrics", "Economics",
+              rep("Econometric Methods", 2), "Economics", "Econometric Methods", "Economics", "Econometric Methods",
+              "Applied Econometrics", rep("Economics", 2), rep("Applied Econometrics", 2), "Econometric Methods",
+              "Economics", "Econometric Methods", rep("Economics", 2), rep("Econometric Methods", 5),
+              "Applied Econometrics", "Econometric Methods", "Applied Econometrics", "Economics",
+              rep("Applied Econometrics", 3), rep("Econometric Methods", 2), rep("Economics", 2),
+              "Econometric Methods", "Applied Econometrics", "Economics", "Econometric Methods")
+)
+
+kable(text_tbl, escape = F, table.attr = 'id=\"table_id\"') %>%
+  kable_styling(full_width = T, 
+                bootstrap_options = c("striped", "hover", "responsive")) %>%
+  column_spec(1, bold = T, border_right = F, width = "25em") %>%
+  column_spec(2, border_right = F)
+```

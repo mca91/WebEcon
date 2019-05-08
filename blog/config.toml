@@ -5,7 +5,7 @@ paginate = 10
 theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
 copyright = "Code released under the Apache 2.0 license."
-publishDir = "../docs/blog"
+publishDir = "../docs/blog/"
 
 
 [author]
@@ -31,7 +31,7 @@ publishDir = "../docs/blog"
 #    url = ""
 
 [[menu.main]]
-  name = "home"
+  name = "Start"
   url = "/"
   weight = -200
 [[menu.main]]

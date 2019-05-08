@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "MScEconometrics"
+title = "MSc Econometrics"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
@@ -19,7 +19,7 @@ publishDir = "docs"
 
   # Navigation
   [params.navigation]
-    brand = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/UA-Ruhr_Logo.png" height="80">'
+    brand = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/UA-Ruhr_Logo.png" height="55">'
     home = "Home"
     work = "The Program"
     testimonials = "Testimonials"
@@ -53,25 +53,25 @@ publishDir = "docs"
 
   [[params.intro.item]]
     title = "Courses"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "cs/cs.html"
-    button = "Click Me"
+    description = "Get an overview over the program structure and the curriculum."
+    url = "/blog/overview/"
+    button = "Course Overview"
     icon = "icon-compass"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Dates"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
+    title = "News & Dates"
+    description = "Latest news about the program, important dates and events."
+    url = "/blog/"
+    button = "News"
     icon = "icon-calendar"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Documents"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
+    description = "Information material such as conditions of study and examination regulations."
+    url = "/blog/documents/"
+    button = "Links"
     icon = "icon-notebook"
     img = "img_10.jpg"
 
@@ -80,7 +80,7 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "About the Program"
-    description = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet."
+    description = "<span>Econometrics is a four-semester, English-language master's program of the UAR Universities TU Dortmund, Ruhr-University Bochum and the University of Duisburg-Essen. The program is carried out jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's unique Faculty of Statistics. This bundling of training and research skills enables a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br>Students acquire the ability to combine their statistical methodological competence with their proficiency in economics and apply both in an interdisciplinary manner. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric questions. The program particularly supports research-interested students in developing theoretical-analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. Graduates are well prepared for a career in econometrics, empirical economics research, evidence-based policy counselling, or operational research.</span>"
     footertext = ''
 
     [[params.work.row]]

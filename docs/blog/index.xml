@@ -22,5 +22,34 @@
 This document is a brief primer on using go templates.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://mca91.github.io/WebEcon/blog/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mca91.github.io/WebEcon/blog/documents/</guid>
+      <description>Abschnitt 1  Beispiel-Link</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mca91.github.io/WebEcon/blog/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mca91.github.io/WebEcon/blog/overview/</guid>
+      <description>Courses  4   M9:
+Master Thesis   3   M4:
+Time Series Analysis   M6:
+Applied Econometrics   M8:
+Electives   M5:
+Economics   2   M2:
+Econometrics   M6:
+Applied Econometrics   M7:
+Econometric Methods   M3:
+Case Studies   1   M1:
+Statistical Theory   M7:
+Econometric Methods   M5:</description>
+    </item>
+    
   </channel>
 </rss>
