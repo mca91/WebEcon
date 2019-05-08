@@ -1,5 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
+# baseurl = "localhost:1313" # if served locally
+baseurl = "https://mca91.github.io/WebEcon/"
 title = "MSc Econometrics"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
