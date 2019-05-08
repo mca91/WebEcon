@@ -1,6 +1,6 @@
 # Page settings
 # baseurl = "localhost:1313" # if served locally
-baseurl = "https://mca91.github.io/WebEcon/"
+baseurl = "https://mca91.github.io/"
 title = "MSc Econometrics"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -55,7 +55,7 @@ publishDir = "docs"
   [[params.intro.item]]
     title = "Courses"
     description = "Get an overview over the program structure and the curriculum."
-    url = "/blog/overview/"
+    url = "WebEcon/blog/overview/"
     button = "Course Overview"
     icon = "icon-compass"
     img = "img_7.jpg"
