@@ -8,50 +8,13 @@
   </url>
   
   <url>
-    <loc>https://mca91.github.io/WebEcon/blog/documents/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/overview/</loc>
-  </url>
-  
-  <url>
     <loc>https://mca91.github.io/WebEcon/blog/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mca91.github.io/WebEcon/blog/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mca91.github.io/WebEcon/blog/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -69,6 +32,36 @@
   </url>
   
   <url>
+    <loc>https://mca91.github.io/WebEcon/blog/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mca91.github.io/WebEcon/blog/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -78,6 +71,14 @@
     <loc>https://mca91.github.io/WebEcon/blog/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/documents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mca91.github.io/WebEcon/blog/overview/</loc>
   </url>
   
 </urlset>

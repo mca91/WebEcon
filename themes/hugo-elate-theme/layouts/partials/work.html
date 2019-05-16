@@ -8,7 +8,7 @@
 		      <img src="images/unibochum.png" height="50" hspace="20">
 			  </div>
 		  	<div class="logos .col-md-4">
-		      <img src="images/unidue.png" height="50" hspace="20">
+		      <img src="images/unidue.png" height="60" hspace="20">
 			  </div>
 			</div>
 				<div class="col-md-12 section-heading text-center">
@@ -20,27 +20,5 @@
 					</div>
 				</div>
 
-			<div class="row row-bottom-padded-sm">
-			{{ range .Site.Params.work.row }}
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
-						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>{{ .title }}</h2>
-						<span>{{ .subtitle }}</span>
-						</div>
-					</a>
-				</div>		
-				<div class="clearfix visible-sm-block"></div>
-			{{ end }}
-			</div>
-			
-			<div class="row">
-				<div class="col-md-12 text-center to-animate">
-					<p>{{ .Site.Params.work.footertext | markdownify }}</p>
-				</div>
-			</div>
-			
-			
 		</div>
 	</section>
