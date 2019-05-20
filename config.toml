@@ -54,7 +54,7 @@ publishDir = "docs"
   [[params.intro.item]]
     title = "Courses"
     description = "Get an overview over the program structure and the curriculum."
-    url = "/blog/overview/"
+    url = "blog/overview/"
     button = "Course Overview"
     icon = "icon-compass"
     img = "img_7.jpg"
