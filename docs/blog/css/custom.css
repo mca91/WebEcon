@@ -41,8 +41,9 @@ input[type="search"]{
       margin: 2px 2px 2px 2px;
       border-radius:2px;
       text-align: center;
-      vertical-align: middle;
-      line-height: 25%; 
+      display: flex;
+      align-items: center;
+      line-height: 20%; 
       -webkit-transition: .4s;
     }
     
@@ -125,6 +126,7 @@ input[type="search"]{
       padding-left:5px;
       padding-right:5px;
       font-weight: bold;
+      margin-top:18px;
     }
     
     .banner .orange {
@@ -133,6 +135,8 @@ input[type="search"]{
       
     .banner .red {
         background:#b50606;
+        display: flex;
+        align-items: center;
       }
       
       .banner .blue {
@@ -155,6 +159,7 @@ input[type="search"]{
 
 .cont {
   max-width:1200px;
+  height:460px;
 }
 
 .show {
@@ -178,13 +183,29 @@ input[type="search"]{
   margin-bottom:50px;
 }
 
-    @media screen and (max-width: 768px) {
-      .sec, .section {
-        padding:0;
-      }
+@media screen and (max-width: 768px) {
+    .sec, .section {
+    padding:0;
     }
+}
 
+.text_ml { 
+  margin:0 0 30px 40px;
+}
 
+.tab { 
+text-indent:40px;
+margin:0 0 10px 0;
+}
+
+ul {
+list-style:none;
+margin:-10px 0 10px 0;
+}
+
+li:before {
+content: '_ ';
+}
       
       
       

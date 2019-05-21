@@ -60,17 +60,9 @@ publishDir = "docs"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "News & Dates"
-    description = "Latest news about the program, important dates and events."
-    url = "/blog/"
-    button = "News"
-    icon = "icon-calendar"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
     title = "Documents"
-    description = "Further information such as conditions of study and examination regulations."
-    url = "/blog/documents/"
+    description = "Further information on current conditions of study and admission requirements."
+    url = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
     button = "Faculty Page"
     icon = "icon-notebook"
     img = "img_10.jpg"
@@ -97,7 +89,7 @@ publishDir = "docs"
 
 # Services section
   [params.services]
-    link = "https://www.statistik.tu-dortmund.de/bachelor_statistik.html"
+    link = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
     enable = true
     title = "Requirements & Application"
     description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. Deadline is **July 15, 2019**. We are looking forward towards your application!"
@@ -143,7 +135,7 @@ publishDir = "docs"
     map = true
     form = true
     title = "Get in touch"
-    description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators (via the contact form below) if you have questions or need help finding the information you need."
+    description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators (via the contact form below)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     details = [
