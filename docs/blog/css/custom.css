@@ -5,6 +5,11 @@
   color:black;
 }
 
+body {
+  font-size:15px;
+  color:black;
+}
+
 table.dataTable thead th, 
 table.dataTable thead td, 
 table.dataTable.no-footer {

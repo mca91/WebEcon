@@ -6,23 +6,29 @@ a {
   margin-bottom: 50px;
 }
 
+.bbs {
+margin-top: 20px;
+margin-bottom: 75px;
+-webkit-box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.57);
+-moz-box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.57);
+box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.57);
+}
+
 #fh5co-work {
 margin-top: -320px;
 padding-bottom: 0;
 }
 
-
-
 #fh5co-intro .fh5co-block {
 width: 50%;
-max-height: 330px; 
+height:100%;
 }
 
-#fh5co-intro .row-bottom-padded-lg {
-width: 100%;
+#fh5co-about{
+  padding-bottom:0;
 }
 
-.section-heading {
+.section-heading .fh5co-about {
   padding-bottom:0;
 }
 

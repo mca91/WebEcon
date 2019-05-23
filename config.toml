@@ -19,7 +19,7 @@ publishDir = "docs"
 
   # Navigation
   [params.navigation]
-    brand = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/UA-Ruhr_Logo.png" height="55">'
+    brand = ''
     home = "Home"
     work = "The Program"
     testimonials = "Testimonials"
@@ -45,7 +45,7 @@ publishDir = "docs"
   # Hero section
   [params.hero]
     title = "<it>Econometrics<it>"
-    subtitle = 'A Joint MSc Program of the UA Ruhr Universities <br><br> TU Dortmund University <br> Ruhr University Bochum <br> University of Duisburg-Essen'
+    subtitle = 'A Joint MSc Program of the Universities <br><br> TU Dortmund University <br> Ruhr University Bochum <br> University of Duisburg-Essen'
     
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -53,7 +53,7 @@ publishDir = "docs"
 
   [[params.intro.item]]
     title = "Courses"
-    description = "Get an overview over the program structure and the curriculum."
+    description = "Get an overview over the program structure and more detailed information about the curriculum."
     url = "blog/overview/"
     button = "Course Overview"
     icon = "icon-compass"
@@ -72,7 +72,9 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "About the Program"
-    description = "<span>Econometrics is a four-semester, English-language master's program of the UAR Universities TU Dortmund, Ruhr-University Bochum and the University of Duisburg-Essen. The program is carried out jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's unique Faculty of Statistics. This bundling of training and research skills enables a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br>Students acquire the ability to combine their statistical methodological competence with their proficiency in economics and apply both in an interdisciplinary manner. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric questions. The program particularly supports research-interested students in developing theoretical-analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. Graduates thus are well prepared for a career in econometrics, empirical economics research, evidence-based policy counselling, or operational research.</span>"
+    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is carried out jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's unique Faculty of Statistics. This bundling of training and research skills enables a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br>Students acquire the ability to combine their statistical methodological competence with their proficiency in economics and apply both in an interdisciplinary manner. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric questions. The program particularly supports research-interested students in developing theoretical-analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econmetrics thus prepares well for a career in econometrics, empirical economics research, evidence-based policy counselling, or operational research. Graduates receive a joint MSc degree from the four participating faculties.</span>"
+    uartitle = "*University Alliance Ruhr*"
+    uartext = "The University Alliance Ruhr (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR is one of Germany's largest and most efficient science locations. It bundles interests of the members by initiating cooperations in research, teaching and administration. Both the education of economists and the economic research of the three participating universities benefit from these joint activities, in particular through the RWI - Leibniz Institute for Economic Research and the RGS - Ruhr Graduate School in Economics which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
     footertext = ''
 
 #    [[params.work.row]]
@@ -113,19 +115,18 @@ publishDir = "docs"
   [params.about]
     enable = true
     title = "Coordinators"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
       name = "Carsten Jentsch"
       position = "TU Dortmund University"
-      description = "Carsten Jentsch studied mathematics with a minor in business administration at the TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at the UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at the TU Dortmund since summer semester 2018. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
+      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
       alt = "Person1"
 
     [[params.about.item]]
       name = "Christoph Hanck"
       position = "University of Duisburg-Essen"
-      description = "Christoph Hanck is Professor of Econometrics at the University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research in confined with the analysis of nonstationary panel data and macroeconometrics. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
+      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research in confined with the analysis of nonstationary panel data and macroeconometrics. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "hanck.png"
       alt = "Person2"
 
@@ -134,7 +135,7 @@ publishDir = "docs"
     enable = true
     map = true
     form = true
-    title = "Get in touch"
+    title = "Contact"
     description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators (via the contact form below)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
@@ -152,4 +153,4 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"></div>'
+    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</div>'

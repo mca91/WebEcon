@@ -17,6 +17,12 @@
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
 							<h3>{{ with .Site.Params.work.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
+						<img src="images/UARuhrimage.jpg" height="240" class="bbs">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+						  <h3 class="to-animate">{{ with .Site.Params.work.uartitle }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ with .Site.Params.work.uartext }}{{ . | markdownify }}{{ end }}</h3>
+							<img src="images/uaruhr_map.jpg" height="320">
+						</div>
 					</div>
 				</div>
 

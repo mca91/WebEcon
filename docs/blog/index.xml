@@ -6,7 +6,7 @@
     <description>Recent content on Dates &amp; News</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <copyright>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mca91.github.io/WebEcon/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -37,7 +37,7 @@ This document is a brief primer on using go templates.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mca91.github.io/WebEcon/blog/overview/</guid>
-      <description>Courses  4   M8:
+      <description>Program Structure  4   M8:
 Master Thesis
 30 ECTS   3   M4:
 Time Series Analysis
