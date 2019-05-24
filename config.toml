@@ -45,7 +45,7 @@ publishDir = "docs"
   # Hero section
   [params.hero]
     title = "<it>Econometrics<it>"
-    subtitle = 'A Joint MSc Program of the Universities <br><br> TU Dortmund University <br> Ruhr University Bochum <br> University of Duisburg-Essen'
+    subtitle = 'A Joint MSc Program of the UA Ruhr Universities <br><br> TU Dortmund University <br> Ruhr University Bochum <br> University of Duisburg-Essen'
     
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -74,7 +74,9 @@ publishDir = "docs"
     title = "About the Program"
     description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is carried out jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's unique Faculty of Statistics. This bundling of training and research skills enables a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br>Students acquire the ability to combine their statistical methodological competence with their proficiency in economics and apply both in an interdisciplinary manner. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric questions. The program particularly supports research-interested students in developing theoretical-analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econmetrics thus prepares well for a career in econometrics, empirical economics research, evidence-based policy counselling, or operational research. Graduates receive a joint MSc degree from the four participating faculties.</span>"
     uartitle = "*University Alliance Ruhr*"
-    uartext = "The University Alliance Ruhr (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR is one of Germany's largest and most efficient science locations. It bundles interests of the members by initiating cooperations in research, teaching and administration. Both the education of economists and the economic research of the three participating universities benefit from these joint activities, in particular through the RWI - Leibniz Institute for Economic Research and the RGS - Ruhr Graduate School in Economics which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
+    uartext = "Despite being one of the youngest university regions in the country, the Ruhr region has the densest educational landscape in Europe with a total of 22 universities and colleges. The University Alliance Ruhr (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR alone is one of Germany's largest and most efficient science locations. It bundles interests of the members by initiating cooperations in research, teaching and administration. Both the education of economists and the economic research of the three participating universities benefit from these joint activities, in particular through the RWI - Leibniz Institute for Economic Research and the RGS - Ruhr Graduate School in Economics which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
+    ratitle = "*Studying and Living in the Ruhr Area*"
+    ratext = "Good news: both national and international students (including non-EU students) can study at the UAR universities for free -- there are *no tuition fees*. Students only have to pay a small fee to cover administrative costs and a semester ticket. Furthermore, the Ruhr area has everything required to make the most of student's life: affordable accommodation, jobs and a wide range of cultural, sporting and leisure activities. Moreover, with the semester ticket being valid for whole North Rhine-Westphalia one easily gets from place to place in the entire area quickly using public transportation. Attending several courses at different locations is thus no problem, even on the same day."
     footertext = ''
 
 #    [[params.work.row]]
@@ -134,14 +136,29 @@ publishDir = "docs"
   [params.contact]
     enable = true
     map = true
-    form = true
+    form = false
     title = "Contact"
-    description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators (via the contact form below)."
+    description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
-    details = [
-        ["icon-home", "Fakultät Statistik <br> Technische Universität Dortmund <br> Vogelpothsweg 87 <br> 44227 Dortmund"],
+    detailsStat = [
+        ["icon-home", "Fakulty of Statistics <br> TU Dortmund University <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
         ["icon-globe", '<a href="https://www.statistik.tu-dortmund.de" target="_blank">Faculty website</a>']
+      ]
+      
+     detailsWiWiDo = [
+        ["icon-home", "Faculty of Business and Economics <br> TU Dortmund University <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.tu-dortmund.de/wiwi/en/faculty/index.html" target="_blank">Faculty website</a>']
+      ]
+      
+    detailsWiWiRUB = [
+        ["icon-home", "Faculty of Management and Economics <br> Ruhr University Bochum <br> Universitätsstraße 150 <br> 44801 Bochum <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.ruhr-uni-bochum.de/index.html.en" target="_blank">Faculty website</a>']
+      ]
+      
+    detailsWiWiUDE = [
+        ["icon-home", "Faculty of Business Administration and Economics <br> University of Duisburg-Essen <br> Universitätsstrasse 12 <br> 45141 Essen <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.uni-due.de/en/" target="_blank">Faculty website</a>']
       ]
 
     name = "Name"

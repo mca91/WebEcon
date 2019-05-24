@@ -14,6 +14,11 @@ margin-bottom: 75px;
 box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.57);
 }
 
+.space {
+margin-top: 20px;
+margin-bottom: 75px;
+}
+
 #fh5co-work {
 margin-top: -320px;
 padding-bottom: 0;
@@ -30,6 +35,14 @@ height:100%;
 
 .section-heading .fh5co-about {
   padding-bottom:0;
+}
+
+.section-heading {
+  margin-bottom: 5px;
+}
+
+#fh5co-contact .fh5co-contact-info li  {
+  margin-bottom:0;
 }
 
 @media screen and (max-width: 992px) {
