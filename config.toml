@@ -124,6 +124,9 @@ publishDir = "docs"
       description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
       alt = "Person1"
+      social = [
+        ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
+      ]
 
     [[params.about.item]]
       name = "Christoph Hanck"
@@ -131,6 +134,19 @@ publishDir = "docs"
       description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research in confined with the analysis of nonstationary panel data and macroeconometrics. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "hanck.png"
       alt = "Person2"
+      social = [
+        ["icon-envelope", "mailto:christoph.hanck@vwl.uni-due.de"]
+      ]
+      
+    [[params.about.item]]
+      name = "Christoph M. Schmidt"
+      position = "Ruhr University Bochum"
+      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in Ph.D. 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. During his education he was awarded a Princeton University Fellowship (1987-1990), an Alfred P. Sloan Doctoral Dissertation Fellowship (1990-1991) and a habilitation fellowship of the DFG (1992-1995). Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
+      img = "schmidt.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-envelope", "mailto:schmidt@rwi-essen.de"]
+      ]
 
   # Contact section
   [params.contact]
@@ -142,7 +158,7 @@ publishDir = "docs"
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
-        ["icon-home", "Fakulty of Statistics <br> TU Dortmund University <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
+        ["icon-home", "Faculty of Statistics <br> TU Dortmund University <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
         ["icon-globe", '<a href="https://www.statistik.tu-dortmund.de" target="_blank">Faculty website</a>']
       ]
       

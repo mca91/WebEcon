@@ -45,6 +45,11 @@ height:100%;
   margin-bottom:0;
 }
 
+.fh5co-person {
+    margin-bottom: 100px;
+}
+  
+
 @media screen and (max-width: 992px) {
   .fh5co-person {
     margin-bottom: 3.5em;
@@ -122,7 +127,12 @@ height:100%;
 }
 
 .bb {
-  font-size:18px;font-weight:bold;line-height:200%
+  font-size:18px;
+  font-weight:bold;
+}
+
+.ilh {
+  line-height:140%;
 }
 
 .sbadge:hover {
