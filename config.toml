@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "MScEconometrics"
+baseurl = ""
+title = "MSc Econometrics"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
@@ -19,7 +19,7 @@ publishDir = "docs"
 
   # Navigation
   [params.navigation]
-    brand = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/UA-Ruhr_Logo.png" height="80">'
+    brand = ''
     home = "Home"
     work = "The Program"
     testimonials = "Testimonials"
@@ -53,25 +53,17 @@ publishDir = "docs"
 
   [[params.intro.item]]
     title = "Courses"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "cs/cs.html"
-    button = "Click Me"
+    description = "Get an overview over the program structure and more detailed information about the curriculum."
+    url = "blog/overview/"
+    button = "Course Overview"
     icon = "icon-compass"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Dates"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-calendar"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
     title = "Documents"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
+    description = "Further information on current conditions of study and admission requirements."
+    url = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
+    button = "Faculty Page"
     icon = "icon-notebook"
     img = "img_10.jpg"
 
@@ -80,85 +72,109 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "About the Program"
-    description = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet."
+    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is carried out jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's unique Faculty of Statistics. This bundling of training and research skills enables a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br>Students acquire the ability to combine their statistical methodological competence with their proficiency in economics and apply both in an interdisciplinary manner. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric questions. The program particularly supports research-interested students in developing theoretical-analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econmetrics thus prepares well for a career in econometrics, empirical economics research, evidence-based policy counselling, or operational research. Graduates receive a joint MSc degree from the four participating faculties.</span>"
+    uartitle = "*University Alliance Ruhr*"
+    uartext = "Despite being one of the youngest university regions in the country, the Ruhr region has the densest educational landscape in Europe with a total of 22 universities and colleges. The University Alliance Ruhr (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR alone is one of Germany's largest and most efficient science locations. It bundles interests of the members by initiating cooperations in research, teaching and administration. Both the education of economists and the economic research of the three participating universities benefit from these joint activities, in particular through the RWI - Leibniz Institute for Economic Research and the RGS - Ruhr Graduate School in Economics which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
+    ratitle = "*Studying and Living in the Ruhr Area*"
+    ratext = "Good news: both national and international students (including non-EU students) can study at the UAR universities for free -- there are *no tuition fees*. Students only have to pay a small fee to cover administrative costs and a semester ticket. Furthermore, the Ruhr area has everything required to make the most of student's life: affordable accommodation, jobs and a wide range of cultural, sporting and leisure activities. Moreover, with the semester ticket being valid for whole North Rhine-Westphalia one easily gets from place to place in the entire area quickly using public transportation. Attending several courses at different locations is thus no problem, even on the same day."
     footertext = ''
 
-    [[params.work.row]]
-      img = "UARuhrimage.jpg"
-      alt = "Image2"
-      title = ""
-      subtitle = ""
+#    [[params.work.row]]
+#      img = "UARuhrimage.jpg"
+#      alt = "Image2"
+#      title = ""
+#      subtitle = ""
       
-    [[params.work.row]]
-      img = "caffelatte.jpg"
-      alt = "Image2"
-      title = ""
-      subtitle = ""
+#    [[params.work.row]]
+#      img = "caffelatte.jpg"
+#      alt = "Image2"
+#      title = ""
+#      subtitle = ""
 
 # Services section
   [params.services]
+    link = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
     enable = true
-    title = "Requirements & Application Process"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
+    title = "Requirements & Application"
+    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. Deadline is **July 15, 2019**. We are looking forward towards your application!"
+    
     [[params.services.item]]
       title = "Qualifying Degrees"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    description = "The program is aimed at graduates which hold a BSc or equivalent degree in Economics, Mathematics, Statistics or a related discipline. At least 15 ECTS in each Economics, Mathematics or Statistics are required."
       icon = "icon-graduation"
 
     [[params.services.item]]
-      title = "Academic CV"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Academic Curriculum Vitae"
+      description = "Applicants must enclose a CV which focuses on their academic background. The CV must be submitted in electronic format and should not exceed a length of two pages."
       icon = "icon-layers2"
+      
     [[params.services.item]]
-      title = "Englisch-Language Certificate"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "English Language Proficiency"
+      description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English. We accept certificates for the following English-language tests: TOEFL paper- and pencil test, TOEFL internet-based test, International English Language Testing System (IELTS) - Academics."
       icon = "icon-badge"
 
   # About section
   [params.about]
     enable = true
     title = "Coordinators"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
       name = "Carsten Jentsch"
       position = "TU Dortmund University"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
       ]
 
     [[params.about.item]]
       name = "Christoph Hanck"
       position = "University of Duisburg-Essen"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research in confined with the analysis of nonstationary panel data and macroeconometrics. He is a member of the RGS Faculty at the Ruhr Graduate School in Economics."
       img = "hanck.png"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-envelope", "mailto:christoph.hanck@vwl.uni-due.de"]
+      ]
+      
+    [[params.about.item]]
+      name = "Christoph M. Schmidt"
+      position = "Ruhr University Bochum"
+      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in Ph.D. 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. During his education he was awarded a Princeton University Fellowship (1987-1990), an Alfred P. Sloan Doctoral Dissertation Fellowship (1990-1991) and a habilitation fellowship of the DFG (1992-1995). Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
+      img = "schmidt.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-envelope", "mailto:schmidt@rwi-essen.de"]
       ]
 
   # Contact section
   [params.contact]
     enable = true
     map = true
-    form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    form = false
+    title = "Contact"
+    description = "If you have any questions regarding the program, please feel free to contact the <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University or our coordinators."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
-    details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+    detailsStat = [
+        ["icon-home", "Faculty of Statistics <br> TU Dortmund University <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
+        ["icon-globe", '<a href="https://www.statistik.tu-dortmund.de" target="_blank">Faculty website</a>']
+      ]
+      
+     detailsWiWiDo = [
+        ["icon-home", "Faculty of Business and Economics <br> TU Dortmund University <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.tu-dortmund.de/wiwi/en/faculty/index.html" target="_blank">Faculty website</a>']
+      ]
+      
+    detailsWiWiRUB = [
+        ["icon-home", "Faculty of Management and Economics <br> Ruhr University Bochum <br> Universitätsstraße 150 <br> 44801 Bochum <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.ruhr-uni-bochum.de/index.html.en" target="_blank">Faculty website</a>']
+      ]
+      
+    detailsWiWiUDE = [
+        ["icon-home", "Faculty of Business Administration and Economics <br> University of Duisburg-Essen <br> Universitätsstrasse 12 <br> 45141 Essen <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.uni-due.de/en/" target="_blank">Faculty website</a>']
       ]
 
     name = "Name"
@@ -170,9 +186,4 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"></div>'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-      ]
+    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</div>'
