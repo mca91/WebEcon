@@ -148,13 +148,30 @@ Details of all courses currenlty offered can be found in the following table. Pl
 Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 3, sheet = "Kurslisten") %>%
   distinct(Kurs, Ort, .keep_all = T) %>% 
   mutate(Course = paste("<a href='", 
-                              `Link aktuelle Veranstaltungsübersicht`, 
-                              "'>", 
-                              Kurs,
-                              "</a>", 
-                              sep = "")) %>% 
-  rename(Location = Ort) %>%
-  select(Course, Location, Section)
+                        `Link aktuelle Veranstaltungsübersicht`, 
+                        "'>", 
+                        Kurs,
+                        "</a>", 
+                        sep = "")) %>% 
+  rename(Location = Ort)
+
+# Set a coming soon text for courses without URL
+Kurse[is.na(Kurse$`Link aktuelle Veranstaltungsübersicht`),] <- 
+  Kurse[is.na(Kurse$`Link aktuelle Veranstaltungsübersicht`),] %>% 
+  mutate(Course = paste(Kurs, "<br> New course! Page is coming soon.", 
+                        sep = "")) 
+
+Kurse[Kurse$Modulname == "Fortgeschrittene Ökonometrie",] <- 
+  Kurse[Kurse$Modulname == "Fortgeschrittene Ökonometrie",] %>% 
+  mutate(Course = paste("<a href='", `Link aktuelle Veranstaltungsübersicht`, 
+                        "'>", Kurs,"</a>","<br> Part of the module 'Advanced Econometrics'", sep = ""))
+
+# Set flag symbols
+Kurse$Sprache[Kurse$Sprache == "englisch"] <- emo::flag("United Kingdom")
+Kurse$Sprache[Kurse$Sprache == "deutsch"] <- emo::flag("Germany")
+Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- paste(emo::flag("Germany"), emo::flag("United Kingdom"))
+
+Kurse <- Kurse %>% select(Course, Location, Section, Sprache) %>% rename(Language = Sprache)
 
 kable(Kurse, escape = F, table.attr = 'id=\"table_id\"') %>%
   kable_styling(full_width = T, 
