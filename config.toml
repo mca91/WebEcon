@@ -110,7 +110,7 @@ publishDir = "docs"
       
     [[params.services.item]]
       title = "English Language Proficiency"
-      description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English. We accept certificates for the following English-language tests: TOEFL paper- and pencil test, TOEFL internet-based test, International English Language Testing System (IELTS) - Academics."
+      description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English (at least level B2). We accept certificates for the following English-language tests: TOEFL internet-based test 100, International English Language Testing System (IELTS) Band 6.5 or similar certificates."
       icon = "icon-badge"
 
   # About section
