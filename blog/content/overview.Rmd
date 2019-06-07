@@ -167,9 +167,9 @@ Kurse[Kurse$Modulname == "Fortgeschrittene Ökonometrie",] <-
                         "'>", Kurs,"</a>","<br> Part of the module 'Advanced Econometrics'", sep = ""))
 
 # Set flag symbols
-Kurse$Sprache[Kurse$Sprache == "englisch"] <- emo::flag("United Kingdom")
-Kurse$Sprache[Kurse$Sprache == "deutsch"] <- emo::flag("Germany")
-Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- paste(emo::flag("Germany"), emo::flag("United Kingdom"))
+Kurse$Sprache[Kurse$Sprache == "deutsch"] <- "🇩🇪"
+Kurse$Sprache[Kurse$Sprache == "englisch"] <- "🇬🇧"
+Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- "🇩🇪🇬🇧"
 
 Kurse <- Kurse %>% select(Course, Location, Section, Sprache) %>% rename(Language = Sprache)
 
