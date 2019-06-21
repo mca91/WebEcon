@@ -154,7 +154,7 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an email to info@econometrics.ruhr or directly contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University is also available for questions."
+    description = "If you have any questions about the program, please feel free to send an <a href='mailto:info@econometrics.ruhr'>email</a> or directly contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University is also available for questions."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
