@@ -1,4 +1,4 @@
-baseurl = "https://mca91.github.io/WebEcon/blog"
+baseurl = "https://www.econometrics.ruhr/blog/"
 title = "Dates & News"
 canonifyurls = true
 paginate = 10
