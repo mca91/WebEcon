@@ -96,7 +96,7 @@ publishDir = "docs"
     link = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
     enable = true
     title = "Requirements & Application"
-    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. **Deadline for international students is July 15, 2019**. We look forward to your application!"
+    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. <br><br> **Deadline** for applicants with a last relevant educational qualification from countries ***outside*** the European Union is **July 15, 2019**. <br><br> For applicants who have obtained their last relevant educational qualification in Germany (educational residents), the enrollment for the master program is accessible until the last Friday prior to the lecture period of the winter term. <br><br> For applicants with a qualification from a member state of the European Union, the application term is the same as for educational residents. <br><br> We look forward to your application!"
     
     [[params.services.item]]
       title = "Qualifying Degrees"
