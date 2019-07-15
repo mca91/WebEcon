@@ -105,7 +105,7 @@ publishDir = "docs"
 
     [[params.services.item]]
       title = "Academic Curriculum Vitae"
-      description = "Applicants submit a CV giving details on their academic background. The CV must be submitted electronically and should not exceed two pages."
+      description = "Applicants must submit a CV giving details on their academic background (should not exceed two pages)."
       icon = "icon-layers2"
       
     [[params.services.item]]
