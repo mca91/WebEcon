@@ -7,6 +7,7 @@ a {
 }
 
 .bbs {
+height:240px;
 margin-top: 20px;
 margin-bottom: 75px;
 -webkit-box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.57);
@@ -78,6 +79,14 @@ height:100%;
   
   .logosec {
     margin-bottom: 0px;
+  }
+  
+  .bbs {
+    height:200px;
+  }
+  
+  .space {
+    height:270px;
   }
 }
 

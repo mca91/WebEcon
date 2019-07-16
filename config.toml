@@ -72,7 +72,7 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "About the Program"
-    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is offered jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's only Faculty of Statistics. This unique combination of training and research skills allows to offer a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br><br>Students acquire the ability to combine methodological competence with proficiency in economics. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric issues. The program particularly supports research-interested students in developing analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econmetrics thus prepares well for a career in econometrics, empirical economic research, evidence-based policy consulting, or operational research.<br><br>Graduates receive a joint MSc degree from the four participating faculties.</span>"
+    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is offered jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's only Faculty of Statistics. This unique combination of training and research skills allows to offer a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br><br>Students acquire the ability to combine methodological competence with proficiency in economics. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric issues. The program particularly supports research-interested students in developing analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econometrics thus prepares well for a career in econometrics, empirical economic research, evidence-based policy consulting, or operational research.<br><br>Graduates receive a joint MSc degree from the four participating faculties.</span>"
     uartitle = "*University Alliance Ruhr*"
     uartext = "Despite being one of the youngest university regions in the country, the Ruhr region has the densest educational landscape in Europe with a total of 22 universities and colleges. The <a href='http://www.uaruhr.de/en/'>University Alliance Ruhr</a> (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR is Germany’s largest academic hub. It, among others, initiates cooperations in research, teaching and administration. Both the education of economists and economic research benefit from these joint activities, in particular through the <a href='http://en.rwi-essen.de/'>RWI</a> - Leibniz Institute for Economic Research and the <a href='http://rgs-econ.org/'>RGS</a> - Ruhr Graduate School in Economics, which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
     ratitle = "*Studying and Living in the Ruhr Area*"
@@ -96,7 +96,7 @@ publishDir = "docs"
     link = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
     enable = true
     title = "Requirements & Application"
-    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. **Deadline for international students is July 15, 2019**. We look forward to your application!"
+    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. Application beginns in June. <br><br> **Deadline** for applicants with a last relevant educational qualification from countries ***outside*** the European Union is **July 15, 2019**. <br><br> For applicants who have obtained their last relevant educational qualification in Germany (educational residents), the enrollment for the master program is accessible until the last Friday prior to the lecture period of the winter term. <br><br> For applicants with a qualification from a member state of the European Union, the application term is the same as for educational residents. <br><br> We look forward to your application!"
     
     [[params.services.item]]
       title = "Qualifying Degrees"
@@ -105,12 +105,12 @@ publishDir = "docs"
 
     [[params.services.item]]
       title = "Academic Curriculum Vitae"
-      description = "Applicants submit a CV giving details on their academic background. The CV must be submitted electronically and should not exceed two pages."
+      description = "Applicants must submit a CV giving details on their academic background (should not exceed two pages)."
       icon = "icon-layers2"
       
     [[params.services.item]]
       title = "English Language Proficiency"
-      description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English. We accept certificates for the following English-language tests: TOEFL paper- and pencil test, TOEFL internet-based test, International English Language Testing System (IELTS) - Academics."
+      description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English (at least level B2). We accept certificates for the following English-language tests: TOEFL internet-based test 100, International English Language Testing System (IELTS) Band 6.5 or similar certificates."
       icon = "icon-badge"
 
   # About section
@@ -145,7 +145,7 @@ publishDir = "docs"
       img = "schmidt.jpg"
       alt = "Person2"
       social = [
-        ["icon-envelope", "mailto:schmidt@rwi-essen.de"]
+        ["icon-envelope", "mailto:info@econometrics.ruhr"]
       ]
 
   # Contact section
@@ -154,7 +154,7 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions regarding the program, please feel free to contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University is also available for questions."
+    description = "If you have any questions about the program, please feel free to send an <a href='mailto:info@econometrics.ruhr'>email</a> or directly contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University is also available for questions."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
@@ -186,4 +186,4 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><div><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</div>'
+    copyright = '<br><div><img src="images/uaruhr.png" height="55" hspace="20"><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</div>'
