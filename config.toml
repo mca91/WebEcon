@@ -45,7 +45,7 @@ publishDir = "docs"
   # Hero section
   [params.hero]
     title = "<it>Econometrics<it>"
-    subtitle = 'A Joint MSc Program of the UA Ruhr Universities <br><br> TU Dortmund University <br> Ruhr University Bochum <br> University of Duisburg-Essen'
+    subtitle = 'A Joint MSc Program of the UA Ruhr Universities <br><br> TU Dortmund <br> Ruhr University Bochum <br> University of Duisburg-Essen'
     
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -120,8 +120,8 @@ publishDir = "docs"
 
     [[params.about.item]]
       name = "Carsten Jentsch"
-      position = "TU Dortmund University"
-      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics."
+      position = "TU Dortmund"
+      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
       alt = "Person1"
       social = [
@@ -131,7 +131,7 @@ publishDir = "docs"
     [[params.about.item]]
       name = "Christoph Hanck"
       position = "University of Duisburg-Essen"
-      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics."
+      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "hanck.png"
       alt = "Person2"
       social = [
@@ -154,16 +154,16 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an <a href='mailto:info@econometrics.ruhr'>email</a> or directly contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> at TU Dortmund University is also available for questions."
+    description = "If you have any questions about the program, please feel free to send an <a href='mailto:info@econometrics.ruhr'>email</a> or directly contact our coordinators. The <a href='https://www.statistik.tu-dortmund.de/fachschaftsrat_eng.html'>student council</a> @ TU Dortmund is also available for questions."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
-        ["icon-home", "Faculty of Statistics <br> TU Dortmund University <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
+        ["icon-home", "Faculty of Statistics <br> TU Dortmund <br> Vogelpothsweg 87 <br> 44227 Dortmund <br> Germany"],
         ["icon-globe", '<a href="https://www.statistik.tu-dortmund.de" target="_blank">Faculty website</a>']
       ]
       
      detailsWiWiDo = [
-        ["icon-home", "Faculty of Business and Economics <br> TU Dortmund University <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
+        ["icon-home", "Faculty of Business and Economics <br> TU Dortmund <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
         ["icon-globe", '<a href="https://www.wiwi.tu-dortmund.de/wiwi/en/faculty/index.html" target="_blank">Faculty website</a>']
       ]
       
