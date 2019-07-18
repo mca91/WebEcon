@@ -163,9 +163,9 @@ Kurse <- Kurse %>% mutate(Course = ifelse(MHB == "NA",
                                         Course)))
 
 # Set flag symbols
-Kurse$Sprache[Kurse$Sprache == "deutsch"] <- "&#x1F1E9;&#x1F1EA;"
-Kurse$Sprache[Kurse$Sprache == "englisch"] <- "&#x1F1EC;&#x1F1E7;"
-Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- "&#x1F1E9;&#x1F1EA; &#x1F1EC;&#x1F1E7;"
+Kurse$Sprache[Kurse$Sprache == "deutsch"] <- "DE"
+Kurse$Sprache[Kurse$Sprache == "englisch"] <- "EN"
+Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- "DE/EN"
 
 Kurse <- Kurse %>% select(Course, Location, Section, Sprache) %>% rename(Language = Sprache)
 
