@@ -152,6 +152,7 @@
                     {{ end }}
                   </ul>
                   <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+                  <p style="text-align:center">{{ with $.Param "imprint" }}{{ . | markdownify }}{{ end }} | {{ with $.Param "prpolicy" }}{{ . | markdownify }}{{ end }}</p>
                 </div>
             </div>
         </div>

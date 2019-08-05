@@ -15,5 +15,10 @@
 					</ul>
 				</div>
 			</div>
+			<div class="">
+			  <div class="col-md-12 text-center">
+					<p>{{ with .Site.Params.footer.imprint }}{{ . | markdownify }}{{ end }} | {{ with .Site.Params.footer.prpolicy }}{{ . | markdownify }}{{ end }}</p>
+				</div>
+			</div>
 		</div>
 	</footer>

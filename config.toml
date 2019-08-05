@@ -187,3 +187,5 @@ publishDir = "docs"
   [params.footer]
     enable = true
     copyright = '<br><div><img src="images/uaruhr.png" height="55" hspace="20"><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="60"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</div>'
+    imprint = '<a href="https://www.statistik.tu-dortmund.de/impressum0.html" target="_blank">Imprint</a>'
+    prpolicy = '<a href="https://www.statistik.tu-dortmund.de/datenschutzerklaerung0.html" target="_blank">Privacy Policy</a>'

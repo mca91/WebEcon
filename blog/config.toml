@@ -7,7 +7,6 @@ languageCode = "en-us"
 copyright = "The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages."
 publishDir = "../docs/blog/"
 
-
 [author]
   name = "Martin Arnold"
 
@@ -17,6 +16,8 @@ publishDir = "../docs/blog/"
   Author = ""
   email = ""
   Ganalytics = "XX-00000000-0"
+  imprint = '<a href="https://www.statistik.tu-dortmund.de/impressum0.html" target="_blank">Imprint</a>'
+  prpolicy = '<a href="https://www.statistik.tu-dortmund.de/datenschutzerklaerung0.html" target="_blank">Privacy Policy</a>'
   # This will load all the CSS defined in the list
   # customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
 
