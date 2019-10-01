@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+
+    <title>Dates &amp; News</title>
+
+    
+
+    
+    <link href="/blog/blog//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/blog/blog//css/clean-blog.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script type="text/javascript">
+         $(document).ready(function() {
+             $("#table_id").DataTable({
+               dom: '<f<t>ip>',
+               pageLength: 20
+             });
+         });
+    </script>
+    <script type="text/javascript">
+    
+    $(document).ready(function(){  
+      $('.sec').not("#standarddiv").hide();
+      
+      $('.show').click(function () {
+        
+        var t = $(this).attr('target');
+
+        if($(this).hasClass("show-active")) {
+          
+          $(this).removeClass("show-active");
+          $('div[target=' + t + ']').removeClass("show-active");
+         
+          $('#standarddiv').fadeIn(400).siblings('.sec').fadeOut(0);
+        } else {
+          $("div.show-active").removeClass("show-active");
+          $('div[target=' + t + ']').addClass("show-active");
+          $('#section' + $(this).attr('target')).fadeIn(400).siblings('.sec').fadeOut(0);
+        }
+      });
+      
+      
+
+    });
+    </script>
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.econometrics.ruhr/">MSc Econometrics</a>
+            </div>
+        </div>
+        
+    </nav>
+
+    <header id="fh5co-home" data-section="home" class="intro-header" style="background-image: url('/blog//img/full_image_2.jpg');" data-stellar-background-ratio="0.1">
+      <div class="gradient-post"></div>
+      <div class="slant"></div>
+    </header>
+
+	    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-md-offset-1">
+                  
+
+<h1 id="program-structure">Program Structure</h1>
+
+<div class="banner">
+  
+  <div class = "term"><p>4</p></div>
+  <div class = "m orange show" target="1"><p>ME8:<br>Master Thesis<br>30 ECTS</p></div>
+
+<p><div class = "term"><p>3</p></div>
+  <div class = "w yellow l show" target="2"><p>ME4:<br> Time Series Analysis<br>10 ECTS</p></div>
+  <div class = "w red show" target="3"><p>ME6:<br>Applied Econometrics<br>11 - 25 ECTS</p></div>
+  <div class = "w purple show" target="5"><p>ME5:<br>Economics<br>11 - 25 ECTS</p></div></p>
+
+<p><div class = "term"><p>2</p></div>
+  <div class = "w yellow l show" target="8"><p>ME2:<br>Econometrics<br>10 ECTS</p></div>
+  <div class = "red show" target="3"><p>ME6:<br>Applied Econometrics</p></div>
+  <div class = "green show" target="6"><p>ME7:<br>Econometric Methods</p></div>
+  <div class = "w yellow show" target="9"><p>ME3:<br>Case Studies<br>8 ECTS</p></div></p>
+
+<p><div class = "term"><p>1</p></div>
+  <div class="wider yellow l show" target="7"><p>ME1:<br> Statistical Theory<br>15 ECTS</p></div>
+  <div class = "w green show" target="6"><p>ME7:<br>Econometric Methods<br>11 - 25 ECTS</p></div>
+  <div class = "purple show" target="5"><p>ME5:<br>Economics</p></div>
+</div></p>
+
+<div class="cont">
+  <div class="sec" id="section1">
+  <h3>ME8: Master Thesis</h3>
+  <p class = "text_ml">
+  The master thesis demonstrates that students are able to independently apply and adapt scientific methods to an econometric problem within a given period of time. The processing time is six months. Topics for final theses are offered each semester by several university lecturers, so that students can choose between different offers. Students can also make their own suggestions for topics.</p>
+  </div>
+  <div class="sec" id="section2">
+  <h3>ME4: Time Series Analysis</h3>
+  <p class = "text_ml">
+  The course initially covers methods of descriptive time series analysis. Then, structural theory and estimation of time series models are discussed. Core topics include approximation and elimination of trends, the theory of linear filters, ‘naive’ forecasting, exponential smoothing, stationary stochastic processes, optimal linear forecasts, ARMA-
+processes, the autocorrelation function, model identification and parameter estimation in the time domain.
+  </p>
+  </div>
+  <div class="sec" id="section3">
+  <h3>ME6: Applied Econometrics</h3>
+  <p class = "text_ml">
+  ME6 includes courses that focus on the application of advanced econometric methods to selected economic problems whereby emphasis is typically set on acquisition, processing and analysis of real data sets. In many courses, participants acquire in-depth knowledge in statistical programming.
+  <ul>
+    <li>Econometric Analysis Electricity and Financial Markets</li>
+    <li>Applied Time Series Analysis in Macroeconometrics</li>
+    <li>Topics in Economic Policy Evaluation</li>
+    <li>Microeconometrics in Health Economics</li>
+    <li>Econometric Applications in Monetary Economics</li>
+  </ul>
+  </p>
+  </div>
+  <div class="sec" id="section4">
+  <h3>Electives</h3>
+  <p class = "text_ml">
+  Participants acquire knowledge about current theoretical developments in micro- or macroeconomics, applied econometrics and econometric methods by attending selected courses from blocks <b>ME5: Economics</b>, <b>ME6: Applied Econometrics</b> and <b>ME7: Econometric Methods</b>. Focus lies on the discussion, adaptation and application of various econometric tools on the one hand and on advanced and up-to-date topics of economic interest on the other hand.
+.</p>
+  </div>
+  <div class="sec" id="section5">
+  <h3>ME5: Economics</h3>
+  <p class = "text_ml">
+  Many econometric methods have been developed in line with developments in economics. Therefore, it is important for our students to be familiar with more recent theoretical developments and thus potential areas of application of econometric methods. Depending on the field of interest, the courses have a micro- or macroeconomic orientation. The curriculum covers a variety of courses from the following disciplines: 
+  <ul>
+    <li>Applied Macro- and Microeconomics</li>
+    <li>Dynamic Macroeconomics</li>
+    <li>Game Theory</li>
+    <li>Health Economics</li>
+    <li>Public Economics</li>
+    <li>Financial Economics</li>
+  </ul>
+  </p>
+  </div>
+  <div class="sec" id="section6">
+  <h3>ME7: Econometric Methods</h3>
+  <p class = "text_ml">
+  Modules in ME7 have a strong methodological orientation, i.e. students have the opportunity to acquire in-depth knowledge of econometric methods in selected fields, for example:
+  <ul>
+    <li>Stochastic Processes</li>
+    <li>Unit Root and Cointegration Analysis</li>
+    <li>Analysis of Big Data and Machine Learning</li>
+    <li>Bayesian Econometrics</li>
+    <li>Multivariate Statistical Methods</li>
+    <li>Advanced Microeconometrics</li>
+  </ul>
+  </p>
+  </div>
+  <div class="sec" id="section7">
+  <h3>ME1: Statistical Theory</h3>
+  <p>
+  <p class = "text_ml">
+  Participants learn to use the formal language of statistics and gain knowledge of fundamental concepts in stochastic, decision theory and asymptotic theory which are required in order to analyze, apply and further develop statistical procedures.
+  <br>
+  <br>
+  ME1 consists of the following courses:
+  </p>
+  <p class = "tab"><b>_ Probability Theory (ME1a)</b></p> 
+  <p class = "text_ml">
+  An introduction to measure theory and concepts in stochastic which are necessary to formalize the questions discussed in statistical theory.
+  </p>
+  <p class = "tab"><b>_ Decision Theory (ME1b)</b></p>
+  <p class = "text_ml">
+  Introduces the basic concepts associated with statistical tests.
+  </p>
+  <p class = "tab"><b>_ Probability Theory (ME1c)</b></p>
+  <p class = "text_ml">
+  Deals with asymptotic properties of statistical methods and presents various central limit theorems used in statistics.
+  </p>
+  </p>
+  </div>
+  <div class="sec" id="section8">
+  <h3>ME2: Econometrics</h3>
+  <p class = "text_ml">
+  ME2 deals with a wide range of fundamental econometric methods. Special emphasis is placed on asymptotic results to allow for a general discussion of the statistical properties of these methods. The main focus lies on a formally precise description of the concepts. Topics include the linear regression model, the generalized linear regression model, maximum likelihood estimation and inference, asymptotic theory, endogenous regressors, instrumental variables, generalized method of moments and regression models for time series data, among others.</p>
+  </div>
+  <div class="sec" id="section9">
+  <h3>ME3: Case Studies</h3>
+  <p class = "text_ml">
+  The participants solve statistical problems in larger group projects, usually using raw economic data. They are trained in applied research and acquire skills in presenting statistical results and various interdisciplinary qualifications such as teamwork and know-how in project management, communication and consulting. Furthermore, students expand their methodological knowledge and gather experience in statistical programming.</p>
+  </div>
+<div class="sec" id="standarddiv">
+<h3>Overview</h3>
+<p class = "text_ml">The four-semester master's program in econometrics is divided into compulsory modules, elective courses and closes with the master thesis. In four compulsory modules (ME1 - ME4) with a total amount of 43 credit points, you acquire a sound knowledge in  statistics, econometrics and time series analysis. The core curriculum also conveys skills in applied research, statistical programming, research project management and statistical consulting. 
+<br>
+<br>
+Elective modules (ME5 - ME6) train students in economic theory (ME5) provide further specialization in applied (ME6) and theoretical econometrics (ME7). In ME6 and ME7, students focus on a specific field of research according to their individual preferences. This results in a flexible number of credits to be acquired by electives, which must, however, amount to a minimum of 11 and a maximum of 25 credit points in each of the elective module areas. 
+<br>
+<br>
+While core modules and many electives are taught in English, students have the opportunity to attend selected German-language courses.
+<br>
+<br>
+Further information on the individual course areas can be viewed by clicking in the interactive semester plan above. Please note that the above plan is for orientation only. Students are free to decide in which order they complete core courses and elective modules. 
+<br>
+<br>
+Details of all courses offered can be found in the following table. Please note that this list will be updated regularly.
+</p>
+</div>
+</div>
+
+<table id="table_id" class="table table-striped table-hover table-responsive" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Course </th>
+   <th style="text-align:left;"> Location </th>
+   <th style="text-align:left;"> Section </th>
+   <th style="text-align:left;"> Language </th>
+   <th style="text-align:left;"> Winter 19 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=45">Advanced Forecasting in Energy Markets</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.uee.wiwi.uni-due.de/studium-lehre/wintersemester-1819/afem-10695/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=66">Bayesian Econometrics</a><br> Course in the module 'Fortgeschrittene Ökonometrie' </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11312/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=68">Causality and Programme Evaluation</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.goek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-19/10840/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=46">Entscheidungstheorie</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.mikro.wiwi.uni-due.de/studium-lehre/veranstaltungsuebersicht/wintersemester-1920/11078/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="../../404.html">Econometrics II</a><br> New course. More info coming soon! </td>
+   <td style="text-align:left;"> MSM/RGS </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://rgs-econ.org/courses/current/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=54">Econometrics of Electricity Markets</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.uee.wiwi.uni-due.de/studium-lehre/wintersemester-1920/eem-10700/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=55">Empirische Bilanzanalyse</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.stat.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-19/10770/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=56">Empirische Methoden</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.stat.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11812/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=66">Statistical Modelling of Extremes</a><br> Course in the module 'Fortgeschrittene Ökonometrie' </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1718/9065/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=57">Financial Mathematics</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lef.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11839/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=58">Financial Risk Management</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lef.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/frm-11841/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=59">Inequality in Health</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.goek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11737/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=48">International Capital Movements</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.iwb.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-19/icm-11052/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=60">Mikroökonometrie / Microeconometrics</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.fiwi.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-19/10734/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=66">Nonparametric Econometrics</a><br> Course in the module 'Fortgeschrittene Ökonometrie' </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1516/7498/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=62">Portfolio Management</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE/EN </td>
+   <td style="text-align:left;"> <a href="https://www.uee.wiwi.uni-due.de/studium-lehre/sommersemester-18/10202/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=63">Quantitative Modelle internationaler Wirtschaftsbeziehungen</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.iwb.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/qm-iwb-11044/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=65">Quantitative Climate Finance</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lef.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-2019/qcf-11420/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=49">Neuere Entwicklungen der Mikroökonomik</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.mikro.wiwi.uni-due.de/studium-lehre/veranstaltungsuebersicht/wintersemester-1920/11076/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=71">Stichprobentheorie</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://campus.uni-due.de/lsf/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=261661&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=70">Fachseminar Ökonometrische Methoden</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11297/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=50">Fachseminar Soziale Sicherung und Besteuerung: Empirische Studien und eigene Projekte</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.fiwi.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11621/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=66">Statistical Learning</a><br> Course in the module 'Fortgeschrittene Ökonometrie' </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-18/10131/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=73">Statistisches Seminar</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.stat.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-19/10768/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=52">Stock Market Anomalies and Quantitative Trading Strategies</a> </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.fin.wiwi.uni-due.de/studium-lehre/sommersemester-19/10628/">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="../../404.html">Advanced R for Econometricians</a><br> New course. More info coming soon! </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11648/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="../../404.html">Practising Econometric Research</a><br> New course. More info coming soon! </td>
+   <td style="text-align:left;"> Essen </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.oek.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/wintersemester-1920/11735/">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=30">Advanced Business Cycle Analysis</a><br> Course in the module 'Applied Economics III' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.tu-dortmund.de/wiwi/ae/de/lehre/veranstalt/sose/abc/index.html">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Advanced Econometrics</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE/EN </td>
+   <td style="text-align:left;"> <a href="https://www.statistik.tu-dortmund.de/advecx-17181.html">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=35">Applied Macroeconometrics</a><br> Course in the module 'Applied Economics II' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE/EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.tu-dortmund.de/wiwi/ae/de/lehre/veranstalt/sose/am/index.html">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=34">Applied Monetary Economics</a><br> Course in the module 'Applied Economics I' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> DE/EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.tu-dortmund.de/wiwi/ae/de/lehre/veranstalt/ws/ame/index.html">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=36">Quantitative Finance</a><br> Course in the module 'Finance I' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.finance.wiwi.tu-dortmund.de/cms/index.php/lehre/sommersemester/ma-finance-i">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=32">Auctions: Theory, Applications and Experiments</a><br> Course in the module 'Mikroökonomie II' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://moodle.tu-dortmund.de/pluginfile.php/462483/mod_resource/content/3/Aushang.pdf">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Bayes-Statistik</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.statistik.tu-dortmund.de/biometrie-lehre.html">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=31">Dynamic Macroeconomics</a><br> Course in the module 'Makroökonomie IV' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=213729&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=6">Econometrics</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME2 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.statistik.tu-dortmund.de/iwus-lehre.html">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=32">Economics of Information</a><br> Course in the module 'Mikroökonomie II' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214260&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung#basicdata">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=7">Case Studies</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME3 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214854&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=37">Financial Econometrics</a><br> Course in the module 'Finance III' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=213288&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=33">Game Theory</a><br> Course in the module 'Mikroökonomie IV' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.tu-dortmund.de/wiwi/mik/de/lehre/veranstalt/ws_18_19/Game-Theory/index.html">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=42">Maschinelles Lernen</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=213687&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=39">Microeconometrics and Empirical Applications</a><br> Course in the module 'Wirtschaftspolitik II' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE/EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214597&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=38">Reserach Topics in Finance, Risk- and Resourcemanagement</a><br> Course in the module 'Finance V' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.finance.wiwi.tu-dortmund.de/cms/index.php/lehre/sommersemester/ma-finance-v">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Robuste Statistik</a><br> Course in the module 'Advanced Topics in Econometric Methods' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=205908&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=32">Seminar in Economic Theory I</a><br> Course in the module 'Mikroökonomie II' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214253&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Sequentielle Verfahren</a><br> Course in the module 'Advanced Topics in Econometric Methods' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=205961&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=3">Statistical Theory: Probability Theory</a><br> Course in the module 'Statistical Theory' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME1a </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=216374&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=4">Statistical Theory:
+ Decision Theory</a><br> Course in the module 'Statistical Theory' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME1b </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=216374&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=5">Statistical Theory: Asymptotic Theory</a><br> Course in the module 'Statistical Theory' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME1c </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=216374&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Stochastische Prozesse</a><br> Course in the module 'Advanced Topics in Econometric Methods' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=205958&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=9">Time Series Analysis</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME4 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214819&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=40">Unit Root and Cointegration Analysis</a><br> Course in the module 'Advanced Topics in Econometric Methods' </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.statistik.uni-dortmund.de/unitroot.html">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=43">Wissensentdeckung in Datenbanken</a> </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=205916&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="../../404.html">Seminar: Zeitreihenökonometrie</a><br> New course. More info coming soon! </td>
+   <td style="text-align:left;"> Dortmund </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> DE </td>
+   <td style="text-align:left;"> <a href="https://www.lsf.tu-dortmund.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=216376&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=21">Applied Time Series Analysis</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?objgguid=NEW&amp;from=vvz&amp;gguid=0xCC1FB41925784F35BACCF4DA32DBE77C&amp;mode=own&amp;tguid=0x087BAEBB97CE4AFFAC06DEF51A4FDB0C&amp;lang=de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=18">Current Topics in Health Economics</a> </td>
+   <td style="text-align:left;"> Bochum/RGS </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?gguid=0x240C98B342A04880AA1E05304D3986B5&amp;from=&amp;tabID=2&amp;tguid=0x087BAEBB97CE4AFFAC06DEF51A4FDB0C&amp;objgguid=NEW&amp;lang=de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=22">Data Analysis Using Stata</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?gguid=0x2133DD1B5E6F404198A0D2B9CF0576CB&amp;from=vvz&amp;mode=own&amp;tabID=1&amp;tguid=0xF13C2A4A39064F2295BE2AE837945F8E&amp;objgguid=NEW&amp;lang=de">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=23">Econometric Evaluation of Economic Policies</a> </td>
+   <td style="text-align:left;"> Bochum/RGS </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?gguid=0xA20A5CE13CFF46DCBC811B43F4E8B654&amp;from=&amp;tabID=1&amp;tguid=0x087BAEBB97CE4AFFAC06DEF51A4FDB0C&amp;objgguid=NEW&amp;lang=de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=25">Financial Econometrics</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.rub.de/statoek/lehre/wise17.html.de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=26">Microeconometrics</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?objgguid=NEW&amp;from=vvz&amp;gguid=0xE5C9AAAD7E0E4E94A9BB78A0E4BEB17D&amp;mode=own&amp;tguid=0x087BAEBB97CE4AFFAC06DEF51A4FDB0C&amp;lang=de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=19">Public Economics</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?objgguid=NEW&amp;from=vvz&amp;gguid=0xC9106940378E4BBEA399F57DEEF8A2F5&amp;mode=own&amp;tguid=0x087BAEBB97CE4AFFAC06DEF51A4FDB0C&amp;lang=de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=29">Seminar in Applied Economic Policy</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?objgguid=NEW&amp;from=&amp;gguid=0x83FC011F2435404D90D567CD7E7D3BE0&amp;mode=&amp;tguid=0xF13C2A4A39064F2295BE2AE837945F8E&amp;lang=de">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=28">Seminar in Econometrics</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.ruhr-uni-bochum.de/wipooek/lehre/ss19.html.de">no</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=24">Seminar in Microeconometrics</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME6 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?gguid=0xDA5AE524C2A74B25B0225B169340803C&amp;from=&amp;tabID=1&amp;tguid=0xF13C2A4A39064F2295BE2AE837945F8E&amp;objgguid=NEW&amp;lang=de">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=20">Seminar on Health Economics and Health Policy: Population Ageing and its Challenges for Health Systems</a> </td>
+   <td style="text-align:left;"> Bochum/RGS </td>
+   <td style="text-align:left;"> ME5 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="https://vvz.ruhr-uni-bochum.de/campus/all/event.asp?gguid=0x7950DEE2E13548C0AFB697A59C5F7278&amp;from=&amp;tabID=1&amp;tguid=0xF13C2A4A39064F2295BE2AE837945F8E&amp;objgguid=NEW&amp;lang=de">yes</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 25em; font-weight: bold;"> <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page=27">Multivariate Statistical Methods</a> </td>
+   <td style="text-align:left;"> Bochum </td>
+   <td style="text-align:left;"> ME7 </td>
+   <td style="text-align:left;"> EN </td>
+   <td style="text-align:left;"> <a href="http://www.wiwi.rub.de/statoek/lehre/wise18.html.de">no</a> </td>
+  </tr>
+</tbody>
+</table>
+
+                </div>
+            </div>
+        </div>
+    	</article>
+
+    <hr>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages.</p>
+                  <p style="text-align:center"><a href="https://www.statistik.tu-dortmund.de/impressum0.html" target="_blank">Imprint</a> | <a href="https://www.statistik.tu-dortmund.de/datenschutzerklaerung0.html" target="_blank">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="/blog/blog//js/bootstrap.min.js"></script>
+
+    
+    <script src="/blog/blog//js/clean-blog.js"></script>
+    
+    
+    <link href="../css/custom.css" rel="stylesheet">
+
+    
+
+</body>
+
+</html>

@@ -141,7 +141,7 @@ While core modules and many electives are taught in English, students have the o
 Further information on the individual course areas can be viewed by clicking in the interactive semester plan above. Please note that the above plan is for orientation only. Students are free to decide in which order they complete core courses and elective modules. 
 <br>
 <br>
-Details of all courses currently offered can be found in the following table. Please note that this list will be updated regularly.
+Details of all courses offered can be found in the following table. Please note that this list will be updated regularly.
 </p>
 </div>
 </div>
@@ -149,11 +149,15 @@ Details of all courses currently offered can be found in the following table. Pl
 ````{r, echo = F}
 mhb_baseurl <- 'https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page='
 
-Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 3, sheet = "Kurslisten") %>%
+Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 2, sheet = "Kurslisten") %>%
   distinct(Kurs, Ort, .keep_all = T) %>% 
   mutate(Course = paste("<a href='", mhb_baseurl, MHB, "'>", Kurs, "</a>", 
-                        sep = "")) %>% 
-  rename(Location = Ort)
+                        sep = "")) %>%
+  mutate('aktuell_angeboten' = paste("<a href='", Link_aktuelle_Veranstaltungsuebersicht, "'>", aktuell_angeboten, "</a>", 
+                        sep = "")) %>%
+  rename(Location = Ort, 
+         Language = Sprache,
+         'Winter 19' = 'aktuell_angeboten')
 
 # Set a 'coming soon' text for courses without URL and add link to 404 page. Add comment if module name is different than course name
 Kurse <- Kurse %>% mutate(Course = ifelse(MHB == "NA",
@@ -162,16 +166,22 @@ Kurse <- Kurse %>% mutate(Course = ifelse(MHB == "NA",
                                         paste("<a href='", mhb_baseurl, MHB, "'>", Kurs, "</a>", "<br> Course in the module '", Modulname, "'", sep = ""),
                                         Course)))
 
-# Set flag symbols
-Kurse$Sprache[Kurse$Sprache == "deutsch"] <- "DE"
-Kurse$Sprache[Kurse$Sprache == "englisch"] <- "EN"
-Kurse$Sprache[Kurse$Sprache == "deutsch/englisch"] <- "DE/EN"
+# abbrev. course sections
+Kurse$Section[Kurse$Section == 'ME5 (Economics)'] <- 'ME5'
+Kurse$Section[Kurse$Section == 'ME6 (Applied Econometrics)'] <- 'ME6'
+Kurse$Section[Kurse$Section == 'ME7 (Econometric Methods)'] <- 'ME7'
 
-Kurse <- Kurse %>% select(Course, Location, Section, Sprache) %>% rename(Language = Sprache)
+# set flag symbols
+Kurse$Language[Kurse$Language == "deutsch"] <- "DE"
+Kurse$Language[Kurse$Language == "englisch"] <- "EN"
+Kurse$Language[Kurse$Language == "deutsch/englisch"] <- "DE/EN"
+
+# select columns of interest
+Kurse <- Kurse %>% select(Course, Location, Section, Language, 'Winter 19') 
 
 kable(Kurse, escape = F, table.attr = 'id=\"table_id\"') %>%
   kable_styling(full_width = T,
                 bootstrap_options = c("striped", "hover", "responsive")) %>%
-  column_spec(1, bold = T, border_right = F, width = "25em") %>%
+  column_spec(1, bold = T, border_right = F, width = "15em") %>%
   column_spec(2, border_right = F)
 ```
