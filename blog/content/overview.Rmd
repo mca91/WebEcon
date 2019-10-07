@@ -149,7 +149,9 @@ Details of all courses offered can be found in the following table. Please note 
 ````{r, echo = F}
 mhb_baseurl <- 'https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page='
 
-Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 2, sheet = "Kurslisten") %>%
+#mhb_baseurl <- "file:///Users/Martin/Desktop/ModHb_Msc_ECMX_2019.pdf#page="
+
+Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 2, sheet = "Kursliste") %>%
   distinct(Kurs, Ort, .keep_all = T) %>% 
   mutate(Course = paste("<a href='", mhb_baseurl, MHB, "'>", Kurs, "</a>", 
                         sep = "")) %>%
