@@ -38,7 +38,7 @@ publishDir = "docs"
 
     # postpended links
     [[menu.postpend]]
-      url = "blog/FAQs"
+      url = "blog/faqs"
       name = "FAQs"
       weight = 10
   
