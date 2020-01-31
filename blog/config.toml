@@ -7,6 +7,9 @@ languageCode = "en-us"
 copyright = "The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages."
 publishDir = "../docs/blog/"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
 [author]
   name = "Martin Arnold"
 

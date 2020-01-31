@@ -6,7 +6,8 @@ layout: "overview-static"
 <style>
 p {
     line-height: 1.6;
-    margin: 20px 0;
+    margin: 18px 0;
+    font-size: 18px;
 }
 </style>
 
@@ -54,7 +55,7 @@ Course dates and locations can be found in the online lecture catalogs:
 It is often worthwhile to visit the website of the respective chair for further details on the schedule.
 
 
-#### **Which living costs should I roughly expect when studying in Germany?**
+#### **Which living costs should I roughly expect when studying in the Ruhr area?**
 
 You should expect to spend a minimum of 750 € to 850 € per month for <it>basic expenses</it>. The costs can be broken down roughly as follows:
 

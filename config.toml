@@ -5,6 +5,9 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
 [params]
   
   custom_css = ["css/custom1.css", "css/custom2.css"]
