@@ -70,6 +70,11 @@ publishDir = "docs"
     icon = "icon-notebook"
     img = "img_10.jpg"
 
+  [params.intro.video]
+    enable = true
+    title = "Watch the image video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/402217230"
 
   # Work section
   [params.work]
