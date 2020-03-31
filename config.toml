@@ -74,7 +74,7 @@ publishDir = "docs"
     enable = true
     title = "Watch the image video"
     icon = "icon-play2"
-    url = "https://vimeo.com/402217230"
+    url = "https://player.vimeo.com/video/402217230"
 
   # Work section
   [params.work]
