@@ -63,6 +63,10 @@ height:100%;
 .fh5co-person {
     margin-bottom: 100px;
 }
+
+#fh5co-home, #fh5co-home .text-wrap {
+  height:650px;
+}
   
 @media screen and (max-width: 992px) {
   .fh5co-person {
