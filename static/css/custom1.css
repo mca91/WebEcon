@@ -63,11 +63,15 @@ height:100%;
     margin-bottom: 100px;
 }
   
-
 @media screen and (max-width: 992px) {
   .fh5co-person {
     margin-bottom: 3.5em;
     margin-left: 0px;
+  }
+  
+  .imagev {
+    width:640px;
+    height:480px;
   }
   
   .logos {

@@ -4,7 +4,7 @@
 		  {{ if .Site.Params.intro.video.enable }}
 			<div class="row watch-video text-center to-animate">
 			  <span><h3> {{.Site.Params.intro.video.title | markdownify }} </h3></span>
-			  <iframe src="{{ .Site.Params.intro.video.url }}" width="750" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			  <iframe src="{{ .Site.Params.intro.video.url }}" class = "imagev" width="750" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			</div>
 			{{ end }}
 		  
