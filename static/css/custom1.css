@@ -30,13 +30,17 @@ width: 50%;
 height:100%;
 }
 
+#fh5co-intro {
+  margin-top:0;
+}
+
 #fh5co-intro .animated {
   padding-bottom:60px;
 }
 
 
 #fh5co-intro .row-bottom-padded-lg {
-  padding-bottom:40px;
+  padding-bottom:100px;
 }
 
 #fh5co-about{

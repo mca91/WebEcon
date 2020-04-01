@@ -1,5 +1,13 @@
 	<section id="fh5co-intro">
 		<div class="container">
+		  
+		  {{ if .Site.Params.intro.video.enable }}
+			<div class="row watch-video text-center to-animate">
+			  <span><h3> {{.Site.Params.intro.video.title | markdownify }} </h3></span>
+			  <iframe src="{{ .Site.Params.intro.video.url }}" width="750" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			{{ end }}
+		  
 			<div class="row row-bottom-padded-lg">
 				{{ range .Site.Params.intro.item }}
 				<div class="fh5co-block to-animate" style="background-image: url(images/{{ .img }});">
@@ -16,17 +24,5 @@
 				</div>
 				{{ end }}
 			</div>
-			{{ if .Site.Params.intro.video.enable }}
-			<div class="row watch-video text-center to-animate">
-			  
-			  <span>{{.Site.Params.intro.video.title | markdownify }}</span>
-			  <iframe src="{{ .Site.Params.intro.video.url }}" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			  
-				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
-				<!-- <span>{{.Site.Params.intro.video.title | markdownify }}</span> -->
-
-				<!--<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a> -->
-			</div>
-			{{ end }}
 		</div>
 	</section>
