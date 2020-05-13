@@ -1071,6 +1071,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20px;
   line-height: 1.5;
 }
+
+#fh5co-testimonials .section-heading {
+  text-transform: none;
+}
+
 .section-heading h2.left-border:after {
   content: "";
   position: absolute;
