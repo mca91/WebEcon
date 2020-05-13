@@ -188,13 +188,23 @@ height:100%;
     padding: 0px 0px;
 }
 
+#fh5co-testimonials {
+  padding-top:50px;
+}
+
+#fh5co-testimonials > div > div:nth-child(1) > div {
+  padding-bottom:20px;
+}
+
 #fh5co-testimonials > div > div:nth-child(1) > div > h2 {
   text-transform: none;
 }
 
-#fh5co-testimonials h3 {
+#fh5co-testimonials h4 {
   font-weight: 300;
   line-height: 1.5;
+  font-size: 20px;
+  margin-bottom:18px;
 }
 
 #fh5co-testimonials em {
@@ -204,7 +214,8 @@ height:100%;
 .faq-icon {
   position:relative;
   left: 10px;
-  top: 35px;
+  top: 30px;
+  font-size: 15px;
 }
 
 

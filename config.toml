@@ -148,7 +148,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
-      answer = "In this case, please attach other proof of your proficiency in English, if possible. This can be another certification such as GMAT. You may also submit English term papers or similar documents."
+      answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
       id = "1"
     
     [[params.testimonials.item]]
