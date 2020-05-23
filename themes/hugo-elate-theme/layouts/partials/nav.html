@@ -27,6 +27,10 @@
                     {{ if .Site.Params.about.enable }}
                     <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
+                    
+                    {{ if .Site.Params.structure.enable }}
+                    <li><a href="#" data-nav-section="structure"><span>{{ with .Site.Params.navigation.structure }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}
                     <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li> 

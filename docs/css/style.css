@@ -610,20 +610,20 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure {
     padding: 2em 0;
   }
 }
 
-#fh5co-services, #fh5co-work, #fh5co-counters {
+#fh5co-services, #fh5co-work, #fh5co-counters, #fh5co-structure {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-work, #fh5co-counters {
+  #fh5co-services, #fh5co-work, #fh5co-counters, #fh5co-structure {
     padding: 4em 0;
   }
 }
@@ -909,10 +909,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work .section-heading h2:after {
   background: black;
 }
-#fh5co-work .section-heading h3 {
+#fh5co-work .section-heading h3, #fh5co-structure .section-heading h3 {
   color: black;
 }
-#fh5co-work h3 {
+#fh5co-work h3, #fh5co-structure h3 {
   text-align: justify;
 }
 #fh5co-work .fh5co-project-item {
@@ -1419,3 +1419,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+

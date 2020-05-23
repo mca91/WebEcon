@@ -20,3 +20,31 @@
   <script src="js/folding.js"></script>
 	<!-- Main JavaScript -->
 	<script src="js/main.js"></script>
+
+	<!-- jquery code for verlaufsplaene -->
+	 <script type="text/javascript">
+    
+    $(document).ready(function(){  
+      $('.sec').not("#standarddiv").hide();
+      
+      $('.show').click(function () {
+        
+        var t = $(this).attr('target');
+
+        if($(this).hasClass("show-active")) {
+          
+          $(this).removeClass("show-active");
+          $('div[target=' + t + ']').removeClass("show-active");
+         
+          $('#standarddiv').fadeIn(400).siblings('.sec').fadeOut(0);
+        } else {
+          $("div.show-active").removeClass("show-active");
+          $('div[target=' + t + ']').addClass("show-active");
+          $('#section' + $(this).attr('target')).fadeIn(400).siblings('.sec').fadeOut(0);
+        }
+      });
+      
+      
+
+    });
+  </script>

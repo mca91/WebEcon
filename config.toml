@@ -27,6 +27,7 @@ publishDir = "docs"
     work = "The Program"
     services = "Application"
     about = "Coordinators"
+    structure = "Program Structure"
     testimonials = "FAQs"
     contact = "Contact"
 
@@ -112,34 +113,43 @@ publishDir = "docs"
     title = "Coordinators"
 
     [[params.about.item]]
+      name = "Christoph Hanck"
+      position = "University of Duisburg-Essen"
+      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics.<br><br>"
+      img = "hanck.png"
+      alt = "Person2"
+      social = [
+        ["icon-envelope", "mailto:christoph.hanck@vwl.uni-due.de"]
+      ]
+
+    [[params.about.item]]
       name = "Carsten Jentsch"
       position = "TU Dortmund University"
-      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics."
+      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics.<br><br><br>"
       img = "Jentsch.png"
       alt = "Person1"
       social = [
         ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
       ]
 
-    [[params.about.item]]
-      name = "Christoph Hanck"
-      position = "University of Duisburg-Essen"
-      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics."
-      img = "hanck.png"
-      alt = "Person2"
-      social = [
-        ["icon-envelope", "mailto:christoph.hanck@vwl.uni-due.de"]
-      ]
       
     [[params.about.item]]
       name = "Christoph M. Schmidt"
       position = "Ruhr University Bochum"
-      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. During his education he was awarded a Princeton University Fellowship (1987-1990), an Alfred P. Sloan Doctoral Dissertation Fellowship (1990-1991) and a habilitation fellowship of the DFG (1992-1995). Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
+      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
       img = "schmidt.jpg"
       alt = "Person2"
       social = [
         ["icon-envelope", "mailto:info@econometrics.ruhr"]
       ]
+
+
+  # course structure section
+  [params.structure]
+    enable = true
+    title = "Program Structure"
+    text = "The program is divided into compulsory modules, elective courses and closes with the master thesis. In four compulsory modules (ME1 - ME4) with a total amount of 43 credit points, you acquire a sound knowledge in statistics, econometrics and time series analysis. The core curriculum also conveys skills in applied research, statistical programming, research project management and statistical consulting. <br><br> Elective modules (ME5 - ME6) train students in economic theory (ME5) and provide further specialization in applied (ME6) and theoretical econometrics (ME7).<br><br> In ME6 and ME7, students focus on a specific field of research according to their individual preferences. This results in a flexible number of credits to be acquired by electives, which must, however, amount to a minimum of 11 and a maximum of 26 credit points in each of the elective module areas.<br><br> While core modules and many electives are taught in English, students have the opportunity to attend selected German-language courses."
+
 
   # testimonial section
   [params.testimonials]
@@ -150,6 +160,16 @@ publishDir = "docs"
       question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
       answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
       id = "1"
+    
+    [[params.testimonials.item]]
+      question = "*I do not have EU citizenship. Do I have to leave Germany or can I stay and start working after I have obtained the Master's degree?*"  
+      answer = "Non-EU citizens with health insurance and proof of financial means sufficient for living expenses may be granted an 18-month visa for job search after graduation. With a job there is the prospect of a residence permit or an EU Blue Card. Further information can be found on the [DAAD website](https://www.daad.de/en/study-and-research-in-germany/first-steps-germany/career-planning/)."
+      if = "after_graduation"
+
+    [[params.testimonials.item]]
+      question = "*Where can I find the self-assessment and is it mandatory to take it?*"
+      answer = "The online self-assessment is not yet available. Once available it will be mandatory for future applicants to take it. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
+      id = "self-assessment"
     
     [[params.testimonials.item]]
       question = "*I am currently studying in program A at University B and have taken courses in C, D and E. Am I eligible for the program?*"
