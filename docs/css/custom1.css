@@ -45,7 +45,7 @@ height:100%;
 }
 
 #fh5co-about{
-  padding-bottom:0;
+  padding-bottom:5em;
 }
 
 .section-heading .fh5co-about {
@@ -63,17 +63,33 @@ height:100%;
 
 .fh5co-person {
     margin-bottom: 100px;
-    min-height: 930px;
+    height: 930px;
 }
 
 #fh5co-home, #fh5co-home .text-wrap {
   height:650px;
 }
+
+@media screen and (max-width: 1200px) {
+
+.fh5co-person {
+    margin-bottom: 3.5em;
+    margin-left: 0px;
+    width: 100%;
+    height: 450px;
+}  
+
+.col-md-4 {
+  width:100%;
+}
+  
+}
   
 @media screen and (max-width: 992px) {
   .fh5co-person {
-    margin-bottom: 3.5em;
+    margin-bottom: 5em;
     margin-left: 0px;
+    height: 500px;
 }
 
   
@@ -115,8 +131,16 @@ height:100%;
   }
   
   .fh5co-person {
-    min-height: 100px;
+    height: 500px;
+  }
+  
 }
+
+@media screen and (max-width: 420px) {
+
+  .fh5co-person {
+    height: 700px;
+  }
   
 }
 

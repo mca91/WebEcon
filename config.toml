@@ -40,25 +40,25 @@ publishDir = "docs"
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
-  [[params.intro.item]]
-    title = "Courses"
-    description = "Get an overview over the program structure and more detailed information about the curriculum."
-    url = "blog/overview/"
-    button = "Course Overview"
-    icon = "icon-compass"
-    img = "img_7.jpg"
+#  [[params.intro.item]]
+#    title = "Courses"
+#    description = "Get an overview over the program structure and more detailed information about the curriculum."
+#    url = "blog/overview/"
+#    button = "Course Overview"
+#    icon = "icon-compass"
+#    img = "img_7.jpg"
 
-  [[params.intro.item]]
-    title = "Documents"
-    description = "Further information on current conditions of study and admission requirements."
-    url = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
-    button = "Faculty Page"
-    icon = "icon-notebook"
-    img = "img_10.jpg"
+#  [[params.intro.item]]
+#    title = "Documents"
+#    description = "Further information on current conditions of study and admission requirements."
+#    url = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
+#    button = "Faculty Page"
+#    icon = "icon-notebook"
+#    img = "img_10.jpg"
 
   [params.intro.video]
     enable = true
-    title = "Watch the image video"
+    title = ""
     icon = "icon-play2"
     url = "https://player.vimeo.com/video/402217230"
 
@@ -115,22 +115,20 @@ publishDir = "docs"
     [[params.about.item]]
       name = "Christoph Hanck"
       position = "University of Duisburg-Essen"
-      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics.<br><br>"
+      description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "hanck.png"
       alt = "Person2"
-      social = [
-        ["icon-envelope", "mailto:christoph.hanck@vwl.uni-due.de"]
-      ]
+
 
     [[params.about.item]]
       name = "Carsten Jentsch"
       position = "TU Dortmund University"
-      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics.<br><br><br>"
+      description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
       alt = "Person1"
-      social = [
-        ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
-      ]
+#      social = [
+#        ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
+#      ]
 
       
     [[params.about.item]]
@@ -139,9 +137,6 @@ publishDir = "docs"
       description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
       img = "schmidt.jpg"
       alt = "Person2"
-      social = [
-        ["icon-envelope", "mailto:info@econometrics.ruhr"]
-      ]
 
 
   # course structure section
