@@ -157,6 +157,16 @@ publishDir = "docs"
       id = "1"
     
     [[params.testimonials.item]]
+      question = "*What should I include in the Academic CV?*"
+      answer = "Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application."
+      id = "CV"
+    
+    [[params.testimonials.item]]
+      question = "*My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Am I nevertheless eligible to apply?*"
+      answer = "Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Masters degree."
+      id = "min_GPA"
+    
+    [[params.testimonials.item]]
       question = "*I do not have EU citizenship. Do I have to leave Germany or can I stay and start working after I have obtained the Master's degree?*"  
       answer = "Non-EU citizens with health insurance and proof of financial means sufficient for living expenses may be granted an 18-month visa for job search after graduation. With a job there is the prospect of a residence permit or an EU Blue Card. Further information can be found on the [DAAD website](https://www.daad.de/en/study-and-research-in-germany/first-steps-germany/career-planning/)."
       if = "after_graduation"
