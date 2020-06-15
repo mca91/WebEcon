@@ -157,7 +157,7 @@ publishDir = "docs"
       id = "1"
     
     [[params.testimonials.item]]
-      question = "*What should I include in the Academic CV?*"
+      question = "*What should I include in the academic CV?*"
       answer = "Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application."
       id = "CV"
     
