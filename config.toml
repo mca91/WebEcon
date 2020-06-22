@@ -155,6 +155,11 @@ publishDir = "docs"
       question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
       answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
       id = "1"
+      
+    [[params.testimonials.item]]
+      question = "*I submitted my application X days ago. When will I hear from you?*"
+      answer = "We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience."
+      id = "feedback"
     
     [[params.testimonials.item]]
       question = "*What should I include in the academic CV?*"
