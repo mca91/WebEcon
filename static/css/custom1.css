@@ -508,4 +508,37 @@ li {
   margin-bottom:10px;
 }
 
+/* overlay */
+
+#overlay{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        -moz-opacity: 0.8;
+        filter: alpha(opacity=80);
+        opacity:.50;
+        z-index:1001;
+      }
+      #announcement{
+        display: none;
+        font-style: italic;
+        position: absolute;
+        width: 600px;
+        height: 200px;
+        padding: 40px 20px 20px 40px;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        z-index:1002;
+      }
+      #close{
+        display: inline;
+        float: right;
+        color: white;
+      }
+
+
 
