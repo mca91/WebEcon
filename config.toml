@@ -154,8 +154,13 @@ publishDir = "docs"
     [[params.testimonials.item]]
       question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
       answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
-      id = "1"
-      
+      id = "corona"
+    
+    [[params.testimonials.item]]
+      question = "*I currently have a job and/or plan to work during my studies. Is it possible to study part-time, thereby saving fees?*"
+      answer = "There is no official part-time program. You decide yourself at what pace you study (i.e. how many courses you take each semester). However, the semester fees remain the same."
+      id = "parttimestudy"
+    
     [[params.testimonials.item]]
       question = "*I submitted my application X days ago. When will I hear from you?*"
       answer = "We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience."
