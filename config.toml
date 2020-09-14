@@ -1,7 +1,7 @@
 # Page settings
 baseurl = ""
 title = "MSc Econometrics"
-languageCode = "en-us"
+languageCode = "en"
 theme = "hugo-elate-theme"
 publishDir = "docs"
 
@@ -22,7 +22,6 @@ publishDir = "docs"
 
   # Navigation
   [params.navigation]
-    brand = ''
     home = "Home"
     work = "The Program"
     services = "Application"
@@ -117,7 +116,7 @@ publishDir = "docs"
       position = "University of Duisburg-Essen"
       description = "Christoph Hanck is Professor of Econometrics at University of Duisburg-Essen since August 2012. He received his doctorate in 2007, supervised by Prof. Dr. Walter Krämer, from TU Dortmund University. He subsequently joined the DFG Sonderforschungsbereich 'Complexity Reduction in Multivariate Data Structures' to then become a Postdoctoral Researcher at Maastricht University in 2008. From 2009 to 2012 he was Assistant and later Associate Professor in Statistics and Econometrics at Rijksuniversiteit Groningen. His research focuses on the analysis of nonstationary panel data and macroeconometrics. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "hanck.png"
-      alt = "Person2"
+      alt = "Portrait of Christoph Hanck"
 
 
     [[params.about.item]]
@@ -125,7 +124,7 @@ publishDir = "docs"
       position = "TU Dortmund University"
       description = "Carsten Jentsch studied mathematics with a minor in business administration at TU Braunschweig from 2001 to 2007, where he received his doctorate in 2010. After a research stay at UC San Diego he became postdoc at the Economics faculty of the University of Mannheim in 2011 and at the SFB 884 'The Political Economy of Reforms'. Since 2015 he has been a member of the Elite Program for Postdocs of the Baden-Württemberg Foundation. After holding professorships at the Universities of Bayreuth and Mannheim, he has been working at TU Dortmund University since summer 2018. He is a faculty member of the Ruhr Graduate School in Economics."
       img = "Jentsch.png"
-      alt = "Person1"
+      alt = "Portrait of Carsten Jentsch"
 #      social = [
 #        ["icon-envelope", "mailto:jentsch@statistik.tu-dortmund.de"]
 #      ]
@@ -136,7 +135,7 @@ publishDir = "docs"
       position = "Ruhr University Bochum"
       description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
       img = "schmidt.jpg"
-      alt = "Person2"
+      alt = "Portrait of Christoph M. Schmidt"
 
 
   # course structure section
@@ -269,6 +268,6 @@ publishDir = "docs"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<br><div><img src="images/uaruhr.png" height="55" hspace="20"><img src="images/mercur.png" height="100" hspace="20"><img src="images/statistik_dortmund.png" height="55" hspace = "20"><img src="images/wiwi_dortmund.png" height="60" hspace = "21"><img src="images/wiwi_bochum.png" height="60" hspace = "20"><img src="images/wiwi_essen.png" height="60" hspace = "20"><img src="images/RGS.JPG" height="80"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages. <br><br>hugo-elate-theme &copy; 2016 by Pieter Saey</div>'
+    copyright = '<br><img src="images/uaruhr.png" height="55" hspace="20" alt="The UAR logo"><img src="images/mercur.png" height="100" hspace="20" alt="Logo of the MERCUR foundation"><img src="images/statistik_dortmund.png" height="55" hspace = "20" alt="Logo of the Faculty of Statistics at TU Dortmund University"><img src="images/wiwi_dortmund.png" height="60" hspace = "21" alt="Logo of the Faculty of Economics at TU Dortmund University"><img src="images/wiwi_bochum.png" height="60" hspace = "20" alt="Logo of the Faculty of Economics at Ruhr University Bochum"><img src="images/wiwi_essen.png" height="60" hspace = "20" alt="Logo of the Faculty of Economics at University of Duisburg-Essen"><img src="images/RGS.JPG" height="80" alt="Logo of the Ruhr Graduate School in Economics"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages. <br><br>hugo-elate-theme &copy; 2016 by Pieter Saey.'
     imprint = '<a href="https://www.statistik.tu-dortmund.de/impressum0.html" target="_blank">Imprint</a>'
     prpolicy = '<a href="https://www.statistik.tu-dortmund.de/datenschutzerklaerung0.html" target="_blank">Privacy Policy</a>'

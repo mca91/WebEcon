@@ -2,7 +2,11 @@
 		<div class="container">
 		  {{ if .Site.Params.intro.video.enable }}
 			<div class="col-md-12 watch-video text-center to-animate">
-			  <span><h3> {{.Site.Params.intro.video.title | markdownify }} </h3></span>
+			  {{if .Site.Params.intro.video.title}}
+			   <span>
+			     <h3> {{.Site.Params.intro.video.title | markdownify }}</h3>
+			   </span>
+			   {{ end }}
 			  <iframe src="{{ .Site.Params.intro.video.url }}" class = "imagev" width="100%" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			</div>
 			{{ end }}
