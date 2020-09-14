@@ -57,7 +57,6 @@ publishDir = "docs"
 
   [params.intro.video]
     enable = true
-    title = ""
     icon = "icon-play2"
     url = "https://player.vimeo.com/video/402217230"
 

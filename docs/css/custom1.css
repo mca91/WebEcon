@@ -252,6 +252,10 @@ height:100%;
   color: white;
 }
 
+#fh5co-header.navbar-fixed-top #navbar li a {
+  color: black;
+}
+
 #fh5co-testimonials {
   padding-top:50px;
 }
