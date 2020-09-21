@@ -25,7 +25,11 @@
 	 <script type="text/javascript">
     
     $(document).ready(function(){  
-      $('.sec').not("#standarddiv").hide();
+      
+      $('.show').attr("tabindex", 0); // equip tiles in study plans with tabindex attribute
+      $('.faq').attr("tabindex", 0); // equip faqs with tabindex attribute
+      
+      $('.sec').not("#standarddiv").hide(); // hide divs in study plans that are not needed
       
       $('.show').click(function () {
         
@@ -43,8 +47,6 @@
           $('#section' + $(this).attr('target')).fadeIn(400).siblings('.sec').fadeOut(0);
         }
       });
-      
-      
 
     });
   </script>

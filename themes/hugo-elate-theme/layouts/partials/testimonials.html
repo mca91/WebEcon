@@ -8,7 +8,7 @@
 
 			<div class="row to-animate">
 			{{ range .Site.Params.testimonials.item }}
-        <div data-toggle="collapse" data-target="#faq{{ .id }}" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq{{ .id }}" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span>{{ .question | markdownify}}</span>

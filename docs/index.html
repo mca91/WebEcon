@@ -64,7 +64,26 @@
     <script src="js/modernizr-2.6.2.min.js"></script>
     
     
-
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    
+    $(document).ready(function(){
+      
+      $(window).keydown(function(event){
+       var $focused = $( document.activeElement );
+       if ( event.which == 13 ) {
+         $focused.click();
+       }
+      });
+    
+    });
+    
+    
+    </script>
+    
     </head>
     <body>
     
@@ -84,30 +103,30 @@
 
                     
 
-                    <li class="active" tabindex="0"><a href="#" data-nav-section="home" tabindex="-1"><span>Home</span></a></li>
+                    <li class="active"><a href="#" data-nav-section="home" tabindex="-1"><span tabindex="0">Home</span></a></li>
                     
                     
-                    <li tabindex="0"><a href="#" data-nav-section="work" tabindex="-1"><span>The Program</span></a></li> 
-                    
-
-                    
-                    <li tabindex="0"><a href="#" data-nav-section="services"><span>Application</span></a></li> 
+                    <li tabindex="-1"><a href="#" data-nav-section="work" tabindex="-1"><span tabindex="0">The Program</span></a></li> 
                     
 
                     
-                    <li tabindex="0"><a href="#" data-nav-section="about"><span>Coordinators</span></a></li> 
-                    
-                    
-                    
-                    <li tabindex="0"><a href="#" data-nav-section="structure"><span>Program Structure</span></a></li> 
+                    <li tabindex="-1"><a href="#" data-nav-section="services" tabindex="-1"><span tabindex="0">Application</span></a></li> 
                     
 
                     
-                    <li tabindex="0"><a href="#" data-nav-section="testimonials"><span>FAQs</span></a></li> 
+                    <li tabindex="-1"><a href="#" data-nav-section="about" tabindex="-1"><span tabindex="0">Coordinators</span></a></li> 
+                    
+                    
+                    
+                    <li tabindex="-1"><a href="#" data-nav-section="structure" tabindex="-1"><span tabindex="0">Program Structure</span></a></li> 
                     
 
                     
-                    <li tabindex="0"><a href="#" data-nav-section="contact"><span>Contact</span></a></li> 
+                    <li tabindex="-1"><a href="#" data-nav-section="testimonials" tabindex="-1"><span tabindex="0">FAQs</span></a></li> 
+                    
+
+                    
+                    <li><a href="#" data-nav-section="contact" tabindex="-1"><span tabindex="0">Contact</span></a></li> 
                     
 
                     
@@ -511,7 +530,7 @@
 
 			<div class="row to-animate">
 			
-        <div data-toggle="collapse" data-target="#faqcorona" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqcorona" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?</em></span>
@@ -519,7 +538,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqcorona">In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faqparttimestudy" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqparttimestudy" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>I currently have a job and/or plan to work during my studies. Is it possible to study part-time, thereby saving fees?</em></span>
@@ -527,7 +546,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqparttimestudy">There is no official part-time program. You decide yourself at what pace you study (i.e. how many courses you take each semester). However, the semester fees remain the same.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faqfeedback" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqfeedback" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>I submitted my application X days ago. When will I hear from you?</em></span>
@@ -535,7 +554,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqfeedback">We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faqCV" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqCV" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>What should I include in the academic CV?</em></span>
@@ -543,7 +562,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqCV">Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faqmin_GPA" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqmin_GPA" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Am I nevertheless eligible to apply?</em></span>
@@ -551,7 +570,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqmin_GPA">Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Masters degree.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>I do not have EU citizenship. Do I have to leave Germany or can I stay and start working after I have obtained the Master&rsquo;s degree?</em></span>
@@ -559,7 +578,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faq">Non-EU citizens with health insurance and proof of financial means sufficient for living expenses may be granted an 18-month visa for job search after graduation. With a job there is the prospect of a residence permit or an EU Blue Card. Further information can be found on the <a href="https://www.daad.de/en/study-and-research-in-germany/first-steps-germany/career-planning/">DAAD website</a>.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faqself-assessment" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faqself-assessment" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Where can I find the self-assessment and is it mandatory to take it?</em></span>
@@ -567,7 +586,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faqself-assessment">The online self-assessment is not yet available. Once available it will be mandatory for future applicants to take it. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq2" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq2" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>I am currently studying in program A at University B and have taken courses in C, D and E. Am I eligible for the program?</em></span>
@@ -575,7 +594,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faq2">We kindly ask for your understanding that we cannot provide an answer here. The purpose of the application process is to answer such questions. Please submit a full application such that we can consider your materials. The sooner you submit, the earlier we will be able to get back to you with a clear and definite answer.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq3" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq3" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>How good do my German language skills need to be?</em></span>
@@ -583,7 +602,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faq3">The core curriculum and most electives are taught in English. We recommend a good command of the German language (at least B1) if you are interested in taking German-language electives.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq4" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq4" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Can you offer scholarships to cover costs of living (housing etc.)?</em></span>
@@ -592,7 +611,7 @@
 </h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq5" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq5" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Can you help me with finding accommodation?</em></span>
@@ -601,7 +620,7 @@
 </h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq6" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq6" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Is there a possibility to pursue a PhD in econometrics/statistics/economics after completion of the MSc?</em></span>
@@ -609,7 +628,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faq6">Yes. Professors at the UAR and elsewhere regularly seek qualified quantitatively trained candidates for which the MSc in Econometrics provides an excellent background.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq7" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq7" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>What are ECTS points?</em></span>
@@ -617,7 +636,7 @@
 				  <h4 class="collapse" style="padding-left: 1.8em" id="faq7">ECTS is for <em>European Credit Transfer System</em>. This system guarantees the comparability of achievements gained in the European Higher Education Area by issuing so called credit points (ECTS credits). These credit points exist to give an indication of the student&rsquo;s average workload per semester or year. They do not function as an evaluation of performance. ECTS credits are only awarded if courses are successfully completed. This means that all of the relevant exams have to be passed.</h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq8" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq8" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>When does the winter term start? When does the lecture period begin?</em></span>
@@ -626,7 +645,7 @@
 </h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq9" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq9" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Which living costs should I roughly expect when studying in the Ruhr area?</em></span>
@@ -635,7 +654,7 @@
 </h4>
 			  </div>
 			
-        <div data-toggle="collapse" data-target="#faq10" class="col-md-12" style="border-bottom: 1px solid #17408F;cursor:pointer;">
+        <div data-toggle="collapse" data-target="#faq10" class="col-md-12 faq" style="border-bottom: 1px solid #17408F;cursor:pointer;">
           <span class="glyphicon glyphicon-plus faq-icon" style="color:#17408F;"></span>
           <h3 style="padding-left: 1.8em"> 
             <span><em>Do I need health insurance for studying in Germany?</em></span>
@@ -797,7 +816,11 @@
 	 <script type="text/javascript">
     
     $(document).ready(function(){  
-      $('.sec').not("#standarddiv").hide();
+      
+      $('.show').attr("tabindex", 0); 
+      $('.faq').attr("tabindex", 0); 
+      
+      $('.sec').not("#standarddiv").hide(); 
       
       $('.show').click(function () {
         
@@ -815,8 +838,6 @@
           $('#section' + $(this).attr('target')).fadeIn(400).siblings('.sec').fadeOut(0);
         }
       });
-      
-      
 
     });
   </script>

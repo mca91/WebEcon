@@ -1,5 +1,15 @@
-a {
+#fh5co-work a {
   color: #17408F;
+  text-decoration:none;
+}
+
+#fh5co-work a:focus {
+    outline: 2px solid #17408F;
+}
+
+#fh5co-services a:focus {
+  outline: 2px solid white;
+  text-decoration:none;
 }
 
 .logosec {
@@ -61,6 +71,10 @@ height:100%;
   margin-bottom:0;
 }
 
+#fh5co-contact a:focus {
+  outline: 2px solid #17408F;
+}
+
 #fh5co-contact h3 {
   color: black;
 }
@@ -71,6 +85,11 @@ height:100%;
 
 #footer a {
   color: black;
+  padding: 5px 5px 5px 5px;
+}
+
+#footer a:focus {
+  outline: 2px solid black;
 }
 
 .fh5co-person {
@@ -252,9 +271,14 @@ height:100%;
   color: white;
 }
 
-#fh5co-header.navbar-fixed-top #navbar li a {
-  color: black;
+#fh5co-header #navbar li a span:focus {
+  outline: 2px solid white;
 }
+
+#fh5co-header.navbar-fixed-top #navbar li a span:focus {
+  outline: 2px solid #17408F;
+}
+
 
 #fh5co-testimonials {
   padding-top:50px;
@@ -285,6 +309,11 @@ height:100%;
   top: 30px;
   font-size: 15px;
 }
+
+.faq:focus {
+  outline: 2px solid #17408F;
+}
+
 
 /* tiles */
 
@@ -447,6 +476,10 @@ height:100%;
  cursor:pointer; 
 }
 
+.show:focus {
+  outline: 2px solid #17408F;
+}
+
 .show-active {
   transform: scale(1.03);
             -moz-box-shadow: 2px 2px 15px #000;
@@ -521,22 +554,32 @@ li {
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    border-top:1px;
-    border-left:1px;
-    border-right:1px;
-    color:#17408F;
-    border-style:solid;
+  border: 1px;
+  color:#17408F;
+  border-style:solid;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    text-decoration:none;
-    background-color:rgba(0, 0, 0, 0);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
 #fh5co-structure {
-  padding-top:50px;
-  padding-bottom:10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#fh5co-structure a:focus {
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: #17408F;
+    border-style: solid;
+}
+
+#fh5co-structure .active {
+  font-weight: 550;
 }
 
 #fh5co-structure h3 {
