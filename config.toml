@@ -142,7 +142,8 @@ publishDir = "docs"
     enable = true
     title = "Program Structure"
     text = "The program is divided into compulsory modules, elective courses and closes with the master thesis. In four compulsory modules (ME1 - ME4) with a total amount of 42 credit points, you acquire a sound knowledge in statistics, econometrics and time series analysis. The core curriculum also conveys skills in applied research, statistical programming, research project management and statistical consulting. <br><br> Elective modules (ME5 - ME6) train students in economic theory (ME5) and provide further specialization in applied (ME6) and theoretical econometrics (ME7).<br><br> In ME6 and ME7, students focus on a specific field of research according to their individual preferences. This results in a flexible number of credits to be acquired by electives, which must, however, amount to a minimum of 11 and a maximum of 26 credit points in each of the elective module areas.<br><br> While core modules and many electives are taught in English, students have the opportunity to attend selected courses held in German."
-
+    po_de = "PO_MSc_Econometrics_2019_de.pdf"
+    po_en = "PO_MSc_Econometrics_2019_en.pdf"
 
   # testimonial section
   [params.testimonials]
