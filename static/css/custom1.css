@@ -129,6 +129,10 @@ height:100%;
 .col-md-4 {
   width:100%;
 }
+
+#courses {
+  margin-top: 50px;
+}
   
 }
   
@@ -136,7 +140,7 @@ height:100%;
   .fh5co-person {
     margin-bottom: 5em;
     margin-left: 0px;
-    height: 500px;
+    height: 550px;
 }
 
   
@@ -153,6 +157,11 @@ height:100%;
   .logosec {
   margin-bottom: 0px;
   }
+  
+#courses {
+ margin-top: 100px;
+}
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -178,7 +187,11 @@ height:100%;
   }
   
   .fh5co-person {
-    height: 500px;
+    height: 700px;
+  }
+  
+  #courses {
+   margin-top: 0;
   }
   
 }
@@ -187,6 +200,10 @@ height:100%;
 
   .fh5co-person {
     height: 700px;
+  }
+  
+  #courses {
+    margin-top: 150px;
   }
   
 }
@@ -417,6 +434,7 @@ height:100%;
       .banner .l {
         margin-left:0;
       }
+      
     }
     
     .banner p {

@@ -152,12 +152,12 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*In my admission letter, I am being told about a requirement to earn missing qualifications in subject X. I however believe that I have already fulfilled these requirements.*"
-      answer = "*Please contact us to discuss this matter.*"
+      answer = "Please contact us to discuss this matter."
       id = "missingquali"
 
     [[params.testimonials.item]]
       question = "*I just enrolled. Is there any other recent information that might be helpful to get started in Dortmund?*"
-      answer = "*Yes, we’ve for example got a moodle page for our students. Please contact us for enrolment details.*"
+      answer = "Yes, we’ve for example got a moodle page for our students. Please contact us for enrolment details."
       id = "gettingstarted"
 
     [[params.testimonials.item]]
