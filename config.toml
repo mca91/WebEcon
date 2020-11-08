@@ -132,7 +132,7 @@ publishDir = "docs"
     [[params.about.item]]
       name = "Christoph M. Schmidt"
       position = "Ruhr University Bochum"
-      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was appointed to the German Council of Economic Experts in March 2009 and has been its Chairman since March 2013. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
+      description = "Since 2002 Christoph M. Schmidt is head of the RWI - Leibniz Institute for Economic Research and professor at the Ruhr-Universität Bochum. He was member of the German Council of Economic Experts from 2009 to 2020 and was its Chairman from March 2013 to February 2020. Since 2019 he is member, and since 2020 co-chairman of the Franco-German Council of Economic Experts. Schmidt received his Ph.D. from Princeton University in 1991 and completed his habilitation in 1995 at the Ludwig-Maximilians-Universität (LMU) of Munich. From 1995 to 2002 Schmidt was a full professor for Econometrics at the Universität Heidelberg. Since 1992 he has been a Research Affiliate of the Centre for Economic Policy Research (CEPR), London, since 1996 a CEPR Research Fellow, and since 1998 he is also a Research Fellow at the Institute for the Study of Labor (IZA), Bonn."
       img = "schmidt.jpg"
       alt = "Portrait of Christoph M. Schmidt"
 
@@ -244,6 +244,23 @@ publishDir = "docs"
       question = "*Do I need health insurance for studying in Germany?*"
       answer = "Health insurance is mandatory for all students in Germany and you must present proof when you enroll. The good news is that healthcare is affordable in Germany and in some cases it is even possible to bring your own insurance. We advice you to read through the [guide](https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/health-insurance/) of the Germany Academic Exchange Service (DAAD)."
       id = "10"
+    
+    [[params.testimonials.item]]
+      question = "*I have been admitted to the program and want to attend the precourse in statistics. Where can I find more information?*"
+      answer = "The precourse in statistics is an e-learning course. Further information can be found [here](https://www.statistik.tu-dortmund.de/mastervorkurs-en.html)."
+      id = "precourses"
+    
+    [[params.testimonials.item]]
+      question = "*Where can I get an overview of the courses offered in the current/upcoming semester?*"
+      answer = "Please refer to the interactive [table](#courses) above. The links therein point to the [module manual](https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf). We recommend you to read pages 9 to 14 for an overview of the distinct module areas."
+      id = "coursesoffered"
+      
+    [[params.testimonials.item]]
+      question = "*Where can I find more information regarding the offered courses such as schedules, rooms, important links, access keys for Moodle etc.?*"
+      answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. The interactive [table](#courses) above may be useful, too. <br><br> <ul><li> [TUDO Statistics](https://www.statistik.tu-dortmund.de/chairs.html) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](http://www.wiwi.ruhr-uni-bochum.de/fakultaet/vwl.html.en)</li></ul><br> If your desired course is not yet listed in our handbook of modules yet, please contact Fabian Knorre (knorre[at]statistik.tu-dortmund.de) or Jan Prüser (prueser[at]statistik.tu-dortmund.de)."
+      id = "coursedetails"
+      
+      
 
   # Contact section
   [params.contact]

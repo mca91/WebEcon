@@ -1,7 +1,16 @@
 ---
-type: "overview_page"
-layout: "overview-static"
+output:
+  html_document:
+    includes: 
+      in_header: "DT.html"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(kableExtra)
+library(dplyr)
+```
 
 ````{r, echo = F}
 mhb_baseurl <- 'https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_Msc_ECMX_2019.pdf#page='
@@ -16,7 +25,7 @@ Kurse <- read_xlsx("KurseMscECMX.xlsx", skip = 2, sheet = "Kursliste") %>%
                         sep = "")) %>%
   rename(Location = Ort, 
          Language = Sprache,
-         'Winter 19' = 'aktuell_angeboten')
+         'Winter 20' = 'aktuell_angeboten')
 
 # Set a 'coming soon' text for courses without URL and add link to 404 page. Add comment if module name is different than course name
 Kurse <- Kurse %>% mutate(Course = ifelse(MHB == "NA",
@@ -36,7 +45,7 @@ Kurse$Language[Kurse$Language == "englisch"] <- "EN"
 Kurse$Language[Kurse$Language == "deutsch/englisch"] <- "DE/EN"
 
 # select columns of interest
-Kurse <- Kurse %>% select(Course, Location, Section, Language, 'Winter 19') 
+Kurse <- Kurse %>% select(Course, Location, Section, Language, 'Winter 20') 
 
 kable(Kurse, escape = F, table.attr = 'id=\"table_id\"') %>%
   kable_styling(full_width = T,

@@ -1,0 +1,13 @@
+
+    <!-- for sortable and searchable Tables with knitr and jquery.DataTables  --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script type="text/javascript">
+         $(document).ready(function() {
+             $("#table_id").DataTable({
+               dom: '<f<t>ip>',
+               pageLength: 10
+             });
+         });
+    </script>
