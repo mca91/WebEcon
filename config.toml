@@ -64,7 +64,7 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "About the Program"
-    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund University (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is offered jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund University. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's only Faculty of Statistics. This unique combination of training and research skills allows to offer a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br><br>Students acquire the ability to combine methodological competence with proficiency in economics. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric issues. The program particularly supports research-interested students in developing analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econometrics thus prepares well for a career in econometrics, empirical economic research, evidence-based policy consulting, or operational research.<br><br>Graduates receive a joint MSc degree from the four participating faculties.</span>"
+    description = "<span>*Econometrics* is a four-semester, English-language master's program of TU Dortmund University (TUDO), Ruhr-University Bochum (RUB) and the University of Duisburg-Essen (UDE). The program is offered jointly by the faculties of economics of the three universities and the Faculty of Statistics @ TU Dortmund University. It combines the expertise and breadth of the participating faculties in empirical economic research and economics with the methodically oriented training of the statisticians and econometricians at Germany's only Faculty of Statistics. This unique combination of training and research skills allows to offer a specialized curriculum for quantitatively-oriented students which covers a wide range of topics in econometrics and applied economics.<br><br>Students acquire the ability to combine methodological competence with proficiency in economics. They gain extensive knowledge of econometric methods and models and an in-depth understanding of central economic causal relationships and resulting econometric issues. The program particularly supports research-interested students in developing analytical skills with regard to specific research questions in economics and thus prepares optimally for a doctorate in econometrics or neighbouring disciplines. The master's program in Econometrics thus prepares well for a career in econometrics, empirical economic research, and evidence-based policy consulting. <br><br>Graduates receive a joint MSc degree from the four participating faculties.</span>"
     uartitle = "*University Alliance Ruhr*"
     uartext = "Despite being one of the youngest university regions in the country, the Ruhr region has the densest educational landscape in Europe with a total of 22 universities and colleges. The <a href='http://www.uaruhr.de/index.html.en'>University Alliance Ruhr</a> (UAR) is a joint venture of TUDO, RUB and UDE. With more than 120.000 students and almost 1.300 professors, the UAR is Germany’s largest academic hub. It, among others, initiates cooperations in research, teaching and administration. Both the education of economists and economic research benefit from these joint activities, in particular through the <a href='http://en.rwi-essen.de/'>RWI</a> - Leibniz Institute for Economic Research and the <a href='http://rgs-econ.org/'>RGS</a> - Ruhr Graduate School in Economics, which offers a fast-track PhD program in economics. Excellent graduates of *Econometrics* thus have good prospects for pursuing a further career in academics or economic research."
     ratitle = "*Studying and Living in the Ruhr Area*"
@@ -151,6 +151,11 @@ publishDir = "docs"
     title = "FAQs"
 
     [[params.testimonials.item]]
+      question = "*Is it possible to take up studies in the summer semester?*"
+      answer = "No. The program can only be taken up in winter."
+      id = "summertakeup"
+
+    [[params.testimonials.item]]
       question = "*In my admission letter, I am being told about a requirement to earn missing qualifications in subject X. I however believe that I have already fulfilled these requirements.*"
       answer = "Please contact us to discuss this matter."
       id = "missingquali"
@@ -209,6 +214,11 @@ publishDir = "docs"
       question = "*How good do my German language skills need to be?*"
       answer = "The core curriculum and most electives are taught in English. We recommend a good command of the German language (at least B1) if you are interested in taking German-language electives."
       id = "3"
+      
+    [[params.testimonials.item]]
+      question = "*Is it mandatory to prove my proficiency in the German language?*"
+      answer = "No. Also note that proficiency in German is not an essential prerequisite for successful completion of the program."
+      id = "proof_of_germany"
       
     [[params.testimonials.item]]
       question = "*Can you offer scholarships to cover costs of living (housing etc.)?*"
