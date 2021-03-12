@@ -97,7 +97,7 @@ publishDir = "docs"
 
     [[params.services.item]]
       title = "Self-Assessment"
-    description = "Every applicant must complete a self-assessment. However, this assessment is not a test that you can fail: we want applicants to assess their knowledge of statistics, economics, and econometrics so that specific pre-courses can be taken, if necessary. <p><b>The self-assesment can be downloaded <a href='/images/econometrics_assessment.pdf' style='color:#FFFFFF;text-decoration:underline;'>here</a>.</b></p><p><b>Please click <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR' style='color:#FFFFFF;text-decoration:underline;'>here</a> to submit your self-assessment.</b></p>"
+    description = "Every applicant must complete a self-assessment. However, this assessment is not a test that you can fail: we want applicants to assess their knowledge of statistics, economics, and econometrics so that specific pre-courses can be taken, if necessary. <p><b>The self-assesment can be downloaded <a href='images/econometrics_assessment.pdf' style='color:#FFFFFF;text-decoration:underline;'>here</a>.</b></p><p><b>Please click <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR' style='color:#FFFFFF;text-decoration:underline;'>here</a> to submit your self-assessment.</b></p>"
       icon = "icon-check"
 
     [[params.services.item]]
@@ -212,7 +212,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Where can I find the self-assessment and is it mandatory to take it?*"
-      answer = "The online self-assessment is available <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR'>here</a> It is mandatory to take the assessment. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
+      answer = "The online self-assessment is available <a href='images/econometrics_assessment.pdf'>here</a>. It is mandatory to take the assessment. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
       id = "self-assessment"
     
     [[params.testimonials.item]]
