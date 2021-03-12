@@ -97,7 +97,7 @@ publishDir = "docs"
 
     [[params.services.item]]
       title = "Academic Curriculum Vitae"
-      description = "Applicants must submit an essay of at most two pages on their academic background in view of the pursued master program on Econometrics."
+      description = "<b>Applicants must submit an essay (Academic CV)</b> on their academic background in view of the pursued master program on Econometrics. We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version.<p><b>Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/' style='color:#FFFFFF;text-decoration:underline;'>here</a> to generate your Academic CV.</b></p>"
       icon = "icon-layers2"
       
     [[params.services.item]]
@@ -171,6 +171,11 @@ publishDir = "docs"
 #      id = "corona1"
 
     [[params.testimonials.item]]
+      question = "*I would like to refresh my knowledge in statistics before starting my studies. Is there a preliminary course?*"
+      answer = "We are currently designing a preliminary course. Additional information follows."
+      id = "precourse_stats"
+
+    [[params.testimonials.item]]
       question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
       answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
       id = "corona2"
@@ -187,7 +192,7 @@ publishDir = "docs"
     
     [[params.testimonials.item]]
       question = "*What should I include in the academic CV?*"
-      answer = "Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application."
+      answer = "We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version. Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/'>here</a> to generate your Academic CV.<p>Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application.</p>"
       id = "CV"
     
     [[params.testimonials.item]]
