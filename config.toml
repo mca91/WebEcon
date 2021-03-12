@@ -92,8 +92,13 @@ publishDir = "docs"
     
     [[params.services.item]]
       title = "Qualifying Degrees"
-    description = "The program is aimed at quantitatively oriented students with a strong interest to acquire the necessary theoretical foundations for a career in econometric research. Especially the core modules are demanding in terms of mathematical rigor!<br><br> A BSc or equivalent degree in Economics, Mathematics, Statistics or a related discipline is required. At least 15 ECTS in both Economics and mathematics/statistics/econometrics are required. <br><br> Candidates who do not fully meet these credit requirements may in general be admitted on the condition that they successfully complete certain undergraduate level courses. If admission is subject to conditions, applicants will be informed thereof in their notification of admission. In any case, a regular application must first be submitted in due time."
+    description = "The program is aimed at quantitatively oriented students with a strong interest to acquire the necessary theoretical foundations for a career in econometric research. Especially the core modules are demanding in terms of mathematical rigor!<br><br> A BSc or equivalent degree in Economics, Mathematics, Statistics or a related discipline is required. At least 15 ECTS in both Economics and mathematics/statistics/econometrics are required. <br><br> Candidates who do not fully meet these credit requirements may in general be admitted on the condition that they successfully complete certain undergraduate level courses. If admission is subject to conditions, applicants will be informed thereof in their notification of admission. In any case, a regular application must first be submitted in due time.<p><b>Details on qualifying degrees and grade requirements can be found at the <a href='https://www.statistik.tu-dortmund.de/2706.html' style='color:#FFFFFF;text-decoration:underline;'>faculty page</a>.</b><p>"
       icon = "icon-graduation"
+
+    [[params.services.item]]
+      title = "Self-Assessment"
+    description = "Every applicant must complete a self-assessment. However, this assessment is not a test that you can fail: we want applicants to assess their knowledge of statistics, economics, and econometrics so that specific pre-courses can be taken, if necessary. <p><b>Please click <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR' style='color:#FFFFFF;text-decoration:underline;'>here</a> to get to the self-assessment.</b></p>"
+      icon = "icon-check"
 
     [[params.services.item]]
       title = "Academic Curriculum Vitae"
@@ -207,7 +212,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Where can I find the self-assessment and is it mandatory to take it?*"
-      answer = "The online self-assessment is not yet available. Once available it will be mandatory for future applicants to take it. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
+      answer = "The online self-assessment is available <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR'>here</a> It is mandatory to take the assessment. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
       id = "self-assessment"
     
     [[params.testimonials.item]]
