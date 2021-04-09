@@ -643,4 +643,10 @@ li {
   font-size: 20px;
 }
 
-
+#fh5co-services ul li {
+  font-family: "Source Sans Pro"", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
