@@ -1,0 +1,27 @@
+	<section id="fh5co-application" data-section="application">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading">
+					<h2 class="to-animate text-center">{{ with .Site.Params.application.title }}{{ . | markdownify }}{{ end }}</h2>
+					<div class="row">
+						<div class="col-md-12 subtext to-animate">
+							<h3>{{ with .Site.Params.application.description }}{{ . | markdownify }}{{ end }}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			{{ range .Site.Params.application.item }}
+				<div class="col-md-6 col-sm-6 fh5co-appliction to-animate">
+					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+					<h3>{{ .title | markdownify }}</h3>
+					<p>{{ .description | markdownify }}</p>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+			</div>
+			<br>
+			<span style="color:#FFFFFF";>Please note: requirements outlined here are subject to change. Please visit the{{ with .Site.Params.application.link }}<a href="{{ . }}", style="color:#FFFFFF;text-decoration:underline">{{ end }} faculty website</a> for specific information on admission requirements and the application process. <br><br><h3>To submit your application, click <a href='https://international.tu-dortmund.de/en/international-students/international-applicants/application/' style='color:#FFFFFF;text-decoration:underline;'>here</a>.</h3></span>
+		</div>
+	</section>
+	

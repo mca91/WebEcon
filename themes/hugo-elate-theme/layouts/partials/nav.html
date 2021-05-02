@@ -22,8 +22,8 @@
                     <li tabindex="-1"><a href="#" data-nav-section="work" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
-                    {{ if .Site.Params.services.enable }}
-                    <li tabindex="-1"><a href="#" data-nav-section="services" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ if .Site.Params.application.enable }}
+                    <li tabindex="-1"><a href="#" data-nav-section="application" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.application }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ if .Site.Params.about.enable }}

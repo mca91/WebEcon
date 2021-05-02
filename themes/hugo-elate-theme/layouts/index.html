@@ -26,8 +26,8 @@
        		{{ partial "work.html" .}}
        	{{ end }}
 
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
+		{{ if .Site.Params.application.enable }}
+        	{{ partial "application.html" .}}
 		{{ end }}
 
 		{{ if .Site.Params.about.enable }}

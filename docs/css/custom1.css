@@ -7,7 +7,7 @@
     outline: 2px solid #17408F;
 }
 
-#fh5co-services a:focus {
+#fh5co-application a:focus {
   outline: 2px solid white;
   text-decoration:none;
 }
@@ -113,7 +113,7 @@ height:100%;
     color: white;
 }
 
-.fh5co-service > p {
+.fh5co-application > p {
   color: white;
 }
 
@@ -519,7 +519,7 @@ height:100%;
       font-size: 19px;
     }
     
-    #fh5co-services h3, #fh5co-work h3 {
+    #fh5co-application h3, #fh5co-work h3 {
       font-size: 20px !important;
     }
     
@@ -643,7 +643,7 @@ li {
   font-size: 20px;
 }
 
-#fh5co-services ul li {
+#fh5co-application ul li {
   font-family: "Source Sans Pro"", Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
