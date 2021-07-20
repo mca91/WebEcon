@@ -156,14 +156,14 @@ publishDir = "docs"
     title = "FAQs"
 
     [[params.testimonials.item]]
-      question = "*Does sending my questions to as many email addresses of contact people I can find increase my chances of getting a quick reply?*"
-      answer = "No. That just causes unnecessary duplication of work and creates further delays!"
-      id = "spam"
-
-    [[params.testimonials.item]]
       question = "*I have already completed a Master’s program in X at the University of Y, but am nevertheless interested in attending the MSc Econometrics. Can I still apply?*"
       answer = "Yes."
       id = "mastersalready"
+
+    [[params.testimonials.item]]
+      question = "*Am I eligible to apply?*"
+      answer = "Yes, everybody is eligible to *apply*. If you are eligible to be *admitted* will be checked once you submit a full application with all required documents as described [here](https://www.statistik.tu-dortmund.de/2706.html)."
+      id = "eligible"
 
     [[params.testimonials.item]]
       question = "*Is it possible to take up studies in the summer semester?*"
@@ -209,6 +209,11 @@ publishDir = "docs"
       question = "*I submitted my application X days ago. When will I hear from you?*"
       answer = "We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience."
       id = "feedback"
+    
+    [[params.testimonials.item]]
+      question = "*Does sending my questions to as many email addresses of contact people I can find increase my chances of getting a quick reply?*"
+      answer = "No. That just causes unnecessary duplication of work and creates further delays! Please see the answer to the question above."
+      id = "spam"
     
     [[params.testimonials.item]]
       question = "*What should I include in the academic CV?*"
@@ -296,7 +301,7 @@ publishDir = "docs"
       id = "coursesoffered"
       
     [[params.testimonials.item]]
-      question = "*Where can I find more information regarding the offered courses such as schedules, rooms, important links, access keys for Moodle etc.?*"
+      question = "*Where can I find more information regarding the offered courses such as schedules, rooms, important links, access keys for Moodle etc?*"
       answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. <br><br> <ul><li> [TUDO Statistics](https://www.statistik.tu-dortmund.de/chairs.html) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](http://www.wiwi.ruhr-uni-bochum.de/fakultaet/vwl.html.en)</li></ul> The interactive [table](#courses) above may be useful, too.<br><br> If your desired course is not yet listed in our handbook of modules yet, please contact Fabian Knorre (knorre[at]statistik.tu-dortmund.de) or Jan Prüser (prueser[at]statistik.tu-dortmund.de)."
       id = "coursedetails"
       

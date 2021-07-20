@@ -320,6 +320,14 @@ height:100%;
   font-weight: 400;
 }
 
+.question:before {
+  content: "Q" counter(section) ": ";
+}
+
+.faq {
+  counter-increment: section;               
+}
+
 .faq-icon {
   position:relative;
   left: 10px;
