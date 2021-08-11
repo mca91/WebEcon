@@ -10,12 +10,10 @@
 		</div>
         
         <h3>RuhrM&Sigma;trics &mdash; Recent Publications</h3>
-        <div style="text-indent: -40px; padding-left:60px;padding-top:30px;padding-right:60px;padding-bottom:60px;color:black">
-          
+        <div style="text-indent: -40px; padding-left:60px;padding-top:30px;padding-right:60px;padding-bottom:60px;color:black;">
          {{ range .Site.Params.research.paper }}  
-          <p>{{ .author | markdownify}}. ({{ .year | markdownify}}). {{ .title | markdownify}}. <i>{{ .journal | markdownify}}</i>.</p>
+          <h3 style="font-weight:300">{{ .author | markdownify}}. ({{ .year | markdownify}}). {{ .title | markdownify}}. <i>{{ .journal | markdownify}}</i>.</h3>
           {{ end }}
-      
         </div>
         
 
