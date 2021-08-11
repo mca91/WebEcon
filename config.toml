@@ -353,9 +353,9 @@ publishDir = "docs"
       
     [[params.research.session]]
       title = "*Higher-order moments in structural VAR models*"
-      speaker = "Sascha Keweloh (10:20 -- 12:20)"
+      speaker = "Sascha Keweloh"
       affiliation = "TU Do"
-      date = "July 21st 2021"
+      date = "July 21st 2021 (10:20 -- 12:20)"
       location = "Zoom -- hosted by FU Hagen"
       
     [[params.research.session]]
