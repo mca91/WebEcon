@@ -1,0 +1,49 @@
+<section id="fh5co-research" data-section="research">
+  <div class="container">
+    <div class="col-md-12 section-heading text-center">
+		  <h2>Research and RuhrM&sigma;trics</h2>
+		  <div class="row">
+				<div class="col-md-12 subtext" style="padding-left:0;padding-right:0">
+    	    <h3>{{ with .Site.Params.research.text }}{{ . | markdownify }}{{ end }}</h3>
+		    </div>
+		  </div>
+		</div>
+        
+        <h3>RuhrM&Sigma;trics &mdash; Recent Publications</h3>
+        <div style="text-indent: -40px; padding-left:60px;padding-top:30px;padding-right:60px;padding-bottom:60px;color:black">
+          
+         {{ range .Site.Params.research.paper }}  
+          <p>{{ .author | markdownify}}. ({{ .year | markdownify}}). {{ .title | markdownify}}. <i>{{ .journal | markdownify}}</i>.</p>
+          {{ end }}
+      
+        </div>
+        
+
+        <h3>RuhrM&Sigma;trics &mdash; Research Seminar</h3>
+        <div style="padding-top:30px;">
+        <table class="table" style="table-layout:fixed;">
+          <thead>
+            <tr class="tablehead">
+              <th colspan="4" style="background-color: #17408F; color:white;">Summer 2021</th>
+            </tr>
+            <tr>
+              <th>Date and time</th>
+              <th>Title</th>
+              <th>Speaker</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .Site.Params.research.session }}
+          <tr>
+            <td>{{ .date | markdownify}}</td>
+            <td>{{ .title | markdownify}}</td>
+            <td>{{ .speaker | markdownify}} <br>({{ .affiliation | markdownify}})</td>
+            <td>{{ .location | markdownify}}</td>
+          </tr>
+          {{ end }}
+          </tbody>
+        </table>
+        </div>
+		  </div>
+</section>

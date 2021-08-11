@@ -610,11 +610,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-application, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure {
+#fh5co-application, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure, #fh5co-research {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-application, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure {
+  #fh5co-application, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-structure, #fh5co-research {
     padding: 2em 0;
   }
 }
@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-application, #fh5co-work, #fh5co-counters, #fh5co-structure {
+  #fh5co-application, #fh5co-work, #fh5co-counters, #fh5co-structure, #fh5co-research {
     padding: 4em 0;
   }
 }

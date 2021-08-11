@@ -38,6 +38,10 @@
                     <li tabindex="-1"><a href="#" data-nav-section="testimonials" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
+                    {{ if .Site.Params.research.enable }}
+                    <li tabindex="-1"><a href="#" data-nav-section="research" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.research }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
+
                     {{ if .Site.Params.contact.enable }}
                     <li><a href="#" data-nav-section="contact" tabindex="-1"><span tabindex="0">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
