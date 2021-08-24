@@ -207,6 +207,11 @@ publishDir = "docs"
       id = "parttimestudy"
     
     [[params.testimonials.item]]
+      question = "*Can I go abroad?*"
+      answer = "While we do not have a specific exchange program for the MSc Econometrics yet, there are existing exchange programs for the other programs of the participating faculties that you may be able to draw upon. Please contact us for details."
+      id = "studyingabroad"
+    
+    [[params.testimonials.item]]
       question = "*I submitted my application X days ago. When will I hear from you?*"
       answer = "We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience."
       id = "feedback"
