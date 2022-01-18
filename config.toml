@@ -103,7 +103,7 @@ publishDir = "docs"
 
     [[params.application.item]]
       title = "Academic Curriculum Vitae"
-      description = "<b>Applicants must submit an essay (Academic CV)</b> on their academic background in view of the pursued master program on Econometrics. We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version.<p><b>Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/' style='color:#FFFFFF;text-decoration:underline;'>here</a> to generate your Academic CV.</b></p>"
+      description = "<b>Applicants must submit an essay (Academic CV)</b> on their academic background in view of the pursued master program on Econometrics. We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version.<p><b>Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/' style='color:#FFFFFF;text-decoration:underline;'>here</a> to generate your Academic CV.</b><br>(link accessible during application period only)</p>"
       icon = "icon-layers2"
       
     [[params.application.item]]
@@ -223,7 +223,7 @@ publishDir = "docs"
     
     [[params.testimonials.item]]
       question = "*What should I include in the academic CV?*"
-      answer = "We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version. Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/'>here</a> to generate your Academic CV.<p>Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application.</p>"
+      answer = "We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version. Please click <a href='https://econometricscv-x7y9i.ondigitalocean.app/'>here</a> (only available during application period) to generate your Academic CV.<p>Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application.</p>"
       id = "CV"
     
     [[params.testimonials.item]]
@@ -315,7 +315,7 @@ publishDir = "docs"
   [params.research]
     enable = true
     title = "Research and RuhrMetrics"
-    text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. A prime example is the [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes](https://gepris.dfg.de/gepris/projekt/68236791?language=en).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://en.rwi-essen.de/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FU Hagen), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on joint research seminars. "
+    text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. A prime example is the [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes](https://gepris.dfg.de/gepris/projekt/68236791?language=en).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://en.rwi-essen.de/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on joint research seminars. "
     
     [[params.research.paper]]
       title = "Change Detection in Dynamic Networks Using Network Characteristics"
@@ -341,95 +341,153 @@ publishDir = "docs"
       journal = "Energy Economics (85)"
       year = "2020"
 
-# Summer 21 Sessions
+# Winter 21 Sessions
 
     [[params.research.session.S1]]
+      title = "*Cheater Analysis*"
+      speaker = "Natalie Reckmann"
+      affiliation = "UDE"
+      date = "January 14th 2022 <br> (9:45 -- 10:15)"
+      location = "Zoom -- hosted by UDE"
+
+    [[params.research.session.S1]]
+      title = "*Bayesian analysis of reduced rank regression models using post-processing*"
+      speaker = "Markus Pape"
+      affiliation = "RUB"
+      date = "January 14th 2022 <br> (10:15 -- 10:45)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*Modeling Realized Covariance Measures with Heterogeneous Liquidity: A Generalized Matrix-Variate Wishart State-Space Model*"
+      speaker = "Bastian Gribisch"
+      affiliation = "TU Do"
+      date = "January 14th 2022 <br> (10:45 -- 11:15)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*(Bootstrap) inference for doubly robust estimators*"
+      speaker = "Tanvir Hossain "
+      affiliation = "TU Do"
+      date = "January 14th 2022 <br> (11:35 -- 12:05)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*On the Incidental Parameter Problem in Fractional Response Models with Fixed Effects*"
+      speaker = "Amrei Stammann"
+      affiliation = "RUB"
+      date = "January 14th 2022 <br> (12:05 -- 12:35)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*Modeling and Forecasting Gas Prices with Copula Models*"
+      speaker = "Sven Rappert"
+      affiliation = "TU Do"
+      date = "January 14th 2022 <br> (13:45 -- 14:15)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*Predictive power of the variance premium*"
+      speaker = "Yuze Liu"
+      affiliation = "FUH"
+      date = "January 14th 2022 <br> (14:15 -- 14:45)"
+      location = "Zoom -- hosted by UDE"
+      
+    [[params.research.session.S1]]
+      title = "*New stylized facts of financial exuberance*"
+      speaker = "Marco Kerkemeier"
+      affiliation = "FUH"
+      date = "January 14th 2022 <br> (14:45 -- 15:15)"
+      location = "Zoom -- hosted by UDE"
+
+# Summer 21 Sessions
+
+    [[params.research.session.S2]]
       title = "*Robust Splitting Methods for the Causal Tree*"
       speaker = "Karolina Gliszczynska"
       affiliation = "UDE"
       date = "July 21st 2021 <br> (10:20 -- 12:20)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Accurate and (Almost) Tuning Parameter Free Inference in Cointegrating Regressions*"
       speaker = "Karsten Reichold"
       affiliation = "AAU Klagenfurt and TU Do"
       date = "July 21st 2021 <br> (10:20 -- 12:20)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Higher-order moments in structural VAR models*"
       speaker = "Sascha Keweloh"
       affiliation = "TU Do"
       date = "July 21st 2021 <br> (10:20 -- 12:20)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Improving financial volatility nowcasts*"
       speaker = "Yuze Liu"
-      affiliation = "FU Hagen"
+      affiliation = "FUH"
       date = "July 21st 2021 <br> (13:30 -- 14:45)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
     
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Empirical Similarity in Portfolio Selection*"
       speaker = "Jamol Bahromow"
       affiliation = "RUB"
       date = "July 21st 2021 <br> (13:30 -- 14:45)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
     
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Approximation and Error Analysis of Forward-Backward SDEs driven by Pure Jump Lévy Processes using Shot Noise Series Representations*"
       speaker = "Till Massing"
       affiliation = "UDE"
       date = "July 21st 2021 <br> (14:45 -- 16:00)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
     
-    [[params.research.session.S1]]
+    [[params.research.session.S2]]
       title = "*Valid weighted bootstrap inference requires consistent bias-correction*"
       speaker = "Christopher Walsh"
       affiliation = "TU Do"
       date = "July 21st 2021 <br> (14:45 -- 16:00)"
-      location = "Zoom -- hosted by FU Hagen"
+      location = "Zoom -- hosted by FUH"
 
 # Winter 20 Sessions
 
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*Nonparametric Cointegrating Regression*"
       speaker = "Fabian Knorre"
       affiliation = "TU Do"
       date = "Decembter 10th 2020 <br>  (10:30 -- 10:55)"
       location = "Zoom -- hosted by TU Do"
       
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*A global-local prior for time-varying parameter VARs and Monetary Policy*"
       speaker = "Jan Prüser"
       affiliation = "TU Do"
       date = "Decembter 10th 2020 <br>  (11:05 -- 11:30)"
       location = "Zoom -- hosted by TU Do"
     
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*Forecasting with Deep Factor Models*"
       speaker = "Simon Umbach"
-      affiliation = "FU Hagen"
+      affiliation = "FUH"
       date = "Decembter 10th 2020 <br>  (13:30 -- 14:05)"
       location = "Zoom -- hosted by TU Do"
     
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*A mixed frequency stochastic volatility model with two macro-financial components*"
       speaker = "Yuze Liu"
-      affiliation = "FU Hagen"
+      affiliation = "FUH"
       date = "Decembter 10th 2020 <br> (14:05 -- 14:30)"
       location = "Zoom -- hosted by TU Do"
 
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*Estimation of unrestricted CAW models in large samples*"
       speaker = "Jan Vogler"
       affiliation = "RUB"
       date = "Decembter 10th 2020 <br>  (15:10 -- 15:35)"
       location = "Zoom -- hosted by TU Do"
       
-    [[params.research.session.S2]]
+    [[params.research.session.S3]]
       title = "*Adaptive Testing for Long Memory*"
       speaker = "Thilo Reinschlüssel"
       affiliation = "UDE"
