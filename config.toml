@@ -228,9 +228,14 @@ publishDir = "docs"
       id = "CV"
     
     [[params.testimonials.item]]
-      question = "*My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Am I nevertheless eligible to apply?*"
-      answer = "Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Masters degree."
+      question = "*My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Can I nevertheless be admitted?*"
+      answer = "Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Master's degree."
       id = "min_GPA"
+      
+    [[params.testimonials.item]]
+      question = "*Is there a maximum number of students you admit each year?*"
+      answer = "No, there is no cap."
+      id = "admissions_cap"
     
     [[params.testimonials.item]]
       question = "*I do not have EU citizenship. Do I have to leave Germany or can I stay and start working after I have obtained the Master's degree?*"  
@@ -249,7 +254,7 @@ publishDir = "docs"
       
     [[params.testimonials.item]]
       question = "*There are still a few courses missing for my Bachelor’s degree. Can I nevertheless apply?*"
-      answer = "Yes. We are aware that your undergraduate degree may not be fully complete by the time you apply and take this into account when assessing your application. Please briefly summarize what you still plan to complete in your <a href ='https://econometricscv-x7y9i.ondigitalocean.app/'>academic CV</a>."
+      answer = "Yes. We are aware that your undergraduate degree may not be fully complete by the time you apply and take this into account when assessing your application. Please briefly summarize what you still plan to complete in your <a href ='https://econometricscv-x7y9i.ondigitalocean.app/'>academic CV</a> (resource only available during application period)."
       id = "missing_courses"
       
     [[params.testimonials.item]]
