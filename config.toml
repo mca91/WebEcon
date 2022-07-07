@@ -5,6 +5,16 @@ languageCode = "en"
 theme = "hugo-elate-theme"
 publishDir = "docs"
 
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffixes = ["php"]
+
+[outputFormats]
+  [outputFormats.PHP]
+    mediaType = "application/x-php"
+    isPlainText = true
+    baseName = "index"
+
 [markup]
   defaultMarkdownHandler = "goldmark"
 
