@@ -5,16 +5,6 @@ languageCode = "en"
 theme = "hugo-elate-theme"
 publishDir = "docs"
 
-[mediaTypes]
-  [mediaTypes."application/x-php"]
-  suffixes = ["php"]
-
-[outputFormats]
-  [outputFormats.PHP]
-    mediaType = "application/x-php"
-    isPlainText = true
-    baseName = "index"
-
 [markup]
   defaultMarkdownHandler = "goldmark"
 
@@ -520,7 +510,7 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an <a href='redirect.php'>email</a> or contact [study advisory services @ TU Dortmund University](https://www.statistik.tu-dortmund.de/stud-advisory.html)."
+    description = "If you have any questions about the program, please feel free to send an <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#101;&#99;&#111;&#110;&#111;&#109;&#101;&#116;&#114;&#105;&#99;&#115;&#46;&#114;&#117;&#104;&#114;'>email</a> or contact [study advisory services @ TU Dortmund University](https://www.statistik.tu-dortmund.de/stud-advisory.html)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
