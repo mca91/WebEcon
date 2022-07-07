@@ -510,7 +510,7 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an <a href='mailto:info@econometrics.ruhr'>email</a> or contact [study advisory services @ TU Dortmund University](https://www.statistik.tu-dortmund.de/stud-advisory.html)."
+    description = "If you have any questions about the program, please feel free to send an <a href='redirect.php'>email</a> or contact [study advisory services @ TU Dortmund University](https://www.statistik.tu-dortmund.de/stud-advisory.html)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
