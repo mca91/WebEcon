@@ -182,7 +182,7 @@ publishDir = "docs"
       id = "condadmission"
 
     [[params.testimonials.item]]
-      question = "*In my admission letter, I am being told about a requirement to earn missing qualifications in subject X. I however believe that I have already fulfilled these requirements. What should I do?*"
+      question = "*In my admission letter, I am being told about a requirement to earn missing qualifications in subject X. I however believe that I have already fulfilled these qualifications. What should I do?*"
       answer = "Please contact us to discuss this matter."
       id = "missingquali"
 
