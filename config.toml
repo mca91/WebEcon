@@ -177,7 +177,7 @@ publishDir = "docs"
       id = "summertakeup"
 
     [[params.testimonials.item]]
-      question = "I have been admitted to the program with conditions. Does this affect my recommended course of study?"
+      question = "I have been admitted to the program on conditions. Does this affect my recommended course of study?"
       answer = "Depending on the conditions imposed, it may be advisable to take pre-courses and, in particular, to complete the core curriculum in a specific order. Please check with us if you are in doubt about the effect of admission conditions on your specific course of study."
       id = "condadmission"
 
