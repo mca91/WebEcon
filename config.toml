@@ -24,6 +24,8 @@ publishDir = "docs"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
+  mhb_link = "https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_2022_November_14.pdf"
+
   # Navigation
   [params.navigation]
     home = "Home"
@@ -90,19 +92,19 @@ publishDir = "docs"
 
 # application section
   [params.application]
-    link = "https://www.statistik.tu-dortmund.de/index.php?id=2705"
+    link = "https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/admission/"
     enable = true
     title = "Requirements & Application"
     description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. <br><br> The application phase for the winter semester 2022 starts on 15.03.2022. <br><br> **Deadline** for applicants with a last relevant educational qualification from countries ***outside*** the European Union is **July 15, 2022**. <br><br> For applicants who have obtained their last relevant educational qualification in Germany (educational residents), the enrollment is possible from mid-June until the last Friday prior to the lecture period of the winter term. For further information please visit the website of the <a href='https://www.tu-dortmund.de/studierende/studienangebot/master/econometrics-202/' style='color:white; text-decoration:underline;'>examination office</a> at  TU Dortmund University (information in German only). <br><br> For applicants with a qualification from a member state of the European Union, the application term is the same as for educational residents. <br><br> Please note that it may take several weeks for the International Office @ TU Dortmund University to process your application. The period between confirmation of admission and the beginning of the semester may be short, if the documents are submitted late. In order to ensure sufficient time for the organisation of a visa, accommodation etc. we advise international applicants from non-EU countries in particular to **apply as early as possible**.<br><br> We look forward to your application!"
     
     [[params.application.item]]
       title = "Qualifying Degrees"
-    description = "The program is aimed at quantitatively oriented students with a strong interest to acquire the necessary theoretical foundations for a career in econometric research. Especially the core modules are demanding in terms of mathematical rigor!<br><br> A BSc or equivalent degree in Economics, Mathematics, Statistics or a related discipline is required. At least 15 ECTS in both Economics and mathematics/statistics/econometrics are required. <br><br> Candidates who do not fully meet these credit requirements may in general be admitted on the condition that they successfully complete certain undergraduate level courses. If admission is subject to conditions, applicants will be informed thereof in their notification of admission. In any case, a regular application must first be submitted in due time.<p><b>Details on qualifying degrees and grade requirements can be found at the <a href='https://www.statistik.tu-dortmund.de/2706.html' style='color:#FFFFFF;text-decoration:underline;'>department page</a>.</b><p>"
+    description = "The program is aimed at quantitatively oriented students with a strong interest to acquire the necessary theoretical foundations for a career in econometric research. Especially the core modules are demanding in terms of mathematical rigor!<br><br> A BSc or equivalent degree in Economics, Mathematics, Statistics or a related discipline is required. At least 15 ECTS in both Economics and mathematics/statistics/econometrics are required. <br><br> Candidates who do not fully meet these credit requirements may in general be admitted on the condition that they successfully complete certain undergraduate level courses. If admission is subject to conditions, applicants will be informed thereof in their notification of admission. In any case, a regular application must first be submitted in due time.<p><b>Details on qualifying degrees and grade requirements can be found at the <a href='https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/admission/' style='color:#FFFFFF;text-decoration:underline;'>department page</a>.</b><p>"
       icon = "icon-graduation"
 
     [[params.application.item]]
       title = "Self-Assessment"
-    description = "Every applicant must complete a self-assessment. However, this assessment is not a test that you can fail: we want applicants to assess their knowledge of statistics, economics, and econometrics so that specific pre-courses can be taken, if necessary. <p><b>The self-assesment can be downloaded <a href='images/econometrics_assessment.pdf' style='color:#FFFFFF;text-decoration:underline;'>here</a>.</b></p><p><b>Please click <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR' style='color:#FFFFFF;text-decoration:underline;'>here</a> to submit your self-assessment.</b></p>"
+    description = "Every applicant must complete a self-assessment. However, this assessment is not a test that you can fail: we want applicants to assess their knowledge of statistics, economics, and econometrics so that specific pre-courses can be taken, if necessary. <p><b>The self-assesment can be downloaded <a href='https://www.econometrics.ruhr/images/econometrics_assessment.pdf' style='color:#FFFFFF;text-decoration:underline;'>here</a>.</b></p><p><b>Please click <a href='https://evaluation.tu-dortmund.de/evasys/online.php?p=38AHR' style='color:#FFFFFF;text-decoration:underline;'>here</a> to submit your self-assessment.</b></p>"
       icon = "icon-check"
 
     [[params.application.item]]
@@ -168,7 +170,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Am I eligible to apply?*"
-      answer = "Yes, everybody is eligible to *apply*. If you are eligible to be *admitted* will be checked once you submit a full application with all required documents as described [here](https://www.statistik.tu-dortmund.de/2706.html)."
+      answer = "Yes, everybody is eligible to *apply*. If you are eligible to be *admitted* will be checked once you submit a full application with all required documents as described [here](https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/admission/)."
       id = "eligible"
 
     [[params.testimonials.item]]
@@ -253,7 +255,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Where can I find the self-assessment and is it mandatory to take it?*"
-      answer = "The online self-assessment is available <a href='images/econometrics_assessment.pdf'>here</a>. It is mandatory to take the assessment. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
+      answer = "The online self-assessment is available <a href='https://www.econometrics.ruhr/images/econometrics_assessment.pdf'>here</a>. It is mandatory to take the assessment. However, this is not a test that you can fail: We would like applicants to assess their skills in statistics, economics and econometrics so that, if necessary, specific pre-courses can be taken."
       id = "self-assessment"
     
     [[params.testimonials.item]]
@@ -313,17 +315,17 @@ publishDir = "docs"
     
     [[params.testimonials.item]]
       question = "*I have been admitted to the program and want to attend the precourse in statistics. Where can I find more information?*"
-      answer = "The precourse in statistics is an e-learning course. Further information can be found [here](https://www.statistik.tu-dortmund.de/mastervorkurs-en.html)."
+      answer = "The precourse in statistics is an e-learning course. Further information can be found [here](https://msnat.statistik.tu-dortmund.de/en/teaching/courses/)."
       id = "precourses"
     
     [[params.testimonials.item]]
       question = "*Where can I get an overview of the courses offered in the current/upcoming semester?*"
-      answer = "For a start, please refer to the interactive [table](#courses) above. The links in the first column point to the [module manual](https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_2022_July_06.pdf). We recommend you to read pages 9 to 14 for an overview of the distinct module areas. Links in the last column usually direct to the respective chair's website where further information is available. The participating faculties also provide information on their homepages. <br><br><ul><li> English language courses offered by the Department of Statistics in the current semester can be found [here](https://www.statistik.tu-dortmund.de/lectureoverviewandtimetable.html). If your language skills are sufficient, you are welcome to take selected German-language courses. All courses offered by the Department of Statistics are listed [here](https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Vorlesungsverzeichnis/WS2020_21/vv-winter20.pdf).</li> <li>Lectures offered by the Department of Economics of TU Dortmund are listed [here](https://wiwi.tu-dortmund.de/storages/wiwi/r/fakultaet/Dokumente/HybridesLehrangebot_WiWi_WS202021.pdf)</li> <li> Lectures offered by the Department of Economics of RUB are listed [here](https://www.wiwi.ruhr-uni-bochum.de/mam/content/dekanat/stundenplaene/20201013_master_economics_online_pr%C3%A4senz.pdf) and [here](https://www.wiwi.ruhr-uni-bochum.de/mam/content/dekanat/stundenplaene/sonstige_veranstaltungen_master_economics_online.pdf)</li> <li> Lectures offered by the Department of Economics of UDE for the Master Econometrics are listed [here](https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120202=265964%7C260939%7C261742&P.vx=kurz)</li><br>"
+      answer = "For a start, please refer to the interactive [table](#courses) above. The links in the first column point to the <a href=https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_2022_November_14.pdf>module manual</a>. We recommend you to read pages 11 to 16 for an overview of the distinct module areas. Links in the last column usually direct to the respective chair's website where further information is available. The participating faculties also provide information on their homepages. <br><br><ul><li> English language courses offered by the Department of Statistics in the current semester can be found [here](https://www.statistik.tu-dortmund.de/lectureoverviewandtimetable.html). If your language skills are sufficient, you are welcome to take selected German-language courses. All courses offered by the Department of Statistics are listed [here](https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Vorlesungsverzeichnis/WS2020_21/vv-winter20.pdf).</li> <li>Lectures offered by the Department of Economics of TU Dortmund are listed [here](https://wiwi.tu-dortmund.de/storages/wiwi/r/fakultaet/Dokumente/HybridesLehrangebot_WiWi_WS202021.pdf)</li> <li> Lectures offered by the Department of Economics of RUB are listed [here](https://www.wiwi.ruhr-uni-bochum.de/mam/content/dekanat/stundenplaene/20201013_master_economics_online_pr%C3%A4senz.pdf) and [here](https://www.wiwi.ruhr-uni-bochum.de/mam/content/dekanat/stundenplaene/sonstige_veranstaltungen_master_economics_online.pdf)</li> <li> Lectures offered by the Department of Economics of UDE for the Master Econometrics are listed [here](https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120202=265964%7C260939%7C261742&P.vx=kurz)</li><br>"
       id = "coursesoffered"
       
     [[params.testimonials.item]]
       question = "*Where can I find more information regarding the offered courses such as schedules, rooms, important links, access keys for Moodle etc?*"
-      answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. <br><br> <ul><li> [TUDO Statistics](https://www.statistik.tu-dortmund.de/chairs.html) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](http://www.wiwi.ruhr-uni-bochum.de/fakultaet/vwl.html.en)</li></ul> The interactive [table](#courses) above may be useful, too.<br><br> If your desired course is not yet listed in our handbook of modules yet, please contact Fabian Knorre (knorre[at]statistik.tu-dortmund.de) or Jan Prüser (prueser[at]statistik.tu-dortmund.de)."
+      answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. <br><br> <ul><li> [TUDO Statistics](https://statistik.tu-dortmund.de/en/research/chairs/) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](https://www2.wiwi.rub.de/en/students/)</li></ul> The interactive [table](#courses) above may be useful, too.<br><br> If your desired course is not yet listed in our handbook of modules yet, please contact Fabian Knorre (knorre[at]statistik.tu-dortmund.de) or Jan Prüser (prueser[at]statistik.tu-dortmund.de)."
       id = "coursedetails"
       
 # research section
@@ -352,7 +354,7 @@ publishDir = "docs"
       
     [[params.research.paper]]
       title = "Time-varying persistence in real oil prices and its determinant"
-      author = "Kruse-Becher, Y. R. and Wegener, C"
+      author = "Kruse-Becher, Y. R. and Wegener, C."
       journal = "Energy Economics (85)"
       year = "2020"
 
@@ -471,42 +473,42 @@ publishDir = "docs"
       title = "*Nonparametric Cointegrating Regression*"
       speaker = "Fabian Knorre"
       affiliation = "TU Do"
-      date = "Decembter 10th 2020 <br>  (10:30 -- 10:55)"
+      date = "December 10th 2020 <br>  (10:30 -- 10:55)"
       location = "Zoom -- hosted by TU Do"
       
     [[params.research.session.S3]]
       title = "*A global-local prior for time-varying parameter VARs and Monetary Policy*"
       speaker = "Jan Prüser"
       affiliation = "TU Do"
-      date = "Decembter 10th 2020 <br>  (11:05 -- 11:30)"
+      date = "December 10th 2020 <br>  (11:05 -- 11:30)"
       location = "Zoom -- hosted by TU Do"
     
     [[params.research.session.S3]]
       title = "*Forecasting with Deep Factor Models*"
       speaker = "Simon Umbach"
       affiliation = "FUH"
-      date = "Decembter 10th 2020 <br>  (13:30 -- 14:05)"
+      date = "December 10th 2020 <br>  (13:30 -- 14:05)"
       location = "Zoom -- hosted by TU Do"
     
     [[params.research.session.S3]]
       title = "*A mixed frequency stochastic volatility model with two macro-financial components*"
       speaker = "Yuze Liu"
       affiliation = "FUH"
-      date = "Decembter 10th 2020 <br> (14:05 -- 14:30)"
+      date = "December 10th 2020 <br> (14:05 -- 14:30)"
       location = "Zoom -- hosted by TU Do"
 
     [[params.research.session.S3]]
       title = "*Estimation of unrestricted CAW models in large samples*"
       speaker = "Jan Vogler"
       affiliation = "RUB"
-      date = "Decembter 10th 2020 <br>  (15:10 -- 15:35)"
+      date = "December 10th 2020 <br>  (15:10 -- 15:35)"
       location = "Zoom -- hosted by TU Do"
       
     [[params.research.session.S3]]
       title = "*Adaptive Testing for Long Memory*"
       speaker = "Thilo Reinschlüssel"
       affiliation = "UDE"
-      date = "Decembter 10th 2020 <br>  (15:45 -- 16:20)"
+      date = "December 10th 2020 <br>  (15:45 -- 16:20)"
       location = "Zoom -- hosted by TU Do"
 
   # Contact section
@@ -515,7 +517,7 @@ publishDir = "docs"
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#101;&#99;&#111;&#110;&#111;&#109;&#101;&#116;&#114;&#105;&#99;&#115;&#46;&#114;&#117;&#104;&#114;'>email</a> or contact [study advisory services @ TU Dortmund University](https://www.statistik.tu-dortmund.de/stud-advisory.html)."
+    description = "If you have any questions about the program, please feel free to send an <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#101;&#99;&#111;&#110;&#111;&#109;&#101;&#116;&#114;&#105;&#99;&#115;&#46;&#114;&#117;&#104;&#114;'>email</a> or contact [student advisory services @ TU Dortmund University](https://statistik.tu-dortmund.de/en/studies/student-advisory-and-faqs/)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
@@ -530,7 +532,7 @@ publishDir = "docs"
       
     detailsWiWiRUB = [
         ["icon-home", "Faculty of Management and Economics <br> Ruhr University Bochum <br> Universitätsstraße 150 <br> 44801 Bochum <br> Germany"],
-        ["icon-globe", '<a href="https://www.wiwi.ruhr-uni-bochum.de/index.html.en" target="_blank">Faculty website</a>']
+        ["icon-globe", '<a href="https://www2.wiwi.rub.de/en/" target="_blank">Faculty website</a>']
       ]
       
     detailsWiWiUDE = [
@@ -548,6 +550,6 @@ publishDir = "docs"
   [params.footer]
     enable = true
     copyright = '<br><img src="images/uaruhr.png" height="55" hspace="20" alt="The UAR logo"><img src="images/mercur.png" height="100" hspace="20" alt="Logo of the MERCUR foundation"><img src="images/statistik_dortmund.png" height="55" hspace = "20" alt="Logo of the Department of Statistics at TU Dortmund University"><img src="images/wiwi_dortmund.png" height="60" hspace = "21" alt="Logo of the Department of Economics at TU Dortmund University"><img src="images/wiwi_bochum.png" height="60" hspace = "20" alt="Logo of the Faculty of Economics at Ruhr University Bochum"><img src="images/wiwi_essen.png" height="60" hspace = "20" alt="Logo of the Faculty of Economics at University of Duisburg-Essen"><img src="images/RGS.JPG" height="80" alt="Logo of the Ruhr Graduate School in Economics"><br><br>The participating universities do not take any liability for the correctness and completeness of the information on their websites. The same applies to the contents of linked pages. <br><br>hugo-elate-theme &copy; 2016 by Pieter Saey.'
-    imprint = '<a href="https://www.statistik.tu-dortmund.de/impressum0.html" target="_blank">Imprint</a>'
-    prpolicy = '<a href="https://www.statistik.tu-dortmund.de/datenschutzerklaerung0.html" target="_blank">Privacy Policy</a>'
+    imprint = '<a href="https://statistik.tu-dortmund.de/en/imprint/" target="_blank">Imprint</a>'
+    prpolicy = '<a href="https://statistik.tu-dortmund.de/en/privacy/" target="_blank">Privacy Policy</a>'
     accessibility = '<a href="barrierefreiheit.html">Accessibility</a>'
