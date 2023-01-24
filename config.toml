@@ -354,62 +354,106 @@ publishDir = "docs"
       
     [[params.research.paper]]
       title = "Time-varying persistence in real oil prices and its determinant"
-      author = "Kruse-Becher, Y. R. and Wegener, C."
+      author = "Kruse-Becher, Y. R. and Wegener, C"
       journal = "Energy Economics (85)"
       year = "2020"
 
+# Summer 22 Sessions
+
+    [[params.research.session.S4]]
+      title = "*Backtesting Systemic Risk Forecasts Using Multi-Objective Elicitability*"
+      speaker = "Yannick Hoga"
+      affiliation = "UDE"
+      date = "June 27th 2022 <br> (13:55 -- 14:25)"
+      location = "Ruhr-University Bochum"
+      
+    [[params.research.session.S4]]
+      title = "*CRPS Learning*"
+      speaker = "Florian Ziel"
+      affiliation = "UDE"
+      date = "June 27th 2022 <br> (14:25 -- 14:55)"
+      location = "Ruhr-University Bochum"
+      
+    [[params.research.session.S4]]
+      title = "*Estimating heterogeneous treatment effects with Bayesian Additive Regression Trees (BART)*"
+      speaker = "Lennard Maßmann"
+      affiliation = "UDE"
+      date = "June 27th 2022 <br> (14:55 -- 15:25)"
+      location = "Ruhr-University Bochum"
+    
+    [[params.research.session.S4]]
+      title = "*Unrestricted maximum likelihood estimation of multivariate realized volatility models*"
+      speaker = "Jan Vogler"
+      affiliation = "RUB"
+      date = "June 27th 2022 <br> (16:00 -- 16:30)"
+      location = "Ruhr-University Bochum"
+    
+    [[params.research.session.S4]]
+      title = "*A combined shrinkage and pooling prior for VARs*"
+      speaker = "Jan Prüser"
+      affiliation = "TUDO"
+      date = "June 27th 2022 <br> (16:30 -- 17:00)"
+      location = "Ruhr-University Bochum"
+    
+    [[params.research.session.S4]]
+      title = "*Monitoring the Predictability of Stock Returns - The Impact of Unknown Predictor Persistence and Nonstationary Volatility*"
+      speaker = "Fabian Schmidt"
+      affiliation = "TUDO"
+      date = "June 27th 2022 <br> (17:00 -- 17:30)"
+      location = "Ruhr-University Bochum"
+
 # Winter 21 Sessions
 
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*Cheater Analysis*"
       speaker = "Natalie Reckmann"
       affiliation = "UDE"
       date = "January 14th 2022 <br> (9:45 -- 10:15)"
       location = "Zoom -- hosted by UDE"
 
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*Bayesian analysis of reduced rank regression models using post-processing*"
       speaker = "Markus Pape"
       affiliation = "RUB"
       date = "January 14th 2022 <br> (10:15 -- 10:45)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*Modeling Realized Covariance Measures with Heterogeneous Liquidity: A Generalized Matrix-Variate Wishart State-Space Model*"
       speaker = "Bastian Gribisch"
       affiliation = "TU Do"
       date = "January 14th 2022 <br> (10:45 -- 11:15)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*(Bootstrap) inference for doubly robust estimators*"
       speaker = "Tanvir Hossain "
       affiliation = "TU Do"
       date = "January 14th 2022 <br> (11:35 -- 12:05)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*On the Incidental Parameter Problem in Fractional Response Models with Fixed Effects*"
       speaker = "Amrei Stammann"
       affiliation = "RUB"
       date = "January 14th 2022 <br> (12:05 -- 12:35)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*Modeling and Forecasting Gas Prices with Copula Models*"
       speaker = "Sven Rappert"
       affiliation = "TU Do"
       date = "January 14th 2022 <br> (13:45 -- 14:15)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*Predictive power of the variance premium*"
       speaker = "Yuze Liu"
       affiliation = "FUH"
       date = "January 14th 2022 <br> (14:15 -- 14:45)"
       location = "Zoom -- hosted by UDE"
       
-    [[params.research.session.S1]]
+    [[params.research.session.S3]]
       title = "*New stylized facts of financial exuberance*"
       speaker = "Marco Kerkemeier"
       affiliation = "FUH"
@@ -469,42 +513,42 @@ publishDir = "docs"
 
 # Winter 20 Sessions
 
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*Nonparametric Cointegrating Regression*"
       speaker = "Fabian Knorre"
       affiliation = "TU Do"
       date = "December 10th 2020 <br>  (10:30 -- 10:55)"
       location = "Zoom -- hosted by TU Do"
       
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*A global-local prior for time-varying parameter VARs and Monetary Policy*"
       speaker = "Jan Prüser"
       affiliation = "TU Do"
       date = "December 10th 2020 <br>  (11:05 -- 11:30)"
       location = "Zoom -- hosted by TU Do"
     
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*Forecasting with Deep Factor Models*"
       speaker = "Simon Umbach"
       affiliation = "FUH"
       date = "December 10th 2020 <br>  (13:30 -- 14:05)"
       location = "Zoom -- hosted by TU Do"
     
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*A mixed frequency stochastic volatility model with two macro-financial components*"
       speaker = "Yuze Liu"
       affiliation = "FUH"
       date = "December 10th 2020 <br> (14:05 -- 14:30)"
       location = "Zoom -- hosted by TU Do"
 
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*Estimation of unrestricted CAW models in large samples*"
       speaker = "Jan Vogler"
       affiliation = "RUB"
       date = "December 10th 2020 <br>  (15:10 -- 15:35)"
       location = "Zoom -- hosted by TU Do"
       
-    [[params.research.session.S3]]
+    [[params.research.session.S1]]
       title = "*Adaptive Testing for Long Memory*"
       speaker = "Thilo Reinschlüssel"
       affiliation = "UDE"
