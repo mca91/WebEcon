@@ -335,28 +335,41 @@ publishDir = "docs"
     text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. A prime example is the [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes](https://gepris.dfg.de/gepris/projekt/68236791?language=en).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://www.rwi-essen.de/en/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on joint research seminars. "
     
     [[params.research.paper]]
-      title = "Change Detection in Dynamic Networks Using Network Characteristics"
-      author = "Flossdorf, J. and Jentsch, C"
-      journal = "IEEE Transactions on Signal and Information Processing over Networks"
-      year = "2021"
+      title = "Extremal Dependence-Based Specification Testing of Time Series"
+      author = "Hoga, Y"
+      journal = "Journal of Business & Economic Statistics"
+      year = "2022"
+    
+    [[params.research.paper]]
+      title = "Robust inference under time-varying volatility: A real-time evaluation of professional forecasters"
+      author = "Demetrescu, M., Hanck, C. and Kruse-Becher, R"
+      journal = "Journal of Applied Econometrics"
+      year = "2022"
 
     [[params.research.paper]]
-      title = "Monitoring mean changes in persistent multivariate time series"
-      author = "Golosynoy, V. and Seifert, M. I"
-      journal = "Statistics"
-      year = "2021, article in press"
+      title = "Partial Autocorrelation Diagnostics for Count Time Series"
+      author = "Weiß, C. H., Aleksandrov, B., Faymonville, M. and Jentsch, C"
+      journal = "Entropy"
+      year = "2023"
 
-    [[params.research.paper]]
-      title = "A Comparison of Approaches to Select the Informativeness of Priors in BVARs"
-      author = "Hanck, C., Prüser, J"
-      journal = "Journal of Economics and Statistics"
-      year = "2021"
-      
     [[params.research.paper]]
       title = "Time-varying persistence in real oil prices and its determinant"
       author = "Kruse-Becher, Y. R. and Wegener, C"
-      journal = "Energy Economics (85)"
+      journal = "Energy Economics"
       year = "2020"
+
+    [[params.research.paper]]
+      title = "Transformed regression-based long-horizon predictability tests"
+      author = "Demetrescu M., Rodriguez, Paulo M. M., Taylor, Robert A. M"
+      journal = "Journal of Econometrics"
+      year = "2022"
+      
+    [[params.research.paper]]
+      title = "Unrestricted Maximum Likelihood Estimation of Multivariate Realized Volatility Models"
+      author = "Vogler, J., Golosnoy, V"
+      journal = "European Journal of Operational Research"
+      year = "2023"
+
 
 # Winter 22 Sessions
 
