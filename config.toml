@@ -95,7 +95,7 @@ publishDir = "docs"
     link = "https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/admission/"
     enable = true
     title = "Requirements & Application"
-    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria. Intake is every fall. <br><br> The application phase for the winter semester 2022 starts on 15.03.2022. <br><br> **Deadline** for applicants with a last relevant educational qualification from countries ***outside*** the European Union is **July 15, 2022**. <br><br> For applicants who have obtained their last relevant educational qualification in Germany (educational residents), the enrollment is possible from mid-June until the last Friday prior to the lecture period of the winter term. For further information please visit the website of the <a href='https://www.tu-dortmund.de/studierende/studienangebot/master/econometrics-202/' style='color:white; text-decoration:underline;'>examination office</a> at  TU Dortmund University (information in German only). <br><br> For applicants with a qualification from a member state of the European Union, the application term is the same as for educational residents. <br><br> Please note that it may take several weeks for the International Office @ TU Dortmund University to process your application. The period between confirmation of admission and the beginning of the semester may be short, if the documents are submitted late. In order to ensure sufficient time for the organisation of a visa, accommodation etc. we advise international applicants from non-EU countries in particular to **apply as early as possible**.<br><br> We look forward to your application!"
+    description = "Interested in taking up the Master's program in *Econometrics*? Please make sure that you are eligible for application and check that you meet the below criteria.<br><br> **Intake is every fall. The application phase starts on March 15**. <br><br> **Deadline** for applicants with a last relevant educational qualification from countries ***outside*** the European Union is **July 15**. <br><br> For applicants who have obtained their last relevant educational qualification in Germany (educational residents), the enrollment is possible from mid-June until the last Friday prior to the lecture period of the winter term. For further information please visit the website of the <a href='https://www.tu-dortmund.de/studierende/studienangebot/master/econometrics-202/' style='color:white; text-decoration:underline;'>examination office</a> at  TU Dortmund University (information in German only). <br><br> For applicants with a qualification from a member state of the European Union, the application term is the same as for educational residents. <br><br> Please note that it may take several weeks for the International Office @ TU Dortmund University to process your application. The period between confirmation of admission and the beginning of the semester may be short, if the documents are submitted late. In order to ensure sufficient time for the organisation of a visa, accommodation etc. we advise international applicants from non-EU countries in particular to **apply as early as possible**.<br><br> We look forward to your application!"
     
     [[params.application.item]]
       title = "Qualifying Degrees"
@@ -357,6 +357,52 @@ publishDir = "docs"
       author = "Kruse-Becher, Y. R. and Wegener, C"
       journal = "Energy Economics (85)"
       year = "2020"
+
+# Winter 22 Sessions
+
+
+
+    [[params.research.session.S5]]
+      title = "*Different Narratives: The Effects of Fiscal Policy in Non-Gaussian SVARs with a Novel Prior for Instrumental Variables*"
+      speaker = "Sascha Keweloh"
+      affiliation = "TUDO"
+      date = "February 7th 2023 <br> (14:00 -- 14:25)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S5]]
+      title = "*Structural Periodic Vector Autoregressive Analysis*"
+      speaker = "Daniel Dzikowski"
+      affiliation = "TODU"
+      date = "February 7th 2023 <br> (14:30 -- 14:55)"
+      location = "TU Dortmund University"
+      
+    [[params.research.session.S5]]
+      title = "*Median-based splitting rules for the causal tree*"
+      speaker = "Lennard Maßmann"
+      affiliation = "UDE"
+      date = "February 7th 2023 <br> (15:00 -- 15:25)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S5]]
+      title = "*An information-enriched adaptive lasso ADF test*"
+      speaker = "Martin Arnold"
+      affiliation = "UDE"
+      date = "February 7th 2023 <br> (16:30 -- 16:55)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S5]]
+      title = "*Detecting the Predictive Power of  Imperfect Predictors with Slowly Varying Components*"
+      speaker = "Matei Demetrescu"
+      affiliation = "TUDO"
+      date = "February 7th 2023 <br> (17:00 -- 17:25)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S5]]
+      title = "*A new test for portfolio weights*"
+      speaker = "Vasyl Golosnoy"
+      affiliation = "RUB"
+      date = "February 7th 2023 <br> (17:30 -- 18:00)"
+      location = "TU Dortmund University"
 
 # Summer 22 Sessions
 
