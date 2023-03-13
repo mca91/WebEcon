@@ -109,7 +109,7 @@ publishDir = "docs"
 
     [[params.application.item]]
       title = "Academic Curriculum Vitae"
-      description = "<b>Applicants must submit an essay (Academic CV)</b> on their academic background in view of the pursued master program on Econometrics. We strongly encourage you to use our Academic CV online form where you can fill in a questionnaire and download a PDF version.<p><b>Please click <a href='https://shiny-cv-pcxc5.ondigitalocean.app/' style='color:#FFFFFF;text-decoration:underline;'>here</a> to generate your Academic CV.</b><br>(link accessible during application period only)</p>"
+      description = "<b>Applicants must submit an essay (Academic CV)</b> on their academic background in view of the pursued master program on Econometrics. We strongly encourage you to use our PDF questionnaire.<p><b>Please click <a href='AcademicCVform.pdf' style='color:#FFFFFF;text-decoration:underline;'>here</a> for the Academic CV form.</b></p>"
       icon = "icon-layers2"
       
     [[params.application.item]]
