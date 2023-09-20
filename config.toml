@@ -376,9 +376,69 @@ publishDir = "docs"
       year = "2023"
 
 
+
+# Winter 23 Sessions
+
+    [[params.research.session.S6]]
+      title = "*Estimating causal effects using optimization-based methods*"
+      speaker = "Karolina Gliszczynska"
+      affiliation = "UDE"
+      date = "August 23rd 2023 <br> (10:30 -- 11:00)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S6]]
+      title = "*Macroeconomic survey forecasting in times of crises*"
+      speaker = "Philip Letixerant"
+      affiliation = "FU Hagen"
+      date = "August 23rd 2023 <br> (11:00 -- 11:30)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S6]]
+      title = "*Forecasting Macroeconomic Tail Risk in Real Time: Do Textual Data Add Value?*"
+      speaker = "Jan Prüser"
+      affiliation = "TU Dortmund"
+      date = "August 23rd 2023 <br> (11:30 -- 12:00)"
+      location = "FU Hagen"
+    
+    [[params.research.session.S6]]
+      title = "*Dynamics of government spending anticipation*"
+      speaker = "Pascal Goemans"
+      affiliation = "FU Hagen"
+      date = "August 23rd 2023 <br> (13:30 -- 14:00)"
+      location = "FU Hagen"
+      
+          
+    [[params.research.session.S6]]
+      title = "*Regime-specific exchange rate predictability*"
+      speaker = "Marco Kerkemeier"
+      affiliation = "FU Hagen"
+      date = "August 23rd 2023 <br> (14:00 -- 14:30)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S6]]
+      title = "*Factor-Based IVX Predictive Regression*"
+      speaker = "Fabian Schmidt"
+      affiliation = "TU Dortmund"
+      date = "August 23rd 2023 <br> (14:30 -- 15:00)"
+      location = "FU Hagen"
+      
+            
+    [[params.research.session.S6]]
+      title = "*The Multidimensional Nature of Political Instability and Economic Growth - A Text Mining Approach*"
+      speaker = "Niklas Benner"
+      affiliation = "TU Dortmund / RGS Econ"
+      date = "August 23rd 2023 <br> (15:45 -- 16:15)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S6]]
+      title = "*Marginal expected shortfall regressions*"
+      speaker = "Yannick Hoga"
+      affiliation = "UDE"
+      date = "August 23rd 2023 <br> (16:15 -- 16:45)"
+      location = "FU Hagen"
+
+
 # Winter 22 Sessions
-
-
 
     [[params.research.session.S5]]
       title = "*Different Narratives: The Effects of Fiscal Policy in Non-Gaussian SVARs with a Novel Prior for Instrumental Variables*"
@@ -402,7 +462,7 @@ publishDir = "docs"
       location = "TU Dortmund University"
     
     [[params.research.session.S5]]
-      title = "*An information-enriched adaptive lasso ADF test*"
+      title = "*An information-enriched adaptive Lasso ADF test*"
       speaker = "Martin Arnold"
       affiliation = "UDE"
       date = "February 7th 2023 <br> (16:30 -- 16:55)"

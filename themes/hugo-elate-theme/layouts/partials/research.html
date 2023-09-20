@@ -19,7 +19,8 @@
         <h3>RuhrM&Sigma;trics &mdash; Research Seminar</h3>
         <div id="exTab3" class="container" style="padding-left:0px;padding-top:30px;">	
           <ul class="nav nav-tabs plans">
-            <li class="active"><a href="#S5" data-toggle="tab">Winter 2022</a></li>
+            <li class="active"><a href="#S6" data-toggle="tab">Summer 2023</a></li>
+            <li><a href="#S5" data-toggle="tab">Winter 2022</a></li>
             <li><a href="#S4" data-toggle="tab">Summer 2022</a></li>
 			      <li><a href="#S3" data-toggle="tab">Winter 2021</a></li>
 			      <li><a href="#S2" data-toggle="tab">Summer 2021</a></li>
@@ -28,7 +29,30 @@
 		      
 		      <div class="tab-content">
 		      
-		      <div class="tab-pane active" id="S5">
+		      <div class="tab-pane active" id="S6">
+		        <table class="table" style="table-layout:fixed;">
+                <thead>
+                  <tr style="background-color: #17408F; color:white;">
+                    <th>Date and time</th>
+                    <th>Title</th>
+                    <th>Speaker</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range .Site.Params.research.session.S6 }}
+                  <tr>
+                    <td>{{ .date | markdownify}}</td>
+                    <td>{{ .title | markdownify}}</td>
+                    <td>{{ .speaker | markdownify}} <br>({{ .affiliation | markdownify}})</td>
+                    <td>{{ .location | markdownify}}</td>
+                  </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+		      </div>
+		      
+		      <div class="tab-pane" id="S5">
 		        <table class="table" style="table-layout:fixed;">
                 <thead>
                   <tr style="background-color: #17408F; color:white;">
