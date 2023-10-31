@@ -24,7 +24,7 @@ publishDir = "docs"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
-  mhb_link = "https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_091023.pdf"
+  mhb_link = "https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_091023_01.pdf"
 
   # Navigation
   [params.navigation]
@@ -330,7 +330,7 @@ publishDir = "docs"
     
     [[params.testimonials.item]]
       question = "*Where can I get an overview of the courses offered in the current/upcoming semester?*"
-      answer = "For a start, please refer to the interactive [table](#courses) above. The links in the first column point to the <a href='https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_091023.pdf'>module manual</a>. We recommend you to read pages 10 to 16 for an overview of the distinct module areas. Links in the last column usually direct to the respective chair's website where further information is available. The participating faculties also provide information on their homepages. English language courses offered by the Department of Statistics in the current semester can be found [here](https://statistik.tu-dortmund.de/en/studies/course-catalog/?tabindex=1&cHash=ff678734b741e5e984e5d81b73f052d0)."
+      answer = "For a start, please refer to the interactive [table](#courses) above. The links in the first column point to the <a href='https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_091023_01.pdf'>module manual</a>. We recommend you to read pages 10 to 16 for an overview of the distinct module areas. Links in the last column usually direct to the respective chair's website where further information is available. The participating faculties also provide information on their homepages. English language courses offered by the Department of Statistics in the current semester can be found [here](https://statistik.tu-dortmund.de/en/studies/course-catalog/?tabindex=1&cHash=ff678734b741e5e984e5d81b73f052d0)."
       id = "coursesoffered"
       
     [[params.testimonials.item]]
