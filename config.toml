@@ -280,7 +280,7 @@ publishDir = "docs"
       
     [[params.testimonials.item]]
       question = "*There are still a few courses missing for my Bachelor’s degree. Can I nevertheless apply?*"
-      answer = "Yes. We are aware that your undergraduate degree may not be fully complete by the time you apply and take this into account when assessing your application. Please briefly summarize what you still plan to complete in your <a href ='https://shiny-cv-pcxc5.ondigitalocean.app/'>academic CV</a> (resource only available during application period)."
+      answer = "Yes. We are aware that your undergraduate degree may not be fully complete by the time you apply and take this into account when assessing your application. Please briefly summarize what you still plan to complete in your <a href='AcademicCVform.pdf'>academic CV</a> (resource only available during application period)."
       id = "missing_courses"
       
     [[params.testimonials.item]]
