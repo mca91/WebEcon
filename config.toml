@@ -122,10 +122,10 @@ publishDir = "docs"
       description = """\
       Prepare the best for your studies in Econometrics with our <a href='https://impact-program.tu-dortmund.de' style='color:#FFFFFF;text-decoration:underline;'>IMPACT Program</a> and benefit from a variety of academic and administrative support: \
       <ul> \
-        <li>Fast integration via social counseling and optional furnished accommodation</li> \
-        <li>Full focus on Master's with administrative assistance</li> \
+        <li>Administrative assistance helps to focus on your Master's</li> \
+        <li>Fast integration via social counseling and optional support to find furnished accommodation</li> \
         <li>Successful start with preparatory courses and academic support</li> \
-        <li>Access to experienced lecturers and mentors for Master's preparation</li> \
+        <li>Benefit from access to experienced lecturers and mentors</li> \
       </ul> \
       """
       icon = "icon-people"
