@@ -116,6 +116,19 @@ publishDir = "docs"
       title = "English Language Proficiency"
       description = "*Econometrics* is an English-language Master's program. Candidates must provide evidence of sufficient knowledge of English (**at least level B2**). We accept the following proofs: <ul><li>a German certificate of general qualification for university entrance (English from 5th or 7th grade up to the Abitur)</li><li>an internationally recognised language certificate</li><li>a diploma from an English-speaking school or an English-speaking course of study</li><li>comparable evidence</li></ul>"
       icon = "icon-badge"
+      
+    [[params.application.item]]
+      title = "IMPACT Program"
+      description = """\
+      Prepare the best for your studies in Econometrics with our <a href='https://impact-program.tu-dortmund.de' style='color:#FFFFFF;text-decoration:underline;'>IMPACT Program</a> and benefit from a variety of academic and administrative support: \
+      <ul> \
+        <li>Fast integration via social counseling and optional furnished accommodation</li> \
+        <li>Full focus on Master's with administrative assistance</li> \
+        <li>Successful start with preparatory courses and academic support</li> \
+        <li>Access to experienced lecturers and mentors for Master's preparation</li> \
+      </ul> \
+      """
+      icon = "icon-people"
 
   # About section
   [params.about]
