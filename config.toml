@@ -399,8 +399,46 @@ publishDir = "docs"
       year = "2023"
 
 
-
 # Winter 23 Sessions
+
+    [[params.research.session.S7]]
+      title = "*Moving Aggregate Modified Autoregressive Copula-Based Time Series Models (MAGMAR-Copulas) Without Markov Restriction*"
+      speaker = "Sven Pappert"
+      affiliation = "TU Dortmund"
+      date = "June 5th 2024 <br> (13:45 -- 14:15)"
+      location = "UDE"
+      
+    [[params.research.session.S7]]
+      title = "*Inference in Regression Discontinuity Designs with High-Dimensional Covariates*"
+      speaker = "Alexander Kreiß"
+      affiliation = "Univ. Leipzig"
+      date = "June 5th 2024 <br> (14:15 -- 14:45)"
+      location = "UDE"
+      
+    [[params.research.session.S7]]
+      title = "*Estimation of Realized VEC Models for Multivariate Volatility*"
+      speaker = "Jan Vogler"
+      affiliation = "RUB"
+      date = "June 5th 2024 <br> (16:00 -- 16:30)"
+      location = "UDE"
+      
+    [[params.research.session.S7]]
+      title = "*Euro-MD and a New Macroeconomics Uncertainty Index for the Euro Area Countries*"
+      speaker = "Pascal Goemans"
+      affiliation = "FU Hagen"
+      date = "June 5th 2024 <br> (16:30 -- 17:00)"
+      location = "UDE"
+      
+    [[params.research.session.S7]]
+      title = "*Co-Explosiveness of Corporate Credit Spreads*"
+      speaker = "Marko Kerkemeier"
+      affiliation = "FU Hagen"
+      date = "June 5th 2024 <br> (17:00 -- 17:30)"
+      location = "UDE"
+    
+    
+
+# Summer 23 Sessions
 
     [[params.research.session.S6]]
       title = "*Estimating causal effects using optimization-based methods*"
