@@ -196,6 +196,11 @@ publishDir = "docs"
         </p>
       """
       id = "visacontact"
+    
+    [[params.testimonials.item]]
+      question = "*I am a current student and have seen a course that I would like to take that is not part of the curriculum of the MSc Econometrics.*"
+      answer = "Please contact the program directors with a syllabus sufficiently prior to the start of the semester in which you want to take the course."
+      id ="newmodules"
       
     [[params.testimonials.item]]
       question = "*How do graduates of the Econometrics program fair in the Job market?*"
