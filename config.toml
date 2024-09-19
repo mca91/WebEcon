@@ -171,15 +171,22 @@ publishDir = "docs"
     po_en = "PO_MSc_Econometrics_2019_en.pdf"
     amendments = "AeO_20Econometrics_2021-09-22_Englisch.pdf" 
 
+
+
   # testimonial section
   [params.testimonials]
     enable = true
     title = "FAQs"
 
     [[params.testimonials.item]]
+      question = "*Do students need to register for the courses they wish to attend?*"
+      answer = "No, students typically do not need to register for the courses they want to attend. Instead, they are responsible for finding out when the first session of the course takes place and simply attending that session to receive further information."
+      id = "coursereg"
+
+    [[params.testimonials.item]]
       question = "*I have been admitted to the program but will not make it to start my studies in the upcoming (winter) semester due to extended processing time of my visa application or similar. Can I start my studies in the next (summer) semester?*"
       answer = "We provide admission for the next three semesters to accommodate potential issues that may arise, such as delays with visa processing. This flexibility ensures that applicants do not have to go through the entire application process again if unforeseen circumstances occur. However, please note that **currently enrollment is only available for the winter term**. This will change in the future."
-      id = "summertakin"
+      id = "summertakein"
 
     [[params.testimonials.item]]
       question = "*Which university administers the program and offers most of the compulsory courses (base location)?*"
