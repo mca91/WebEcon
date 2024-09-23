@@ -215,7 +215,7 @@ publishDir = "docs"
       id ="newmodules"
       
     [[params.testimonials.item]]
-      question = "*How do graduates of the Econometrics program fair in the Job market?*"
+      question = "*How do graduates of the Econometrics program fare in the Job market?*"
       answer = "Our graduates have pursued their careers in, e.g., both international and German PhD programs in statistics, economics and econometrics, large insurance companies, research institutes and consultancies."
       id = "graduates"
 
