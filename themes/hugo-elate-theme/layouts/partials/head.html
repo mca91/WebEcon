@@ -123,7 +123,6 @@
     
     </script>
 
-
 <!-- Cookie Consent CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <!-- Cookie Consent JS -->
@@ -142,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         },
         content: {
-            message: "This website uses technically necessary cookies to embed a video hosted at Vimeo.",
+            message: "We rely on technically necessary cookies to embed a video hosted at Vimeo. You may inform yourself about these cookies <a href='https://help.vimeo.com/hc/en-us/articles/26080940921361-Vimeo-Player-Cookies)'>here</a>.",
             dismiss: "Accept",
             deny: "Decline",
             link: "Learn more about our privacy policy.",
@@ -207,3 +206,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+
+<style>
+#cookieconsent\:desc a {
+    color: white !important;
+    text-decoration: underline;
+}
+</style>
