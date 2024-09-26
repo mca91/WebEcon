@@ -144,9 +144,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!placeholder.querySelector('iframe')) {
             var iframe = document.createElement('iframe');
             iframe.src = 'https://player.vimeo.com/video/402217230?dnt=1';
-            iframe.width = '640';
+            iframe.width = '100%';
             iframe.height = '360';
             iframe.frameBorder = '0';
+            iframe.class = 'imagev';
             iframe.allow = 'autoplay; fullscreen; picture-in-picture';
             iframe.allowFullscreen = true;
             placeholder.appendChild(iframe);
