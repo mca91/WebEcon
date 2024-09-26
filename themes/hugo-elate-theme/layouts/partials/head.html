@@ -1,5 +1,4 @@
-    <script src="https://tarteaucitron.io/load.js?domain=www.econometrics.ruhr&uuid=69edf4e98743af14c0d95fb799429c3390f19a0a"></script>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,3 +122,88 @@
     });
     
     </script>
+
+
+<!-- Cookie Consent CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<!-- Cookie Consent JS -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    window.cookieconsent.initialise({
+        palette: {
+            popup: {
+                background: "#17408F",
+                text: "#ffffff"
+            },
+            button: {
+                background: '#ffffff',
+                text: "#17408F"
+            },
+        },
+        content: {
+            message: "This website uses technically necessary cookies to embed a video hosted at Vimeo.",
+            dismiss: "Accept",
+            deny: "Decline",
+            link: "Learn more about our privacy policy.",
+            href: "/privacy-policy",
+        },
+        type: "opt-in", // Ensure it's set to opt-in for user consent
+        revokable: true, // Allow users to revoke consent
+        cookie: {
+            name: 'cookieconsent_status',
+            path: '/',
+            domain: window.location.hostname,
+            secure: window.location.protocol === 'https:',
+            sameSite: 'Lax'
+        },
+        onInitialise: function (status) {
+            handleConsent(status);
+        },
+        onStatusChange: function(status, chosenBefore) {
+            handleConsent(status);
+        },
+        onRevokeChoice: function() {
+            handleConsent('deny');
+        },
+    });
+
+    /**
+     * Handle consent based on the status.
+     * @param {string} status - The current consent status ('allow', 'deny', etc.)
+     */
+    function handleConsent(status) {
+        if (status === 'allow') {
+            loadVimeo();
+        } else {
+            removeVimeo();
+        }
+    }
+
+    /**
+     * Load the Vimeo player by inserting the iframe.
+     */
+    function loadVimeo() {
+        var placeholder = document.getElementById('vimeo-placeholder');
+        // Prevent multiple iframes from being added
+        if (!placeholder.querySelector('iframe')) {
+            var iframe = document.createElement('iframe');
+            iframe.src = 'https://player.vimeo.com/video/402217230?dnt=1';
+            iframe.width = '640';
+            iframe.height = '360';
+            iframe.frameBorder = '0';
+            iframe.allow = 'autoplay; fullscreen; picture-in-picture';
+            iframe.allowFullscreen = true;
+            placeholder.appendChild(iframe);
+        }
+    }
+
+    /**
+     * Remove the Vimeo player by clearing the placeholder.
+     */
+    function removeVimeo() {
+        var placeholder = document.getElementById('vimeo-placeholder');
+        placeholder.innerHTML = '';
+    }
+});
+</script>
