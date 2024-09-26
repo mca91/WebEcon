@@ -278,6 +278,7 @@ height:100%;
   .bb {
     font-size:12px;
   }
+  
 }
 
 .navbar-brand {
@@ -662,4 +663,11 @@ li {
   font-size: 20px;
   line-height: 1.5;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .nav, .navbar-nav, .navbar-right {
+      float: none !important;
+      margin-right: 0px;
+  }
 }
