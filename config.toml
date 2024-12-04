@@ -24,7 +24,7 @@ publishDir = "docs"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
-  mhb_link = "https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_091023_01.pdf"
+  mhb_link = "https://statistik.tu-dortmund.de/storages/statistik/r/Downloads/Studium/Studiengaenge-Infos/ModHb_MSc_ECMTX_100724_01.pdf"
 
   # Navigation
   [params.navigation]
@@ -240,8 +240,8 @@ publishDir = "docs"
       id = "eligible"
 
     [[params.testimonials.item]]
-      question = "*Is it possible to take up studies in the summer semester?*"
-      answer = "No. The program can only be taken up in winter."
+      question = "*Is it possible to take up studies both in the winter and the summer semester?*"
+      answer = "Yes, enrollment is possible for the winter and summer semester."
       id = "summertakeup"
 
     [[params.testimonials.item]]
