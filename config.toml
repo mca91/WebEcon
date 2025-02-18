@@ -398,7 +398,7 @@ publishDir = "docs"
   [params.research]
     enable = true
     title = "Research and RuhrMetrics"
-    text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. A prime example is the [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes](https://gepris.dfg.de/gepris/projekt/68236791?language=en).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://www.rwi-essen.de/en/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on past seminars."
+    text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. Prime examples are the former [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes (2009-2021)](https://gepris.dfg.de/gepris/projekt/68236791?language=en) and the recently established [CRC/Transregio 391 - Spatio-temporal Statistics for the Transition of Energy and Transport](https://trr391.tu-dortmund.de/) (since 2024).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://www.rwi-essen.de/en/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on past seminars."
     
     [[params.research.paper]]
       title = "Extremal Dependence-Based Specification Testing of Time Series"
@@ -435,9 +435,56 @@ publishDir = "docs"
       author = "Vogler, J., Golosnoy, V"
       journal = "European Journal of Operational Research"
       year = "2023"
+    
+    
 
+# Winter 24 Sessions
 
-# Winter 23 Sessions
+	  [[params.research.session.S8]]
+      title = "*Investigating different test statistics for structural break detection in spatial data*"
+      speaker = "Sheila Görz"
+      affiliation = "TU Dortmund"
+      date = "January 13th 2025 <br> (14:10 -- 14:35)"
+      location = "RUB"
+      
+    [[params.research.session.S8]]
+      title = "*Which distributions in the max-domain of attraction satisfy von Mises representation or variation representation for a given auxiliary function?*"
+      speaker = "Miriam Isabel Seifert"
+      affiliation = "RUB"
+      date = "January 13th 2025 <br> (14:35 -- 15:00)"
+      location = "RUB"
+      
+    [[params.research.session.S8]]
+      title = "*Functional factor regression with an application to electricity price curve modeling*"
+      speaker = "Jan Vogler"
+      affiliation = "Universität zu Köln"
+      date = "January 13th 2025 <br> (15:00 -- 15:35)"
+      location = "RUB"
+      
+    [[params.research.session.S8]]
+      title = "*Self-normalized inference in quantile and expected shortfall regressions for time series*"
+      speaker = "Christian Schulz"
+      affiliation = "UDE"
+      date = "January 13th 2025 <br> (16:20 -- 16:45)"
+      location = "RUB"
+      
+    [[params.research.session.S8]]
+      title = "*Structural periodic vector autoregressions*"
+      speaker = "Daniel Dzikowski"
+      affiliation = "TU Dortmund"
+      date = "January 13th 2025 <br> (16:45 -- 17:10)"
+      location = "RUB"
+      
+    [[params.research.session.S8]]
+      title = "*Probability distance functions and estimation*"
+      speaker = "Paul Navas"
+      affiliation = "TU Dortmund"
+      date = "January 13th 2025 <br> (17:10 -- 17:35)"
+      location = "RUB"
+    
+    
+
+# Summer 24 Sessions
 
     [[params.research.session.S7]]
       title = "*Moving Aggregate Modified Autoregressive Copula-Based Time Series Models (MAGMAR-Copulas) Without Markov Restriction*"
