@@ -441,6 +441,57 @@ publishDir = "docs"
       journal = "European Journal of Operational Research"
       year = "2023"
     
+
+# Summer 25 Sessions
+
+	  [[params.research.session.S9]]
+      title = "*Pitfalls of inference in panels with cross-dependence of uncertain strength*"
+      speaker = "Daria Ovsyannikova"
+      affiliation = "TU Dortmund"
+      date = "May 16th 2025 <br> (10:30 -- 11:00)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S9]]
+      title = "*Local predictability in high dimensions*"
+      speaker = "Sven Lehmann"
+      affiliation = "FU Hagen"
+      date = "May 16th 2025 <br> (11:00 -- 11:30)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S9]]
+      title = "*A large non-Gaussian structural VAR with application to monetary policy*"
+      speaker = "Jan Prüser"
+      affiliation = "TU Dortmund"
+      date = "May 16th 2025 <br> (11:30 -- 12:00)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S9]]
+      title = "*Multilayer perceptron assisted energy-score optimal probabilistic forecast reconciliation with an application on wind farm data*"
+      speaker = "Sven Pappert"
+      affiliation = "TU Dortmund"
+      date = "May 16th 2025 <br> (13:00 -- 13:30)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S9]]
+      title = "*A geometric approach to factor model identification*"
+      speaker = "Markus Pape"
+      affiliation = "RUB"
+      date = "May 16th 2025 <br> (13:30 -- 14:00)"
+      location = "FU Hagen"
+      
+    [[params.research.session.S9]]
+      title = "*Estimating heterogeneous causal effects with tree-based methods under imperfect compliance and positivity violations*"
+      speaker = "Karolina Gliszczynska"
+      affiliation = "UDE"
+      date = "May 16th 2025 <br> (14:30 -- 15:00)"
+      location = "FU Hagen"
+    
+    [[params.research.session.S9]]
+      title = "*Estimating heterogeneous net treatment effects using GRF*"
+      speaker = "Lennard Massmann"
+      affiliation = "UDE"
+      date = "May 16th 2025 <br> (15:00 -- 15:30)"
+      location = "FU Hagen"
     
 
 # Winter 24 Sessions
