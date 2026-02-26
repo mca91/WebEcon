@@ -445,7 +445,49 @@ publishDir = "docs"
       author = "Vogler, J., Golosnoy, V"
       journal = "European Journal of Operational Research"
       year = "2023"
+
+# Winter 25 Sessions    
+    [[params.research.session.S10]]
+      title = "*The vector conditional autoregressive Wishart model for multivariate stock market volatility*"
+      speaker = "Jan Vogler"
+      affiliation = "Universität zu Köln"
+      date = "December 8th 2025 <br> (14:15 -- 14:45)"
+      location = "TU Dortmund University"
     
+    [[params.research.session.S10]]
+      title = "*Estimating heterogeneous causal effects with tree-based methods under imperfect compliance and positivity violations*"
+      speaker = "Karolina Gliszczynska"
+      affiliation = "UDE"
+      date = "December 8th 2025 <br> (14:45 -- 15:15)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S10]]
+      title = "*Electricity price forecasting: Bridging linear models, neural networks, and online learning*"
+      speaker = "Btissame El Mahtout"
+      affiliation = "TU Dortmund"
+      date = "December 8th 2025 <br> (15:15 -- 15:45)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S10]]
+      title = "*EU-MD, macroeconomic uncertainty and a state-dependent Phillips curve*"
+      speaker = "Pascal Goemans"
+      affiliation = "FU Hagen"
+      date = "December 8th 2025 <br> (16:30 -- 17:00)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S10]]
+      title = "*Impulse response analysis in matrix-autoregressive models*"
+      speaker = "Christian Wurtz"
+      affiliation = "TU Dortmund"
+      date = "December 8th 2025 <br> (17:00 -- 17:30)"
+      location = "TU Dortmund University"
+    
+    [[params.research.session.S10]]
+      title = "*Large Bayesian structural matrix autoregressions*"
+      speaker = "Ignacio Moreira-Lara"
+      affiliation = "TU Dortmund"
+      date = "December 8th 2025 <br> (17:30 -- 18:00)"
+      location = "TU Dortmund University"
 
 # Summer 25 Sessions
 
