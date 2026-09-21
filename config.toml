@@ -180,38 +180,56 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*Do students need to register for the courses they wish to attend?*"
-      answer = "No, students typically do not need to register for the courses they want to attend. Instead, they are responsible for finding out when the first session of the course takes place and simply attending that session to receive further information."
+      answer = "No, students typically do not need to register for the courses they want to attend. Instead, they are responsible for finding out when the first session of the course takes place and simply attending that session to receive further information.\n\n For some courses, registration is required. Information on how and when to register can be found on the responsible chair's website."
       id = "coursereg"
 
     [[params.testimonials.item]]
-      question = "*I have been admitted to the program but will not make it to start my studies in the upcoming semester due to extended processing time of my visa application or similar. Can I start my studies in the following semester?*"
-      answer = "Starting from summer 2025, enrollment is possible both for the summer and winter term."
+      question = "*I have been admitted to the program but will not make it to start my studies in the upcoming semester due to extended processing time of my visa application or other reasons. Can I start my studies in the following semester?*"
+      answer = "Starting from summer 2025, enrollment is possible both for the summer and winter term. An admissions offer is valid across multiple semesters. You can apply for enrollment in any of the semesters listed in your admissions offer letter."
       id = "summertakein"
+      
+    [[params.testimonials.item]]
+      question = "*I have completed my enrollment for the upcoming semester but I will not make it in time for the semester start due to extended processing time of my visa application or other reasons. Can I arrive late and take up my studies in the ongoing semester?*"
+      answer = "Yes, late arrival is permitted. Once you have completed your enrollment at TU Dortmund University, your status as an enrolled student will not be revoked even if you arrive late to take up your studies in Dortmund. There is no final date by which you need to have arrived here. We can issue an official late arrival letter for your visa application process. Please write to Christian Wurtz (wurtz[at]statistik.tu-dortmund.de) and state your full name and matriculation number to receive the letter."
+      id = "latearrival"
 
     [[params.testimonials.item]]
       question = "*Which university administers the program and offers most of the compulsory courses (base location)?*"
       answer = "The base location is in Dortmund. Many of our students therefore have accommodation in Dortmund."
       id = "baselocation"
       
-    [[params.testimonials.item]]
-      question = "*I need to name a contact person for my visa application. How should I proceed?*"
-      answer = """You may use the following contact information: 
-        <p>
-          <ul>
-            <li><b>Location of the organisation</b>: TU Dortmund University</li>
-            <li><b>Street</b>: Vogelpothsweg</li>
-            <li><b>House number</b>: 87</li>
-            <li><b>Postal code</b>: 44227</li>
-            <li><b>Location</b>: Dortmund</li>
-            <li><b>(Mobile) phone number</b>: +492317 554676</li> 
-          </ul>
-        </p>
-      """
+[[params.testimonials.item]]
+  question = "*I need to name a contact person for my visa application. How should I proceed?*"
+  answer = """
+You may use the following contact information:
+
+<ul>
+  <li><b>Location of the organisation</b>: TU Dortmund University</li>
+  <li><b>Street</b>: Vogelpothsweg</li>
+  <li><b>House number</b>: 87</li>
+  <li><b>Postal code</b>: 44227</li>
+  <li><b>Location</b>: Dortmund</li>
+  <li><b>(Mobile) phone number</b>: +49 231 755 4676</li>
+</ul>
+
+<p>If the visa application requires an individual contact person, please use the following information:</p>
+
+<ul>
+  <li><b>Name</b>: Christian Wurtz</li>
+  <li><b>Institution</b>: TU Dortmund University</li>
+  <li><b>Department</b>: Department of Statistics</li>
+  <li><b>Chair</b>: Chair of Business and Social Statistics</li>
+  <li><b>Office</b>: CDI Building, Room 002a</li>
+  <li><b>Postal code and city</b>: 44221 Dortmund</li>
+  <li><b>E-mail</b>: <a href="mailto:wurtz@statistik.tu-dortmund.de">wurtz@statistik.tu-dortmund.de</a></li>
+  <li><b>Phone</b>: +49 231 755 4919</li>
+</ul>
+"""
       id = "visacontact"
     
     [[params.testimonials.item]]
       question = "*I am a current student and have seen a course that I would like to take that is not part of the curriculum of the MSc Econometrics.*"
-      answer = "Please contact the program directors with a syllabus sufficiently prior to the start of the semester in which you want to take the course."
+      answer = "Please contact the program directors with a syllabus sufficiently prior to the start of the semester in which you want to take the course. The respective deadlines for such a request can be found in the module handbook."
       id ="newmodules"
       
     [[params.testimonials.item]]
@@ -221,7 +239,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*The application portal currently appears to be closed. When does the application period for the new academic year start?*"
-      answer = "It opens once all administrative steps in the backend are complete; usually some time in the spring. Please keep an eye on our websites."
+      answer = "It opens once all administrative steps in the backend are complete; usually in early to mid November for the summer term application phase and in early to mid January for the winter term application phase. Please keep an eye on our websites."
       id = "applportal"
 
     [[params.testimonials.item]]
@@ -245,7 +263,7 @@ publishDir = "docs"
       id = "summertakeup"
 
     [[params.testimonials.item]]
-      question = "I have been admitted to the program on conditions. Does this affect my recommended course of study?"
+      question = "*I have been admitted to the program on conditions. Does this affect my recommended course of study?*"
       answer = "Depending on the conditions imposed, it may be advisable to take pre-courses and, in particular, to complete the core curriculum in a specific order. Please check with us if you are in doubt about the effect of admission conditions on your specific course of study."
       id = "condadmission"
 
@@ -256,7 +274,7 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       question = "*I just enrolled. Is there any other recent information that might be helpful to get started in Dortmund?*"
-      answer = "Yes, we’ve for example got a moodle page for our students. Please contact us for enrolment details."
+      answer = "Yes, we have, among other resources, a Moodle page for our students. Please visit the [department website](https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/) to find the link to the Moodle room at the bottom of the page. The site also hosts other useful resources. We use it to announce new information, so we strongly recommend registering for the Moodle room."
       id = "gettingstarted"
 
 #    [[params.testimonials.item]]
@@ -274,10 +292,10 @@ publishDir = "docs"
       answer = "Please contact us for further information and suggestions as to what to do."
       id = "mathskills"
 
-    [[params.testimonials.item]]
-      question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
-      answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
-      id = "corona2"
+    #[[params.testimonials.item]]
+    #  question = "*Due to the Corona pandemic, it is difficult for me to obtain the required English language certificates at the moment. What can I do?*"
+    #  answer = "In this case, please supply any suitable available evidence of your proficiency in English, e.g., other certifications or English-language term papers."
+    #  id = "corona2"
     
     [[params.testimonials.item]]
       question = "*I currently have a job and/or plan to work during my studies. Is it possible to study part-time, thereby saving fees?*"
@@ -293,6 +311,11 @@ publishDir = "docs"
       question = "*I submitted my application X days ago. When will I hear from you?*"
       answer = "We process applications and communicate decisions as soon as they come in. There may however be certain delays as the central administration first checks applications to all programs of the university for issues like completeness, and they have to handle many of these. We therefore kindly ask for some patience."
       id = "feedback"
+      
+    [[params.testimonials.item]]
+      question = "*I urgently need the decision on my application for the visa application process. Can I be fast-tracked?*"
+      answer = "We process applications and communicate decisions as soon as they come in. In view of processing times, we recommend submitting your application four to six months in advance of your visa appointment. Please note that we cannot fast-track applications."
+      id = "fasttack"
     
     [[params.testimonials.item]]
       question = "*Does sending my questions to as many email addresses of contact people I can find increase my chances of getting a quick reply?*"
@@ -304,10 +327,10 @@ publishDir = "docs"
       answer = "We strongly encourage you to use our Academic CV form where you can fill in a questionnaire and download a PDF version. Please click <a href='AcademicCVform.pdf'>here</a> to download the form.<p>Please see the academic CV as an opportunity for you and us to summarize your motivation and suitability for the program. Feel free to include any information, such as prior courses, relevant skills, work experience, career goals etc., that you deem supportive of your application.</p>"
       id = "CV"
     
-    [[params.testimonials.item]]
-      question = "*My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Can I nevertheless be admitted?*"
-      answer = "Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Master's degree."
-      id = "min_GPA"
+    #[[params.testimonials.item]]
+    #  question = "*My undergraduate grades are just slightly worse than the minimum grade point average (in the German grading system) you ask for. Can I nevertheless be admitted?*"
+    #  answer = "Unfortunately, by law, we are not able to make exceptions here, such that we regret to say you cannot qualify for the program. Please note that (also by law) only the Bachelor GPA is relevant even if you already have a Master's degree."
+    #  id = "min_GPA"
       
     [[params.testimonials.item]]
       question = "*Is there a maximum number of students you admit each year?*"
@@ -391,7 +414,7 @@ publishDir = "docs"
       
     [[params.testimonials.item]]
       question = "*Where can I find more information regarding the offered courses such as schedules, rooms, important links, access keys for Moodle etc?*"
-      answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. <br><br> <ul><li> [TUDO Statistics](https://statistik.tu-dortmund.de/en/research/chairs/) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](https://www2.wiwi.rub.de/en/students/)</li></ul> The interactive [table](#courses) above may be useful, too.<br><br> If your desired course is not yet listed in our handbook of modules yet, please contact Jan Prüser (prueser[at]statistik.tu-dortmund.de)."
+      answer = "Links to the online course rooms, information on who to contact for the required passwords, as well as other relevant information, can usually be found on the websites of the chairs. If you find an interesting course, the first place to look for further infos is the chair's homepage. <br><br> <ul><li> [TUDO Statistics](https://statistik.tu-dortmund.de/en/research/chairs/) </li><li> [TUDO Economics](https://wiwi.tu-dortmund.de/en/fakultaet/professuren/) </li> <li> [UDE Economics](https://www.wiwi.uni-due.de/en/subjects/economics/) </li> <li> [RUB Economics](https://www2.wiwi.rub.de/en/students/)</li></ul> The interactive [table](#courses) above may be useful, too.<br><br> If your desired course is not yet listed in our handbook of modules yet, please contact Christian Wurtz (wurtz[at]statistik.tu-dortmund.de)."
       id = "coursedetails"
       
     [[params.testimonials.item]]
@@ -403,6 +426,8 @@ publishDir = "docs"
       question = "*What is the typical course schedule of a student in the Econometrics program?*"
       answer = "There are no fixed days or parts of days on which there are no in-person classes, but that does not mean students are in the classroom all the time. Rough calculation: courses worth 4,5-6 ECTS typically have two 90-minute class sessions per week for the 15 weeks of a semester. Usually, this is one lecture and one tutorial. A schedule for full-time study corresponds to 30 ECTS per semester.\n\n There are however modules in which you write term papers, for example, and as such these have far fewer contact hours to allocate more time towards the writing of the term paper."      
       id = "typicalcourseschedule"
+      
+    
       
 # research section
   [params.research]
