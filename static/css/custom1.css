@@ -495,7 +495,7 @@ height:100%;
 
 .cont {
   max-width:1400px;
-  height:480px;
+  height:auto;
 }
 
 
@@ -519,7 +519,7 @@ height:100%;
 }
 
 .sec {
-  margin-bottom:50px;
+  margin-bottom:20px;
 }
 
 #fh5co-research h3 {

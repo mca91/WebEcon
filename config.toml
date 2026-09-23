@@ -146,7 +146,7 @@ publishDir = "docs"
       name = "Matei Demetrescu"
       position = "TU Dortmund University"
       description = "Matei's academic career began in 2000 with a Diploma in Engineering and Business Administration at the \"Politehnica\" University Bucharest, followed by a PhD in Economics at Goethe University Frankfurt in 2005. In 2007, a Max Weber post-doctoral fellowship at the European University Institute in Florence provided further research experience. From 2008 to 2010, he held a junior professorship in Applied Econometrics at Goethe University Frankfurt, during which a second PhD in Industrial Engineering was completed at the \"Politehnica\" University Bucharest in 2009. This was succeeded by a professorship in Econometrics at the University of Bonn (2010–2014) and, from 2014 to 2022, by a professorship in Statistics and Applied Econometrics at the University of Kiel. Matei is a faculty member of the Ruhr Graduate School in Economics."
-      # img = "matei.png"
+      img = "matei.jpg"
       alt = "Portrait of Matei Demetrescu"
     #[[params.about.item]]
     #  name = "Carsten Jentsch"
@@ -171,7 +171,7 @@ publishDir = "docs"
   [params.structure]
     enable = true
     title = "Program Structure"
-    text = "The program is divided into compulsory modules, elective courses, and closes with the master thesis. In the compulsory modules with a total amount of 39.5 credit points, you acquire a sound knowledge in statistics, econometrics and time series analysis. The core curriculum also conveys skills in applied research, statistical programming, research project management and statistical consulting. <br><br> Elective modules train students in economic theory and provide further specialization in applied and theoretical econometrics.<br><br> In ME6 and ME7, students focus on a specific field of research according to their individual preferences. This results in a flexible number of credits to be acquired by electives, which must, however, amount to a minimum of 11 and a maximum of 26 credit points in each of the elective module areas.<br><br> While core modules and many electives are taught in English, students have the opportunity to attend selected courses held in German."
+    text = "The program is divided into compulsory modules, elective courses, and closes with the master thesis. In the compulsory modules with a total amount of 39.5 credit points, you acquire a sound knowledge in statistics, econometrics, and time series analysis. The core curriculum also conveys skills in applied research, statistical programming, research project management, and statistical consulting. <br><br> Elective modules train students in economic theory and provide further specialization in applied and theoretical econometrics.<br><br> In the areas \"Applied Econometrics\" and \"Econometric Methods\", students focus on a specific field of research according to their individual preferences. This results in a flexible number of credits to be acquired by electives, which must, however, amount to a minimum of 11 and a maximum of 26 credit points in each of the elective module areas.<br><br> While core modules and many electives are taught in English, students have the opportunity to attend selected courses held in German."
     po_de = "PO_MSc_Econometrics_2019_de.pdf"
     po_en = "PO_MSc_Econometrics_2019_en.pdf"
     amendments = "AeO_20Econometrics_2021-09-22_Englisch.pdf" 
@@ -438,45 +438,114 @@ You may use the following contact information:
   [params.research]
     enable = true
     title = "Research and RuhrMetrics"
-    text = "The chairs involved in organising the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/forschung/wirtschaftsforschung.html.de) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. Prime examples are the former [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes (2009-2021)](https://gepris.dfg.de/gepris/projekt/68236791?language=en) and the recently established [CRC/Transregio 391 - Spatio-temporal Statistics for the Transition of Energy and Transport](https://trr391.tu-dortmund.de/) (since 2024).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://www.rwi-essen.de/en/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TU Do) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on past seminars."
+    text = "The chairs involved in organizing the Master’s program in Econometrics are part of the UAR competence field [empirical economic research](https://www.uaruhr.de/en/research/competence-fields/empirical-economic-research/) to which they contribute mainly by research on quantitative methods, part of which is joint in cross-university cooperation. Prime examples are the former [Collaborative Research Center 823 - Statistical Modelling of Nonlinear Dynamic Processes (2009-2021)](https://gepris.dfg.de/gepris/projekt/68236791?language=en) and the recently established [CRC/Transregio 391 - Spatio-temporal Statistics for the Transition of Energy and Transport](https://trr391.tu-dortmund.de/) (since 2024).<br>We also aim to foster young researchers via our close ties among UAR econometricians and statisticians. Many professors and research fellows are faculty at [RGS -- Ruhr Graduate School in Economics](http://rgs-econ.org/), a joint program of the UAR universities and the [RWI](https://www.rwi-essen.de/en/), one of Germany’s leading economic research institutes. Over a period of three years, graduate students receive training and supervision that leads to a Ph.D. in economics, complying with the highest international standards.<br><br>We also maintain intensive scientific exchange between research groups in the field of statistics and econometrics in and beyond the UAR. For example, our regular RuhrMetrics research seminar jointly run by the chairs of Vasyl Golosnoy (RUB), Christoph Hanck (UDE), Carsten Jentsch (TUDO), Matei Demetrescu (TUDO) and Robinson Kruse-Becher (FUH), established in 2019, provides a platform where PhD students and faculty members alike present and discuss new research projects as well as more mature projects. Below is a selection of recent publications by the participating research groups as well as further information on past seminars."
     
     [[params.research.paper]]
-      title = "Extremal Dependence-Based Specification Testing of Time Series"
-      author = "Hoga, Y"
+      title = "How to compare copula forecasts?"
+      author = "Fissler, T., and Y. Hoga"
+      journal = "Journal of Business & Economic Statistics"
+      year = "2026"
+      
+    [[params.research.paper]]
+      title = "Fixed effects, lagged dependent variables, and bracketing: Cautionary remarks"
+      author = "Demetrescu, M., Frondel, M., Tomberg, L., and C. Vance"
+      journal = "Political Analysis"
+      year = "2025"
+      
+    [[params.research.paper]]
+      title = "Regressions under adverse conditions"
+      author = "Dimitriadis, T., and Y. Hoga"
+      journal = "Journal of Business & Economic Statistics"
+      year = "2025"
+      
+    [[params.research.paper]]
+      title = "Testing for nonlinear cointegration under heteroskedasticity"
+      author = "Hanck, C., and T. Massing"
+      journal = "Econometric Reviews"
+      year = "2025"
+    
+    [[params.research.paper]]
+      title = "Unrestricted maximum likelihood estimation of multivariate realized volatility models"
+      author = "Vogler, J., and V. Golosnoy"
+      journal = "European Journal of Operational Research"
+      year = "2023"
+    
+    [[params.research.paper]]
+      title = "Partial autocorrelation diagnostics for count time series"
+      author = "Weiß, C. H., Aleksandrov, B., Faymonville, M., and C. Jentsch"
+      journal = "Entropy"
+      year = "2023"
+      
+    [[params.research.paper]]
+      title = "Transformed regression-based long-horizon predictability tests"
+      author = "Demetrescu M., Rodriguez, P. M. M., and R.A.M. Taylor"
+      journal = "Journal of Econometrics"
+      year = "2022"
+      
+    [[params.research.paper]]
+      title = "Extremal dependence-based specification testing of time series"
+      author = "Hoga, Y."
       journal = "Journal of Business & Economic Statistics"
       year = "2022"
     
     [[params.research.paper]]
       title = "Robust inference under time-varying volatility: A real-time evaluation of professional forecasters"
-      author = "Demetrescu, M., Hanck, C. and Kruse-Becher, R"
+      author = "Demetrescu, M., Hanck, C., and R. Kruse-Becher"
       journal = "Journal of Applied Econometrics"
       year = "2022"
 
     [[params.research.paper]]
-      title = "Partial Autocorrelation Diagnostics for Count Time Series"
-      author = "Weiß, C. H., Aleksandrov, B., Faymonville, M. and Jentsch, C"
-      journal = "Entropy"
-      year = "2023"
-
-    [[params.research.paper]]
       title = "Time-varying persistence in real oil prices and its determinant"
-      author = "Kruse-Becher, Y. R. and Wegener, C"
+      author = "Kruse-Becher, Y. R., and C. Wegener"
       journal = "Energy Economics"
       year = "2020"
 
-    [[params.research.paper]]
-      title = "Transformed regression-based long-horizon predictability tests"
-      author = "Demetrescu M., Rodriguez, Paulo M. M., Taylor, Robert A. M"
-      journal = "Journal of Econometrics"
-      year = "2022"
-      
-    [[params.research.paper]]
-      title = "Unrestricted Maximum Likelihood Estimation of Multivariate Realized Volatility Models"
-      author = "Vogler, J., Golosnoy, V"
-      journal = "European Journal of Operational Research"
-      year = "2023"
 
-# Winter 25 Sessions    
+
+#Summer 26 Sessions
+    [[params.research.session.S11]]
+      title = "*On estimation of multivariate realized volatility models*"
+      speaker = "Jan Vogler"
+      affiliation = "Ruhr-University Bochum"
+      date = "July 17th 2026 <br> (13:45 -- 14:15)"
+      location = "University Duisburg Essen"
+      
+    [[params.research.session.S11]]
+      title = "*Assessing the effects of monetary shocks on macroeconomic stars: A SMUC-IV framework*"
+      speaker = "Jan Prüser"
+      affiliation = "EBS University for Business and Law"
+      date = "July 17th 2026 <br> (14:15 -- 14:45)"
+      location = "University Duisburg Essen"
+      
+    [[params.research.session.S11]]
+      title = "*Global estimation in time-varying environments: Some asymptotic and bootstrap (in-)consistency results*"
+      speaker = "Carsten Jentsch"
+      affiliation = "TU Dortmund University"
+      date = "July 17th 2026 <br> (14:45 -- 15:15)"
+      location = "University Duisburg Essen"
+      
+    [[params.research.session.S11]]
+      title = "*The (information) geometries on the simplex*"
+      speaker = "Paul Navas Alban"
+      affiliation = "TU Dortmund University"
+      date = "July 17th 2026 <br> (16:00 -- 16:30)"
+      location = "University Duisburg Essen"
+      
+    [[params.research.session.S11]]
+      title = "*Long-run prediction uncertainty with persistent heteroskedasticity*"
+      speaker = "Daniel Dzikowski"
+      affiliation = "TU Dortmund University"
+      date = "July 17th 2026 <br> (16:30 -- 17:00)"
+      location = "University Duisburg Essen"
+      
+    [[params.research.session.S11]]
+      title = "*Inference for L2-boosting: From classical asymptotics to the proportional high-dimensional regime*"
+      speaker = "Daria Ovsyannikova"
+      affiliation = "TU Dortmund University"
+      date = "July 17th 2026 <br> (17:00 -- 17:30)"
+      location = "University Duisburg Essen"
+
+# Winter 25 Sessions      
     [[params.research.session.S10]]
       title = "*The vector conditional autoregressive Wishart model for multivariate stock market volatility*"
       speaker = "Jan Vogler"
@@ -964,7 +1033,7 @@ You may use the following contact information:
     map = true
     form = false
     title = "Contact"
-    description = "If you have any questions about the program, please feel free to send an <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#101;&#99;&#111;&#110;&#111;&#109;&#101;&#116;&#114;&#105;&#99;&#115;&#46;&#114;&#117;&#104;&#114;'>email</a> or contact [student advisory services @ TU Dortmund University](https://statistik.tu-dortmund.de/en/studies/student-advisory-and-faqs/)."
+    description = "If you have any questions about the program, please feel free to send an <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#101;&#99;&#111;&#110;&#111;&#109;&#101;&#116;&#114;&#105;&#99;&#115;&#46;&#114;&#117;&#104;&#114;'>email</a> or contact [student advisory services at TU Dortmund University](https://statistik.tu-dortmund.de/en/studies/student-advisory-and-faqs/)."
     
     # Available icons: https://coreui.io/v1/demo/pro/AngularJS_Demo/#!/icons/simple-line-icons
     detailsStat = [
@@ -973,8 +1042,8 @@ You may use the following contact information:
       ]
       
      detailsWiWiDo = [
-        ["icon-home", "Faculty of Business and Economics <br> TU Dortmund University <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
-        ["icon-globe", '<a href="https://www.wiwi.tu-dortmund.de/wiwi/en/faculty/index.html" target="_blank">Faculty website</a>']
+        ["icon-home", "Department of Business and Economics <br> TU Dortmund University <br> Friedrich-Wöhler-Weg 6 <br> 44227 Dortmund <br> Germany"],
+        ["icon-globe", '<a href="https://www.wiwi.tu-dortmund.de/wiwi/en/faculty/index.html" target="_blank">Department website</a>']
       ]
       
     detailsWiWiRUB = [

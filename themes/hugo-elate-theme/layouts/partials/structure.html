@@ -6,9 +6,8 @@
 		  <div class="row">
 		  <div class="col-md-12 subtext">
     	  <h3>{{ with .Site.Params.structure.text }}{{ . | markdownify }}{{ end }}</h3>
-    	  <h3>The current examination regulations can be found <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Ordnungen/Pruefungs-_und_Studienordnungen/{{ with .Site.Params.structure.po_en }}{{ . }}{{ end }}">here</a>. 
-    	  Click <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Ordnungen/Pruefungs-_und_Studienordnungen/{{ with .Site.Params.structure.po_de }}{{ . }}{{ end }}">here</a> for viewing the German version. Amendments to the current examination regulations can be found  <a href="https://www.statistik.tu-dortmund.de/fileadmin/user_upload/Studium/Ordnungen/Pruefungs-_und_Studienordnungen/{{ with .Site.Params.structure.amendments }}{{ . }}{{ end }}">here</a>.
-    	  Please note that only the (German) documents published at the homepage of the <a href="https://www.statistik.tu-dortmund.de/department.html">Department of Statistics @ TU Dortmund</a> are legally binding. The information displayed here is for orientation only. This also applies to the module overview below.
+    	  <h3>The current examination regulations, and amendments to the current regulations can be found <a href="https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/">here</a>. 
+    	  Please note that only the German documents published at the homepage of the <a href="https://www.statistik.tu-dortmund.de/department.html">Department of Statistics at TU Dortmund</a> are legally binding. The information displayed here is for orientation only. This also applies to the module overview below. The English translations are for informational purposes only; they are not legally binding.
     	  </h3>
 		  </div>
 		  </div>
@@ -17,71 +16,84 @@
 
   <div class="col-md-12">
   <h3>
-    <i>Semester plans</i>
+    <i>Semester plans</i><br> 
   </h3>
-  <br>
+  <p class ="plan-introduction" style = "color:#000000;">
+    Please note that the semester plans presented here are for orientation only: they are intended to give you an overview over the modules and the distribution of credit points. Modules are arranged over the course of semesters in a way we consider beneficial for study progress. However, students are free to decide in which order they complete core courses and electives.
+  </p>
   
   <div id="exTab2" class="container" style="padding-left:0px;">	
     <ul class="nav nav-tabs plans">
 			<li class="active">
-        <a  href="#1" data-toggle="tab">Plan 1</a>
+        <a  href="#1" data-toggle="tab">Winter</a>
 			</li>
-			<li><a href="#2" data-toggle="tab">Plan 2</a>
+			<li><a href="#2" data-toggle="tab">Summer</a>
 			</li>
 		</ul>
 			<div class="tab-content">
 			  
 			  <div class="tab-pane active" id="1">
+			    
+			    <p class="plan-explanation" style = "margin-top: 20px; margin-bottom: 20px; color: #000000;">
+			      This plan is a recommended course of study for students who begin their studies in the Econometrics program in the <strong>winter term</strong>.
+			    </p>
           
           <div class="banner">
             
             <div class = "term"><p>4</p></div>
-            <div class = "m show" target="1"><p>ME8:<br>Master Thesis<br>30 ECTS</p></div>
+            <div class = "m show" target="1"><p>ME5:<br>Master Thesis<br>30 ECTS</p></div>
             
             <div class = "term"><p>3</p></div>
-            <div class = "w l show" target="6"><p>ME7:<br>Econometric Methods<br>11 - 26 ECTS</p></div>
-            <div class = "w show" target="3"><p>ME6:<br>Applied Econometrics<br>11 - 26 ECTS</p></div>
-            <div class = "w show" target="5"><p>ME5:<br>Economics<br>11 - 26 ECTS</p></div>
+            <div class = "w show" target="5"><p>ME EM1 - ME EM13:<br>Economics<br>11-26 ECTS</p></div>
+            <div class = "w show" target="3"><p>ME EM14 - ME EM33:<br>Applied Econometrics<br>11-26 ECTS</p></div>
+            <div class = "w l show" target="6"><p>ME EM34 - ME EM46:<br>Econometric Methods<br>11-26 ECTS</p></div>
   
             <div class = "term"><p>2</p></div>
-            <div class = "w l show" target="2"><p>ME4:<br> Time Series Analysis (TU)<br>10 ECTS</p></div>
-            <div class = "show" target="3"><p>ME6:<br>Applied Econometrics</p></div>
-            <div class = "show" target="6"><p>ME7:<br>Econometric Methods</p></div>
-            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TU)<br>8 ECTS</p></div>
+            <div class = "show" target="8"><p>ME1:<br> Asymptotic Theory (TUDO) 4.5 ECTS</p></div>
+            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TUDO)<br>8 ECTS</p></div>
+            <div class = "w l show" target="2"><p>ME4:<br> Time Series Analysis (TUDO)<br>9 ECTS</p></div>
+            <div class = "show" target="6"><p>ME EM34 - ME EM46:<br>Econometric Methods</p></div>
+            
   
             <div class = "term"><p>1</p></div>
-            <div class="w l show" target="7"><p>ME1a:<br> Statistical Theory (TU)<br>10 ECTS</p></div>
-            <div class="show" target="8"><p>ME1b:<br> Asymptotic Theory (TU)<br>5 ECTS</p></div>
-            <div class = "w show" target="9"><p>ME2:<br>Econometrics (UDE)<br>9 ECTS</p></div>
-            <div class = "show" target="5"><p>ME5:<br>Economics</p></div>
-          
+            <div class = "w l show" target="7"><p>ME1:<br> Statistical Theory (TUDO)<br>9 ECTS</p></div>
+            <div class = "w show" target="9"><p>ME2:<br>Econometric Theory (UDE)<br>9 ECTS</p></div>
+            <div class = "show" target="5"><p>ME EM1 - ME EM13:<br>Economics</p></div>
+            <div class = "show" target="3"><p>ME EM14 - ME EM33:<br>Applied Econometrics</p></div>
           </div>
           
 				</div>
 				
 				<div class="tab-pane" id="2">
+				  
+				  <p class="plan-explanation", style = "margin-top: 20px; margin-bottom: 20px; color: #000000;">
+			      This plan is a recommended course of study for students who begin their studies in the Econometrics program in the <strong>summer term</strong>.
+			    </p>
 
           <div class="banner">
             
             <div class = "term"><p>4</p></div>
-            <div class = "m show" target="1"><p>ME8:<br>Master Thesis<br>30 ECTS</p></div>
+            <div class = "m show" target="1"><p>ME5:<br>Master Thesis<br>30 ECTS</p></div>
 
             <div class = "term"><p>3</p></div>
-            <div class = "w l show" target="5"><p>ME5:<br>Economics<br>11 - 26 ECTS</p></div>
-            <div class = "w show" target="3"><p>ME6:<br>Applied Econometrics<br>11 - 26 ECTS</p></div>
-            <div class = "w show" target="6"><p>ME7:<br>Econometric Methods<br>11 - 26 ECTS</p></div>
+            <div class = "show" target="8"><p>ME1:<br> Asymptotic Theory (TUDO) 4.5 ECTS</p></div>
+            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TUDO)<br>8 ECTS</p></div>
+            <div class = "w show" target="2"><p>ME4:<br> Time Series Analysis (TUDO)<br>9 ECTS</p></div>
+            <div class = "show" target="6"><p>ME EM34 - ME EM46:<br>Econometric Methods</p></div>
 
             <div class = "term"><p>2</p></div>
-            <div class = "w l show" target="9"><p>ME2:<br>Econometrics (TU)<br>9 ECTS</p></div>
-            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TU)<br>8 ECTS</p></div>
-            <div class = "w show" target="2"><p>ME4:<br> Time Series Analysis (TU)<br>10 ECTS</p></div>
-
+            <div class = "w l show" target="7"><p>ME1:<br> Statistical Theory (TUDO)<br>9 ECTS</p></div>
+            <div class = "show" target="5"><p>ME EM1 - ME EM13:<br>Economics</p></div>
+            <div class = "w show" target="3"><p>ME EM14 - ME EM33:<br>Applied Econometrics<br>11 - 26 ECTS</p></div>
+            <div class = "show" target="6"><p>ME EM34 - ME EM46:<br>Econometric Methods<br> 11-26 ECTS</p></div>
+            
             <div class = "term"><p>1</p></div>
-            <div class="w l show" target="7"><p>ME1a:<br> Statistical Theory (TU)<br>10 ECTS</p></div>
-            <div class="show" target="8"><p>ME1b:<br> Asymptotic Theory (TU)<br>5 ECTS</p></div>
-            <div class = "show" target="5"><p>ME5:<br>Economics</p></div>
-            <div class = "show" target="3"><p>ME6:<br>Applied Econometrics</p></div>
-            <div class = "show" target="6"><p>ME7:<br>Econometric Methods</p></div>
+            <div class = "w l show" target="9"><p>ME2:<br>Econometric Theory (TUDO)<br>9 ECTS</p></div>
+            <div class = "w l show" target="5"><p>ME EM1 - ME EM13:<br>Economics (11 - 26 ECTS)</p></div>
+            <div class = "show" target="3"><p>ME EM14 - ME EM33:<br>Applied Econometrics<br>11 - 26 ECTS</p></div>
+            <div class = "show" target="6"><p>ME EM34 - ME EM46:<br>Econometric Methods</p></div>
+            
+            
 
           </div>
 
@@ -100,15 +112,15 @@
             <div class = "w show" target="6"><p>ME7:<br>Econometric Methods<br>11 - 26 ECTS</p></div>
 
             <div class = "term"><p>2</p></div>
-            <div class = "w l show" target="9"><p>ME2:<br>Econometrics (TU)<br>9 ECTS</p></div>
+            <div class = "w l show" target="9"><p>ME2:<br>Econometric Theory (TUDO)<br>9 ECTS</p></div>
             <div class = "show" target="3"><p>ME6:<br>Applied Econometrics</p></div>
             <div class = "show" target="6"><p>ME7:<br>Econometric Methods</p></div>
-            <div class = "w show" target="2"><p>ME4:<br> Time Series Analysis (TU)<br>10 ECTS</p></div>
+            <div class = "w show" target="2"><p>ME4:<br> Time Series Analysis (TUDO)<br>10 ECTS</p></div>
 
             <div class = "term"><p>1</p></div>
-            <div class="w l show" target="7"><p>ME1a:<br> Statistical Theory (TU)<br>10 ECTS</p></div>
-            <div class="show" target="8"><p>ME1b:<br> Asymptotic Theory (TU)<br>5 ECTS</p></div>
-            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TU)<br>8 ECTS</p></div>
+            <div class="w l show" target="7"><p>ME1:<br> Statistical Theory (TUDO)<br>10 ECTS</p></div>
+            <div class="show" target="8"><p>ME1:<br> Asymptotic Theory (TUDO)<br>5 ECTS</p></div>
+            <div class = "w show" target="10"><p>ME3:<br>Case Studies (TUDO)<br>8 ECTS</p></div>
             <div class = "show" target="5"><p>ME5:<br>Economics</p></div>
 
 
@@ -120,7 +132,7 @@
   
 <div class="cont">
   <div class="sec" id="section1">
-  <h3>ME8: Master Thesis</h3>
+  <h3>ME5: Master Thesis</h3>
   <br>
   <p class = "text_ml">
   The master thesis demonstrates that students are able to independently apply and adapt scientific methods to an econometric problem within a given period of time. The processing time is six months. Topics for final theses are offered each semester by several university lecturers, so that students can choose between different offers. Students can also make their own suggestions for topics.</p>
@@ -133,12 +145,12 @@
   </p>
   </div>
   <div class="sec" id="section3">
-  <h3>ME6: Applied Econometrics</h3>
+  <h3>Applied Econometrics</h3>
   <br>
   <p class = "text_ml">
-  ME6 includes courses that focus on the application of advanced econometric methods to selected economic problems whereby emphasis is typically set on acquisition, processing and analysis of real data sets. In many courses, participants acquire in-depth knowledge in statistical programming.
+  The elective area "Applied Econometrics" includes courses that focus on the application of advanced econometric methods to selected economic problems whereby emphasis is typically set on acquisition, processing and analysis of real data sets. In many courses, participants acquire in-depth knowledge in statistical programming. Topics in this area include but are not limited to:
   <ul class="tab", style="margin-left:50px">
-	<li>Econometric Analysis of Electricity and Financial Markets</li>
+	<li>Econometrics of Electricity and Financial Markets</li>
 	<li>Applied Time Series Analysis in Macroeconometrics</li>
 	<li>Topics in Economic Policy Evaluation</li>
 	<li>Microeconometrics in Health Economics</li>
@@ -153,7 +165,7 @@
 .</p>
   </div>
   <div class="sec" id="section5">
-  <h3>ME5: Economics</h3>
+  <h3>Economics</h3>
   <br>
   <p class = "text_ml">
   Many econometric methods have been developed in line with developments in economics. Therefore, it is important for our students to be familiar with more recent theoretical developments and thus potential areas of application of econometric methods. Depending on the field of interest, the courses have a micro- or macroeconomic orientation. The curriculum covers a variety of courses from the following disciplines: 
@@ -168,10 +180,10 @@
   </p>
   </div>
   <div class="sec" id="section6">
-  <h3>ME7: Econometric Methods</h3>
+  <h3>Econometric Methods</h3>
   <br>
   <p class = "text_ml">
-  Modules in ME7 have a strong methodological orientation, i.e. students have the opportunity to acquire in-depth knowledge of econometric methods in selected fields, for example:
+  Modules in this area have a strong methodological orientation, i.e. students have the opportunity to acquire in-depth knowledge of econometric methods in selected fields, for example:
   <ul class="tab" style="margin-left:50px">
 	<li>Stochastic Processes</i></li>
 	<li>Unit Root and Cointegration Analysis</li>
@@ -183,24 +195,24 @@
   </p>
   </div>
   <div class="sec" id="section7">
-  <h3>ME1a: Statistical Theory</h3>
+  <h3>ME1: Statistical Theory</h3>
   <p>
   <p class = "text_ml">
     Participants learn to use the formal language of statistics and gain knowledge of fundamental concepts in stochastics, decision theory and probability theory which are required to analyze, apply and further develop statistical procedures.
   </p>
   </div>
     <div class="sec" id="section8">
-  <h3>ME1b: Asymptotic Theory</h3>
+  <h3>ME1: Asymptotic Theory</h3>
   <p>
   <p class = "text_ml">
     The course <it>Asymptotic Theory</it> deals with asymptotic properties of statistical methods and presents various central limit theorems used in statistics. Participants learn to use the formal language of statistics and gain knowledge of fundamental concepts in stochastics and mathematical statistics.
   </p>
   </div>
   <div class="sec" id="section9">
-  <h3>ME2: Econometrics</h3>
+  <h3>ME2: Econometric Theory</h3>
   <br>
   <p class = "text_ml">
-  ME2 deals with a wide range of fundamental econometric methods. Special emphasis is placed on asymptotic results to allow for a general discussion of the statistical properties of these methods. The main focus lies on a formally precise description of the concepts. Topics include the linear regression model, the generalized linear regression model, maximum likelihood estimation and inference, asymptotic theory, endogenous regressors, instrumental variables, generalized method of moments and regression models for time series data, among others.</p>
+  This core module deals with a wide range of fundamental econometric methods. Special emphasis is placed on asymptotic results to allow for a general discussion of the statistical properties of these methods. The main focus lies on a formally precise description of the concepts. Topics include the linear regression model, the generalized linear regression model, maximum likelihood estimation and inference, asymptotic theory, endogenous regressors, instrumental variables, the generalized method of moments and regression models for time series data, among others.</p>
   </div>
   <div class="sec" id="section10">
   <h3>ME3: Case Studies</h3>
@@ -210,24 +222,25 @@
   </div>
 <div class="sec" id="standarddiv">
  <h3 class="text_normal"><i>Further information on the individual course areas can be viewed by clicking in the interactive semester plan above.</i></h3>
- <br>
- <h3 class="text_normal">Please note that the semester plans presented here are for orientation only: they are intended to give you an overview over the modules and the distribution of credit points. Modules are arranged over the course of semesters in a way we consider beneficial for study progress. However, students are free to decide in which order they complete core courses and electives.
- <br><br>
-  For more information on the structure and content of the individual courses, please refer to the <a href="{{  with .Site.Params.mhb_link }}{{ . }}{{ end }}">module manual</a> or use the interactive table below. If you have any further questions regarding the curriculum please contact our coordinators.
- </h3>
 </div>
 </div>
 </div>
 
-<div class="col-md-12" id="courses", style="margin-top:50px;">
+<div class="col-md-12" id="courses" style="margin-top:50px;">
   <h3>
     <i>Course Overview</i>
   </h3>
-   <h3 class="text_normal">
-  Please note that there is no guarantee for completeness of the below course overview at semester start. We strive to keep the list up to date. However, there may be delays, e.g., in case of last-minute decisions about the inclusion of new modules. We generally recommend to consult the course catalogs of the participating faculties for complete listings.
- </h3>
-  </br>
-  <iframe src="https://mca91.github.io/CourseOverview/" style="border: none; height: 1000px; width: 100%;"></iframe>
+  <p class = "course-overview-note" style ="color: #000000;">
+    Please note that there is no guarantee for completeness of the below course overview at semester start. We strive to keep the list up to date. 
+    However, there may be delays, e.g., in case of last-minute decisions about the inclusion of new modules. 
+    We generally recommend to consult the course catalogs of the participating faculties for complete listings.
+  </p>
+  
+  <p class ="further_info" style = "color:#000000;">
+   For more information on the structure and content of the individual courses, please refer to the <a href=https://statistik.tu-dortmund.de/en/studies/degrees/econometrics-msc/>module manual</a> <!--or use the interactive table below-->. If you have any further questions regarding the curriculum please contact our coordinators.
+ </p>
+  <!--<iframe src="https://mca91.github.io/CourseOverview/" style="border: none; height: 1000px; width: 100%;"></iframe>-->
+  
 </div>
 
 </div>
